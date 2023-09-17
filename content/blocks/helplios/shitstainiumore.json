@@ -1,7 +1,7 @@
 type: OreBlock
 variants: 1
-itemDrop: shitstainium core
+itemDrop: shitstainium
 playerUnmineable:true
 needsSurface:true
-oreDefault:true
-oreScale: 20
+oreDefault:false
+oreScale: 24
