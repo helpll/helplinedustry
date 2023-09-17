@@ -1,0 +1,17 @@
+type: CoreBlock
+name:shitstainium coreblock
+size: 3
+health: 2000
+emitLight: true
+category:defense
+requirements: [
+	shitstainium core/1000
+]
+destructible:true
+chanceDeflect:0
+buildTime:5
+isFirstTier: true
+unitType: shitwalker
+itemCapacity: 2500
+seperateItemCapacity: true
+acceptsItems: true
