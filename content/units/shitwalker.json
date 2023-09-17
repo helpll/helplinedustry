@@ -3,7 +3,7 @@ name:Shitwalker
 buildSpeed: 0.5
 health: 150
 armor:0
-speed: 1.8
+speed: 1.1
 drag: 0.5
 groundLayer: 2
 legCount: 4
@@ -21,16 +21,16 @@ targetAir:true
 drawCell:false
 circleTarget:true
 outlines:false
-legLength:3
+legLength:7
 legPhysicsLayer: false
 size:1
 hitsize:500
 legGroupSize:1
-legSpeed:0.5
-legMaxLength:4
-legMinLength:1
+legSpeed:1.5
+legMaxLength:9
+legMinLength:7
 lockLegBase:true
-legBaseOffset:1
+legBaseOffset:2
 legContinuousMove:true
 weapons: [
   {
