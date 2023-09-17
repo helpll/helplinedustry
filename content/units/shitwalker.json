@@ -21,16 +21,15 @@ targetAir:true
 drawCell:false
 circleTarget:true
 outlines:false
-legLength:1
+legLength:3
 legPhysicsLayer: false
-size:2
+size:1
 hitsize:500
 legGroupSize:1
 legSpeed:0.5
-legMaxLength:0.6
-legMinLength:0.2
+legMaxLength:4
+legMinLength:1
 lockLegBase:true
-legLength:7
 legBaseOffset:1
 legContinuousMove:true
 weapons: [
@@ -46,8 +45,8 @@ weapons: [
     bullet: {
       type: basicBulletType
       damage: 30
-	  speed: 7
-	  lifetime: 80
+	  speed: 3
+	  lifetime: 120
 	  inaccuracy:4
 	  collideTerrain:true
 	  width: 15
