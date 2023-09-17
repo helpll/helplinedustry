@@ -1,0 +1,8 @@
+name: "helplinedustry"
+displayName: "helplinedustry"
+author: helpl
+description: "the game is now slightly easier but more complicated"
+version: "1.0"
+minGameVersion: "136"
+dependencies: []
+hidden: false
