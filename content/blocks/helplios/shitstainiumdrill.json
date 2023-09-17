@@ -1,16 +1,17 @@
 type: Drill
 name: shitstainium drill
-discription: slow as shit
+discription: Slow as shit.
 tier: 2
 health: 50
-drillTime: 3000
+drillTime: 3200
 size: 2
 hasPower: false
-rotateSpeed: 1.5
+rotateSpeed: 0.5
 hasLiquids: false
-craftEffect: smokeCloud
+craftEffect: greenCloud
 requirements: [
-  shitstainium core/20
+  shitstainium/25
 
 ]
 category: production
+placeEffect: greenCloud
