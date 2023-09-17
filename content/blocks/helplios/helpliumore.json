@@ -1,0 +1,7 @@
+type: OreBlock
+variants: 1
+itemDrop: helplium
+playerUnmineable:true
+needsSurface:true
+oreDefault:true
+oreScale: 24
