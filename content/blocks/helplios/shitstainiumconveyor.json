@@ -1,10 +1,10 @@
 type: Conveyor
 name: shitstainium conveyor
-health: 1
+health: 20
 placeEffect: greenCloud
 requirements: [
   shitstainium core/2
 ]
 category: distribution
 speed: 0.03
-displayedSpeed: 1
+displayedSpeed: 0.4
