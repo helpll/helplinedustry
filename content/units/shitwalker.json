@@ -3,15 +3,15 @@ name:Shitwalker
 buildSpeed: 0.5
 health: 150
 armor:0
-speed: 1.1
+speed: 1
 drag: 0.5
 groundLayer: 2
 legCount: 4
 mineFloor: true
 mineTier: 1
 mineSpeed: 2
-mineRange: 200
-buildRange: 1000
+mineRange: 250
+buildRange: 400
 itemCapacity: 15
 accel: 0.5
 rotateSpeed: 100
@@ -21,16 +21,16 @@ targetAir:true
 drawCell:false
 circleTarget:true
 outlines:false
-legLength:7
+legLength:3
 legPhysicsLayer: false
 size:1
 hitsize:500
 legGroupSize:1
-legSpeed:1.5
-legMaxLength:9
-legMinLength:7
+legSpeed:3
+legMaxLength:4
+legMinLength:3
 lockLegBase:true
-legBaseOffset:2
+legBaseOffset:1
 legContinuousMove:true
 weapons: [
   {
