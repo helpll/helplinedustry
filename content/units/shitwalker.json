@@ -13,7 +13,7 @@ mineSpeed: 2
 mineRange: 250
 buildRange: 400
 itemCapacity: 15
-accel: 0.1
+accel: 0.4
 rotateSpeed: 100
 engineSize:0
 targetGround:true
@@ -32,6 +32,7 @@ legMinLength:3.5
 lockLegBase:true
 legBaseOffset:1
 legContinuousMove:true
+moveEffectAbility:
 weapons: [
   {
 	  name: Shitshot69
