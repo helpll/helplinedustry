@@ -26,8 +26,8 @@ legPhysicsLayer: true
 size:1
 hitsize:500
 legGroupSize:1
-legSpeed:6
-legMaxLength:8
+legSpeed:2
+legMaxLength:10
 legMinLength:3.5
 lockLegBase:true
 legBaseOffset:1
