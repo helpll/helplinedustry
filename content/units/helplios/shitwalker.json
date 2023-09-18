@@ -33,8 +33,7 @@ lockLegBase:true
 legBaseOffset:1
 legContinuousMove:true
 moveEffectAbility:
-weapons: [
-  {
+weapons: [ {
 	  name: Shitshot69
     x: -1
     y: 0
