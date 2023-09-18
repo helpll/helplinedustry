@@ -39,14 +39,14 @@ weapons: [
     y: 0
 	size: 1
     recoil: 10
-    reload: 45
+    reload: 25
     shake: 0
 	shotDelay: 0
     bullet: {
       type: basicBulletType
       damage: 30
 	  speed: 3
-	  lifetime: 120
+	  lifetime: 60
 	  inaccuracy:4
 	  collideTerrain:true
 	   width: 15
