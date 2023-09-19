@@ -12,6 +12,7 @@ sprites,
 ores for everything, 
 color all the items, 
 turret heat sprite, 
-more stuff (add items first)
+more stuff (add items first),
+turret names: incinerator, voltite accelerator, repeater, (insert name for multi-rocket launcher here), (insert name for laser shotgun turret here), cluster (kinda like ripple but better), some sam turret or something, fancy point defense gun
 
 
