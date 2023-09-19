@@ -29,10 +29,7 @@ bullet: {
     incendSpread:15
 despawnEffect: {
 		 type:MultiEffect
-		 effects:[scatheExplosion, WaveEffect{
-			 colorFrom: 03fce8
-			colorTo: 02427d
-			sides: 6}, scatheLight]
+		 effects:[scatheExplosion, scatheLight]
 	 }
 }
 requirements: [
@@ -40,3 +37,8 @@ requirements: [
   steel/10
 ]
 category: turret
+
+//, WaveEffect{
+	//		 colorFrom: 03fce8
+	//		colorTo: 02427d
+	//		sides: 6}
