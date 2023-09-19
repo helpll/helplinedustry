@@ -15,59 +15,132 @@ generator: {
   fscl: 30
   fper: 0.4
 }
+sectorSize: 2
+sectorSeed: -4
+startSector: 0
+iconColor: de0000
 parent: sun
 radius: 1
 camRadius: 1
 orbitRadius: 90
 orbitOffset: 210
 //broken, will have to ask for a bugfix
-atmosphereRadIn: 2
-atmosphereRadOut: 2.3
+atmosphereRadIn: 0
+atmosphereRadOut: 2.5
 atmosphereColor: f2929
+orbitTime: 600
+rotateTime: 60
 accessible: true
+//finish this
 mesh: [
   {
-    type: HexSkyMesh
+    //a two colour mesh type
+    type: NoiseMesh
+    //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
+    divisions: 5
+    //mesh size - 1 is serpulo
     radius: 1
-    divisions: 5
-    speed: 0.5
-    color: f2929
+    //first colour to use 
+    color1: 696969
+    //second
+    color2: ab6767
+    //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
     octaves: 1
-    persistence: 1
-    scl: 1
-    thresh: 1
+    persistence: 0.01
+    scale: 0.01
+    mag: 1
+    //these control how the two colours behave on the mesh
+    coct: 1
+    cper: 1
+    cscl: 1
+    cthresh: 1
   }
   {
-    type: HexSkyMesh
+    type: NoiseMesh
+    divisions: 6
     radius: 1.1
-    divisions: 5
+    color1: 6aa95e
+    color2: 80cb71
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 1
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.83
+    color1: 7a7a7a
+    color2: 7a7a7a
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 2.2
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 1.2
+    color1: d1efff
+    color2: d1efff
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 3.3
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 1.3
+    color1: a6896f
+    color2: d3ae8d
+    octaves: 4.6
+    persistence: 0.65
+    scale: 0.6
+    mag: 1
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+]
+cloudMesh: [
+  {
+    type: HexSkyMesh
+    //rotate speed 
     speed: 0.5
-    color: ad7878cc
-    octaves: 1
-    persistence: 1
+    divisions: 6
+    //this radius value is based on the planet "surface", not the "core" of the planet, unlike noise meshes
+    radius: 0.1
+    //cloud colour
+    color: ff2424
+    //more explodey values, they're even more sensitive here
+    octaves: 3
+    persistence: 0.5
     scl: 1
-    thresh: 0.5
+    thresh: 0.43
   }
   {
     type: HexSkyMesh
     speed: 0.5
-    divisions: 5
-    radius: 1.15
-    color: 827979cc
+    divisions: 6
+    radius: 0.11
+    color: 8c8c8cbb
     octaves: 3
     persistence: 0.5
-    scl: 1
-    thresh: 0.45
-  }
-  {
-    type: HexSkyMesh
-    speed: 0.5
-    divisions: 5
-    radius: 1.20
-    color: 616060cc
-    octaves: 3
-    persistence: 0.5
-    scl: 1
-    thresh: 0.6
+    scl: 0.9
+    thresh: 0.43
   }
 ]
