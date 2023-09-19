@@ -32,8 +32,7 @@ despawnEffect: {
 		 effects:[scatheExplosion, WaveEffect{
 			 colorFrom: 03fce8
 			colorTo: 02427d
-			sides: 6			
-}, scatheLight]
+			sides: 6}, scatheLight]
 	 }
 }
 requirements: [
