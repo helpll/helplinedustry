@@ -21,7 +21,7 @@ ammoTypes: {
 		shootEffect: shootBig
 		collideTerrain:false
 		lifetime:10
-    colors[34ebd2, 1cbbff, 73a4ff]
+    colors[34ebd2ff, 1cbbffff, 73a4ffff]
 	}
 }
 requirements: [
