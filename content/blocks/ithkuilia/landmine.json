@@ -27,7 +27,14 @@ bullet: {
     incendAmount:50
     splashDamageRadius:30
     incendSpread:15
-        
+despawnEffect: {
+		 type:MultiEffect
+		 effects:[scatheExplosion, WaveEffect{
+			 colorFrom: 03fce8
+			colorTo: 02427d
+			sides: 6			
+}, scatheLight]
+	 }
 }
 requirements: [
   voltite/10
