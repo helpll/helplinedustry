@@ -1,9 +1,7 @@
 type: floor
 liquidDrop: shitsludge
 isLiquid: true
-drownTime: 0
-status: burning
-statusDuration: 240
 speedMultiplier: 0.5
 variants: 1
 color: 73461d
+cacheLayer: tar
