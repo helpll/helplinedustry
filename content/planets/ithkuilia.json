@@ -54,7 +54,7 @@ mesh: [
     cper: 1
     cscl: 1
     cthresh: 1
-  }
+  }, 
   {
     type: NoiseMesh
     divisions: 6
@@ -69,7 +69,7 @@ mesh: [
     cper: 1
     cscl: 1.8
     cthresh: 1
-  }
+  }, 
   {
     type: NoiseMesh
     divisions: 6
@@ -84,7 +84,7 @@ mesh: [
     cper: 1
     cscl: 1.8
     cthresh: 1
-  }
+  }, 
   {
     type: NoiseMesh
     divisions: 6
@@ -99,7 +99,7 @@ mesh: [
     cper: 1
     cscl: 1.8
     cthresh: 1
-  }
+  }, 
   {
     type: NoiseMesh
     divisions: 6
@@ -131,7 +131,7 @@ cloudMesh: [
     persistence: 0.5
     scl: 1
     thresh: 0.43
-  }
+  }, 
   {
     type: HexSkyMesh
     speed: 0.5
