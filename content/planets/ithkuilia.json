@@ -1,0 +1,73 @@
+//yoinked from exoticmod
+generator: {
+  type: AsteroidGenerator
+  berylChance: 0.45
+  iceChance: 0.15
+  ferricChance: 0.55
+  stoneChance: 2
+  radMin: 1500
+  radMax: 1500
+  berylliumScale: 4
+  copperScale: 0.6
+  scale: 25
+  mag: 0.5
+  thresh: 0.9
+  fscl: 30
+  fper: 0.4
+}
+parent: sun
+radius: 1
+camRadius: 1
+orbitRadius: 90
+orbitOffset: 210
+//broken, will have to ask for a bugfix
+atmosphereRadIn: 2
+atmosphereRadOut: 2.3
+atmosphereColor: f2929
+accessible: true
+mesh: [
+  {
+    type: HexSkyMesh
+    radius: 1
+    divisions: 5
+    speed: 0.5
+    color: f2929
+    octaves: 1
+    persistence: 1
+    scl: 1
+    thresh: 1
+  }
+  {
+    type: HexSkyMesh
+    radius: 1.1
+    divisions: 5
+    speed: 0.5
+    color: ad7878cc
+    octaves: 1
+    persistence: 1
+    scl: 1
+    thresh: 0.5
+  }
+  {
+    type: HexSkyMesh
+    speed: 0.5
+    divisions: 5
+    radius: 1.15
+    color: 827979cc
+    octaves: 3
+    persistence: 0.5
+    scl: 1
+    thresh: 0.45
+  }
+  {
+    type: HexSkyMesh
+    speed: 0.5
+    divisions: 5
+    radius: 1.20
+    color: 616060cc
+    octaves: 3
+    persistence: 0.5
+    scl: 1
+    thresh: 0.6
+  }
+]
