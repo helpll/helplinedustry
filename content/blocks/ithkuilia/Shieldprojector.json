@@ -3,7 +3,7 @@ name: Shield projector
 itemConsumer: voltite
 consumeCoolant: false
 placeEffect: smokeCloud
-scaledHealth = 100
+scaledHealth: 100
 size: 1
 radius: 101.7
 sides: 0
