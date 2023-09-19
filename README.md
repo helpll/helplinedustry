@@ -2,7 +2,7 @@
 *helpl will not save you*
 
 ***Im adding multicrafter but imma inject it so that you dont need to download it too, make sure to download the jar if it exists (it should be in actions) and not the zip!!!***
-
+mod is broken rn i havent finished adding multicrafter
 # todo
 
 ***Ithkuilia:***
