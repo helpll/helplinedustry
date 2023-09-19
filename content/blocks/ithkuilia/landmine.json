@@ -1,0 +1,36 @@
+type: ShockMine
+name: Landmine
+health: 100
+size: 1
+inaccuracy: 0
+tendrils:5
+tileDamage:500
+shots: 1
+placeEffect: smokeCloud
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 1000
+range: 5
+damage: 500
+baseExplosiveness:200
+underBullets:true
+bullet: {
+	type:ExplosionBulletType
+	speed: 0
+	damage: 100
+    shootEffect: shootBig
+	collideTerrain:false
+	lifetime:500
+    killShooter:true
+    splashDamage:70
+    makeFire:true
+    incendAmount:50
+    splashDamageRadius:30
+    incendSpread:15
+        
+}
+requirements: [
+  voltite/10
+  steel/10
+]
+category: turret
