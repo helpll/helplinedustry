@@ -1,0 +1,32 @@
+type: ItemTurret
+name: Lance
+targetGround: true
+outlines:false
+placeEffect: smokeCloud
+health: 750
+size: 2
+inaccuracy: 5
+reload: 40
+shots: 1
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 10
+range: 165
+targetAir: false
+ammoTypes: {
+	voltite: {
+		type:LaserBulletType
+		laserEffect: lancerLaserShootSmoke
+		damage: 10
+		shootEffect: shootBig
+		collideTerrain:false
+		lifetime:10
+    colors[34ebd2, 1cbbff, 73a4ff]
+	}
+}
+requirements: [
+  iron/50
+	steel/100
+	siliconcarbide/30
+]
+category: turret
