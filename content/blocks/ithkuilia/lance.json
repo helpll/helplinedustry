@@ -3,7 +3,7 @@ name: Lance
 targetGround: true
 outlines:false
 placeEffect: smokeCloud
-health: 750
+scaledHealth = 100
 size: 2
 inaccuracy: 5
 reload: 40
