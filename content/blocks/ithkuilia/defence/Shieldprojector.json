@@ -1,6 +1,6 @@
 type: ForceProjector
 name: Shield projector
-itemConsumer: voltite
+//itemConsumer: voltite
 consumeCoolant: false
 placeEffect: smokeCloud
 scaledHealth: 100
