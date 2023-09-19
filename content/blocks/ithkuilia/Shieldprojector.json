@@ -9,6 +9,10 @@ radius: 101.7
 sides: 0
 shieldHealth: 500
 cooldownNormal: 2
+cooldownBrokenBase: 0.35
+consumesPower: true
+loopSound: pew
+hasPower: true
 requirements: [
   iron/50
 	steel/100
