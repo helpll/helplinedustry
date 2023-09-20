@@ -12,7 +12,7 @@ emitLight:true
 conductivePower: true
 requirements: [
   puddite/1
-  shitstainium core/3
+  shitstainium/3
 
 ]
 category: power
