@@ -17,7 +17,7 @@ ammoTypes: {
 	voltite: {
 		type:LaserBulletType
 		laserEffect: lancerLaserShootSmoke
-		damage: 10
+		damage: 25
 		shootEffect: shootBig
 		collideTerrain:false
 		lifetime:10
@@ -25,8 +25,7 @@ ammoTypes: {
 	}
 }
 requirements: [
-  iron/50
-	steel/100
-	siliconcarbide/30
+  wroughtiron/50
+  siliconcarbide/30
 ]
 category: turret
