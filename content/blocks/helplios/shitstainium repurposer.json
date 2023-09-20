@@ -8,7 +8,7 @@ emitLight:true
 consumes: {
   items: {
     items: [
-      shitstainium core/10
+      shitstainium/10
     ]
   }
 }
