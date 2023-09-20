@@ -39,11 +39,11 @@ weapons: [
     y: 0
 	size: 1
     recoil: 10
-    reload: 25
+    reload: 30
     shake: 0
 	shotDelay: 0
     bullet: {
-      type: countinousBulletType
+      type: continousBulletType
       damage: 15
 	  speed: 10
 	  lifetime: 60
