@@ -39,6 +39,22 @@ output: {
 }
 craftTime: 170
 }
+// cast iron
+// mmmm we love cast iron around here
+{
+  input: {
+    items: [
+      helplinedustry-wroughtiron/2
+      helplinedustry-coal2/3
+    ]
+  }
+output: {
+  items:[
+  helplinedustry-castiron/2
+  ]
+}
+craftTime: 200
+}
 ]
 //cheapo smelter
 craftEffect: smokeCloud
