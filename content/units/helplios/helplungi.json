@@ -1,7 +1,7 @@
 type:legs
 name:Helplungi
 buildSpeed: 0.5
-health: 200
+health: 150
 armor:0
 speed: 2.5
 drag: 0.5
@@ -39,16 +39,15 @@ weapons: [
     y: 0
 	size: 1
     recoil: 10
-    reload: 30
+    reload: 10
     shake: 0
 	shotDelay: 0
     bullet: {
-      type: continousBulletType
+      type: basicBulletType
       damage: 15
 	  speed: 10
 	  lifetime: 60
-	  inaccuracy:4=0
-	  damageInterval: 30
+	  inaccuracy:4
 	  collideTerrain:true
 	   width: 15
 	height: 15
