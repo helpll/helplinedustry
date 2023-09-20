@@ -1,6 +1,6 @@
 type: multicraft.MultiCrafter
-//got that primitive smelter
-name: Primitive Smeltery
+//got that primitive smelt... i mean foundry
+name: Primitive Foundry
 health:  200
 menu: Simple
 size: 1
