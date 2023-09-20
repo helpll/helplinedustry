@@ -1,0 +1,22 @@
+type: genericCrafter
+name: shitstainium repurposer
+craftTime: 10
+size: 2
+hasLiquids: false
+itemCapacity: 250
+emitLight:true
+consumes: {
+  items: {
+    items: [
+      shitstainium core/10
+    ]
+  }
+}
+craftEffect: smokeCloud
+requirements: [
+  helplium/40
+  shitstainium core/50
+
+]
+category: crafting
+outputItem: coal/5
