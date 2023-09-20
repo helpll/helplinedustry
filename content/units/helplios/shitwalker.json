@@ -23,7 +23,7 @@ circleTarget:true
 outlines:false
 legLength:3.5
 legPhysicsLayer: true
-size:1
+size:2
 hitsize:500
 legGroupSize:1
 legSpeed:2
