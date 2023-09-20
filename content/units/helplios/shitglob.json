@@ -13,7 +13,7 @@ mineSpeed: 2
 mineRange: 250
 buildRange: 400
 itemCapacity: 100
-accel: 0.4
+accel: 0.3
 rotateSpeed: 100
 engineSize:0
 targetGround:true
@@ -21,14 +21,14 @@ targetAir:true
 drawCell:false
 circleTarget:true
 outlines:false
-legLength:6
+legLength:3.5
 legPhysicsLayer: true
 size:4
 hitsize:1500
 legGroupSize:1
 legSpeed:0.5
-legMaxLength:8
-legMinLength:6
+legMaxLength:5
+legMinLength:3.5
 lockLegBase:true
 legBaseOffset:1
 legContinuousMove:true
@@ -45,12 +45,12 @@ weapons: [
     bullet: {
       type: explosionBulletType
       damage: 100
-	  speed: 1
+	  speed: 2
     lightColor: 613a22
     trailColor: 613a22
     trailChance: 1
     splashDamageRadius: 1
-	  lifetime: 120
+	  lifetime: 240
 	  inaccuracy:1
 	  collideTerrain:true
 	   width: 15
