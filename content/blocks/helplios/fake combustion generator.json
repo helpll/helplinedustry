@@ -7,22 +7,22 @@ hasLiquids: false
 consumesPower: false
 placeEffect: greenCloud
 hasPower: true
-generateEffect: fireSmoke
-itemCapacity: 5
+generateEffect: greenCloud
+itemCapacity: 2
 emitLight:true
 outputsPower: true
 conductivePower: true
-powerProduction: 5
+powerProduction: 2
 consumes: {
   items: {
     items: [
-      coal/5
+      coal/2
     ]
   }
 }
 craftEffect: smokeCloud
 requirements: [
-  helplium/40
+  helplium/30
   shitstainium core/50
 
 ]
