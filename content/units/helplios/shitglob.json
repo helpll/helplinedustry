@@ -45,19 +45,19 @@ weapons: [
     bullet: {
       type: flakBulletType
       damage: 100
-	  speed: 2
+	  speed: 1.5
     lightColor: 613a22
     trailColor: 613a22
-    trailChance: 1
-    splashDamageRadius: 1
-	  lifetime: 240
+    trailChance: 100
+    splashDamageRadius: 6
+	  lifetime: 25
 	  inaccuracy:1
-	  flakInterval: 1
+	  flakInterval: 2
 	  explodeDelay: 60
-	  explodeRange: 5
+	  explodeRange: 10
 	  collideTerrain:true
-	   width: 15
-	height: 15
+	   width: 50
+	height: 50
     }
   }
   ]
