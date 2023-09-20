@@ -1,0 +1,57 @@
+type:legs
+name:Helplungi
+buildSpeed: 0.5
+health: 200
+armor:0
+speed: 2.5
+drag: 0.5
+groundLayer: 2
+legCount: 2
+mineFloor: true
+mineTier: 1
+mineSpeed: 2
+mineRange: 250
+buildRange: 400
+itemCapacity: 15
+accel: 1
+rotateSpeed: 100
+engineSize:0
+targetGround:true
+targetAir:true
+drawCell:false
+circleTarget:true
+outlines:false
+legLength:2.5
+legPhysicsLayer: true
+size:1
+hitsize:500
+legGroupSize:1
+legSpeed:0.1
+legMaxLength:5
+legMinLength:2
+lockLegBase:true
+legBaseOffset:0.5
+legContinuousMove:true
+weapons: [
+  {
+	  name: bitchass69
+    x: -1
+    y: 0
+	size: 1
+    recoil: 10
+    reload: 25
+    shake: 0
+	shotDelay: 0
+    bullet: {
+      type: countinousBulletType
+      damage: 15
+	  speed: 10
+	  lifetime: 60
+	  inaccuracy:4=0
+	  damageInterval: 30
+	  collideTerrain:true
+	   width: 15
+	height: 15
+    }
+  }
+  ]
