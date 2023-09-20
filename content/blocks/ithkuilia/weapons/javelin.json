@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Lance
+name: Javelin
 targetGround: true
 outlines:false
 placeEffect: smokeCloud
