@@ -1,0 +1,29 @@
+type: consumeGenerator
+name: fake combustion generator
+craftTime: 25
+itemDuration: 60
+size: 1
+hasLiquids: false
+consumesPower: false
+placeEffect: greenCloud
+hasPower: true
+generateEffect: fireSmoke
+itemCapacity: 5
+emitLight:true
+outputsPower: true
+conductivePower: true
+powerProduction: 5
+consumes: {
+  items: {
+    items: [
+      coal/5
+    ]
+  }
+}
+craftEffect: smokeCloud
+requirements: [
+  helplium/40
+  shitstainium core/50
+
+]
+category: power

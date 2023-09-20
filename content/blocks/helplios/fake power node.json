@@ -1,0 +1,18 @@
+type: powerNode
+name: fake power node
+craftTime: 10
+size: 1
+hasLiquids: false
+hasPower: true
+placeEffect: greenCloud
+maxNodes:2
+laserRange: 4
+itemCapacity: 0
+emitLight:true
+conductivePower: true
+requirements: [
+  puddite/1
+  shitstainium core/3
+
+]
+category: power
