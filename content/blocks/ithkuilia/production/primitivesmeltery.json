@@ -1,0 +1,48 @@
+type: multicraft.MultiCrafter
+//got that primitive smelter
+name: Primitive Smeltery
+health:  200
+menu: Simple
+size: 1
+hasPower: false
+hasLiquids: false
+recipes:
+[
+//wrought iron
+  //this is so slow
+  {
+  input: {
+    items: [
+      helplinedustry-rawiron/3
+      helplindustry-coal2/3
+    ]
+  }
+output: {
+  items:[
+  helplinedustry-wroughtiron/3
+  ]
+}
+craftTime: 150
+}
+// aluminum
+{
+  input: {
+    items: [
+      helplinedustry-bauxite/3
+      helplinedustry-coal2/3
+    ]
+  }
+output: {
+  items:[
+  helplinedustry-aluminum/3
+  ]
+}
+craftTime: 170
+}
+]
+//cheapo smelter
+craftEffect: smokeCloud
+requirements: [
+  stone/30
+]
+category: crafting
