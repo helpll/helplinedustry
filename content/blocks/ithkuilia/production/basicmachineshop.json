@@ -1,64 +1,68 @@
 type: multicraft.MultiCrafter
 //got that machine shop
+//i think this works
 name: Basic machine shop
-health:  200
+health:  250
 menu: Simple
-size: 1
-hasPower: false
+size: 2
+hasPower: true
 hasLiquids: false
 recipes:
 [
-//wrought iron
+//got that slightly less shitty stone
   //this is so slow
   {
   input: {
     items: [
-      helplinedustry-rawiron/3
-      helplindustry-coal2/3
+      helplinedustry-stone/2
     ]
+    power: 1
   }
 output: {
   items:[
-  helplinedustry-wroughtiron/3
+  helplinedustry-stonebricks/1
   ]
 }
 craftTime: 150
 }
-// aluminum
+// castironparts
 {
   input: {
     items: [
-      helplinedustry-bauxite/3
-      helplinedustry-coal2/3
+      helplinedustry-castironplates/3
+    ]
+power: 1
+  }
+output: {
+  items:[
+  helplinedustry-castironparts/3
+  ]
+}
+craftTime: 175
+}
+// cast iron plates
+// mmmm we love cast iron plates around here
+{
+  input: {
+    items: [
+      helplinedustry-castiron/2
     ]
   }
 output: {
   items:[
-  helplinedustry-aluminum/3
+  helplinedustry-castironplates/4
   ]
 }
-craftTime: 170
-}
-// cast iron
-// mmmm we love cast iron around here
-{
-  input: {
-    items: [
-      helplinedustry-wroughtiron/2
-      helplinedustry-coal2/3
-    ]
-  }
-output: {
-  items:[
-  helplinedustry-castiron/2
-  ]
-}
-craftTime: 200
+craftTime: 150
 }
 ]
 //cheapo smelter
 craftEffect: smokeCloud
 requirements: [
-  stone/30
+  stone/70
+  castiron/30
+  wroughtiron/25
+  siliconcarbide/15
+  silver/20
 ]
 category: crafting
