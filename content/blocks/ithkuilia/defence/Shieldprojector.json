@@ -6,7 +6,7 @@ placeEffect: smokeCloud
 scaledHealth: 100
 size: 1
 radius: 101.7
-sides: 0
+sides: 1
 shieldHealth: 500
 cooldownNormal: 2
 cooldownBrokenBase: 0.35
