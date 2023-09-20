@@ -1,6 +1,6 @@
 type: OreBlock
 variants: 1
-itemDrop: Puddite
+itemDrop: puddite
 playerUnmineable:true
 needsSurface:true
 oreDefault:false
