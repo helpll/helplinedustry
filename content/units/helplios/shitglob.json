@@ -49,8 +49,8 @@ weapons: [
     lightColor: 613a22
     trailColor: 613a22
     trailChance: 1
-    splashDamageRadius: 3
-	  lifetime: 30
+    splashDamageRadius: 1
+	  lifetime: 120
 	  inaccuracy:1
 	  collideTerrain:true
 	   width: 15
