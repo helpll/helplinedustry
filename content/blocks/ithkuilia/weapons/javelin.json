@@ -16,12 +16,11 @@ targetAir: false
 ammoTypes: {
 	voltite: {
 		type:LaserBulletType
-		laserEffect: lancerLaserShootSmoke
+		laserEffect: lancerLaserChargeBegin
 		damage: 25
-		shootEffect: shootBig
+		shootEffect: lancerLaserShoot
 		collideTerrain:false
 		lifetime:10
-    //colors[34ebd2ff, 1cbbffff, 73a4ffff]
 	}
 }
 requirements: [
