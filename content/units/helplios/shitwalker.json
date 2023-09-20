@@ -9,7 +9,7 @@ groundLayer: 2
 legCount: 4
 mineFloor: true
 mineTier: 1
-mineSpeed: 2
+mineSpeed: 3
 mineRange: 250
 buildRange: 400
 itemCapacity: 15
@@ -39,7 +39,7 @@ weapons: [
     y: 0
 	size: 1
     recoil: 10
-    reload: 25
+    reload: 20
     shake: 0
 	shotDelay: 0
     bullet: {
