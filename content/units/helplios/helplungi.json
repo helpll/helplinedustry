@@ -43,13 +43,11 @@ weapons: [
     shake: 0
 	shotDelay: 0
     bullet: {
-      type: continousBulletType
+      type: basicBulletType
       damage: 5
-	  speed: 10
-	  lifetime: 60
+	  speed: 5
+	  lifetime: 30
 	  inaccuracy:4
-	  length: 100
-	  damageInterval: 10
 	  collideTerrain:true
 	   width: 5
 	height: 5
