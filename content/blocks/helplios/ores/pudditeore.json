@@ -1,0 +1,7 @@
+type: OreBlock
+variants: 1
+itemDrop: Puddite
+playerUnmineable:true
+needsSurface:true
+oreDefault:false
+oreScale: 14
