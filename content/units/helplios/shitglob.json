@@ -1,0 +1,60 @@
+type:legs
+name:Shitwalker
+buildSpeed: 1
+health: 750
+armor:5
+speed: 0.5
+drag: 0.5
+groundLayer: 1
+legCount: 5
+mineFloor: true
+mineTier: 1
+mineSpeed: 2
+mineRange: 250
+buildRange: 400
+itemCapacity: 100
+accel: 0.4
+rotateSpeed: 100
+engineSize:0
+targetGround:true
+targetAir:true
+drawCell:false
+circleTarget:true
+outlines:false
+legLength:6
+legPhysicsLayer: true
+size:4
+hitsize:1500
+legGroupSize:1
+legSpeed:0.5
+legMaxLength:8
+legMinLength:6
+lockLegBase:true
+legBaseOffset:1
+legContinuousMove:true
+weapons: [
+  {
+	  name: DiarrheaBlaster21
+    x: -1
+    y: 0
+	size: 1
+    recoil: 10
+    reload: 120
+    shake: 0
+	shotDelay: 0
+    bullet: {
+      type: explosionBulletType
+      damage: 100
+	  speed: 1
+    lightColor: 613a22
+    trailColor: 613a22
+    trailChance: 1
+    splashDamageRadius: 3
+	  lifetime: 30
+	  inaccuracy:1
+	  collideTerrain:true
+	   width: 15
+	height: 15
+    }
+  }
+  ]
