@@ -11,7 +11,7 @@ shots: 1
 recoilAmount: 1
 shootCone: 50
 rotateSpeed: 1
-range: 50
+range: 200
 targetAir: true
 ammoTypes: {
 	helplium: {
