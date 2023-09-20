@@ -3,7 +3,7 @@ name: shitstainium drill
 discription: Slow as shit.
 tier: 2
 health: 50
-drillTime: 2800
+drillTime: 2600
 size: 2
 hasPower: false
 rotateSpeed: 0.5
