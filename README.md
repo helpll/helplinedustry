@@ -16,7 +16,6 @@ more stuff (add items first),
 shield generator (?),
 turret ides: incinerator (good flamethrower), voltite accelerator (railgun), repeater(laser mg), (insert name for multi-rocket launcher here), (insert name for laser shotgun turret here), cluster (kinda like ripple but better), some sam turret or something, fancy point defense gun, really long range artillery launcher, anti-air mg
 
-
 ***ma pona***
 ponium, tokium
 soweli, pipi, akesi, and waso enemies and kijetesantakalu boss
@@ -26,3 +25,6 @@ jan (jan pi tomo insa) (core unit)
 utala (ilo utala)(turret)
 sinpin (wall)
 li (ilo pi tawa ijo) (conveyor)
+
+***helplios***
+puddite, helplium drill, fix enemies, shitsludge, more turrets and enemies, fake power generator
