@@ -31,6 +31,11 @@ atmosphereRadOut: 2.5
 orbitTime: 600
 rotateTime: 60
 accessible: true
+allowLaunchToNumbered: false
+alwaysUnlocked: true
+visible: true
+defaultCore: core-nucleus
+localizedName: Ithkuilia
 //finish this
 mesh: [
   {
