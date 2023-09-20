@@ -1,0 +1,17 @@
+type: Drill
+name: Helplium drill
+discription: Not quite as slow (as shit).
+tier: 3
+health: 150
+drillTime: 2000
+size: 2
+hasPower: false
+rotateSpeed: 0.8
+hasLiquids: false
+craftEffect: smokeCloud
+requirements: [
+  shitstainium/10
+  helplium/15
+
+]
+category: production
