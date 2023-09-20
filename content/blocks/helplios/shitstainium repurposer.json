@@ -15,7 +15,7 @@ consumes: {
 craftEffect: smokeCloud
 requirements: [
   helplium/40
-  shitstainium core/50
+  shitstainium/50
 
 ]
 category: crafting
