@@ -27,4 +27,4 @@ sinpin (wall)
 li (ilo pi tawa ijo) (conveyor)
 
 ***helplios***
-puddite, helplium drill, fix enemies, shitsludge, more turrets and enemies, fake power generator
+fix enemies, shitsludge, more turrets and enemies, fake power generator
