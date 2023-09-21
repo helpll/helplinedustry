@@ -26,7 +26,7 @@ weapons: [
     x: -1
     y: 0
     recoil: 0
-    reload: 100
+    reload: 200
     shake: 1
     bullet: {
       type: MissileBulletType
@@ -45,7 +45,7 @@ weapons: [
  type: shootPattern
   shots: 3
   shotDelay: 30
-spread: 2
+spread: 0
    }
   }
    {
@@ -53,7 +53,7 @@ spread: 2
     x: -1
     y: 0
     recoil: 0
-    reload: 10
+    reload: 50
     shake: 1
     bullet: {
       type: BasicBulletType
@@ -68,7 +68,7 @@ spread: 2
  type: shootPattern
   shots: 6
   shotDelay: 5
-  spread: 1
+  spread: 0
    }
   }
   ]
