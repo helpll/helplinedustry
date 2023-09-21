@@ -1,6 +1,6 @@
 type: OreBlock
 variants: 3
-itemDrop: coal2
+itemDrop: helplinedustry-coal2
 playerUnmineable: false
 needsSurface:true
 color:c4c4c4
