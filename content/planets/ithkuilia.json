@@ -20,13 +20,13 @@ sectorSeed: -4
 startSector: 0
 iconColor: de0000
 parent: sun
-radius: 1
+radius: 2
 camRadius: 1
 orbitRadius: 90
 orbitOffset: 210
 //broken, will have to ask for a bugfix
 atmosphereRadIn: 0
-atmosphereRadOut: 2.5
+atmosphereRadOut: 0.25
 //atmosphereColor: f2929
 orbitTime: 600
 rotateTime: 60
@@ -84,7 +84,7 @@ mesh: [
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
-    mag: 2.2
+    mag: 1.2
     coct: 4
     cper: 1
     cscl: 1.8
@@ -99,7 +99,7 @@ mesh: [
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
-    mag: 3.3
+    mag: 1.3
     coct: 4
     cper: 1
     cscl: 1.8
