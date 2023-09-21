@@ -1,7 +1,7 @@
 type: OreBlock
 variants: 3
 itemDrop: silver
-playerUnmineable: true
+playerUnmineable: false
 needsSurface:true
 color:c4c4c4
 oreDefault:false
