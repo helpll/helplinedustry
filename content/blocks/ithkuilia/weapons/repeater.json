@@ -1,0 +1,29 @@
+type: ItemTurret
+name: Repeater
+targetGround: true
+outlines:true
+scaledHealth: 100
+size: 2
+inaccuracy: 5
+reload: 5
+shots: 1
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 10
+range: 165
+targetAir: true
+ammoTypes: {
+	voltite: {
+		type:LaserBoltBulletType
+    speed: 25
+		damage: 10
+		shootEffect: lancerLaserShoot
+		collideTerrain:false
+		lifetime:10
+	}
+}
+requirements: [
+  wroughtiron/50
+  siliconcarbide/30
+]
+category: turret
