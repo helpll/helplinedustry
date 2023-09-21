@@ -5,7 +5,7 @@ speed: 10
 health: 280
 requirements: [
   steel/5
-  mechanicalparts/2
+  castironparts/2
 ] 
 category: distribution
 placeEffect: smokeCloud
