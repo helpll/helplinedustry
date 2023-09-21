@@ -1,0 +1,102 @@
+type: multicraft.MultiCrafter
+//got that basic smelt... i mean foundry
+name: Basic Foundry
+health:  400
+menu: Simple
+size: 2
+hasPower: true
+hasLiquids: false
+recipes:
+[
+//wrought iron
+  {
+  input: {
+    items: [
+      helplinedustry-rawiron/3
+      helplinedustry-coal2/3
+    ]
+    power: 1
+  }
+output: {
+  items:[
+  helplinedustry-wroughtiron/3
+  ]
+}
+craftTime: 100
+}
+// aluminum
+{
+  input: {
+    items: [
+      helplinedustry-bauxite/3
+      helplinedustry-coal2/3
+    ]
+    power: 1
+  }
+output: {
+  items:[
+  helplinedustry-aluminum/3
+  ]
+}
+craftTime: 120
+}
+// cast iron
+// mmmm we love cast iron around here
+{
+  input: {
+    items: [
+      helplinedustry-wroughtiron/2
+      helplinedustry-coal2/3
+    ]
+    power: 1
+  }
+output: {
+  items:[
+  helplinedustry-castiron/2
+  ]
+}
+craftTime: 150
+}
+{
+  input: {
+    items: [
+      helplinedustry-wroughtiron/3
+      helplinedustry-coal2/2
+    ]
+    power: 1.2
+  }
+output: {
+  items:[
+  helplinedustry-iron/2
+  ]
+}
+craftTime: 175
+}
+{
+  input: {
+    items: [
+      helplinedustry-iron/3
+      helplinedustry-coal2/1
+    ]
+    power: 1.4
+  }
+output: {
+  items:[
+  helplinedustry-steel/2
+  ]
+}
+craftTime: 225
+}
+]
+//cheapo smelter
+craftEffect: smokeCloud
+requirements: [
+  stonebrick/50
+  castiron/30
+  castironplates/15
+  castironparts/25
+  wroughtiron/35
+  siliconcarbide/20
+  silver/25
+]
+category: crafting
