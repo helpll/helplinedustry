@@ -1,6 +1,6 @@
 type: OreBlock
 variants: 3
-itemDrop: Stone
+itemDrop: stone
 playerUnmineable: false
 needsSurface:true
 color:c4c4c4
