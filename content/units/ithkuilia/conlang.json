@@ -12,7 +12,7 @@ rotateSpeed: 6
 engineSize:2
 retreatPercent: 0.70
 targetGround:true
-drawCell:false
+drawCell:true
 circleTarget:true
 targetAir:true
 outlines:false
