@@ -1,0 +1,21 @@
+type: Drill
+name: Rotary drill
+discription: A simple early game drill
+tier: 6
+health: 750
+drillTime: 60
+size: 2
+hasPower: true
+rotateSpeed: 15
+hasLiquids: false
+craftEffect: smokeCloud
+placeEffect: smokeCloud
+requirements: [
+  iron/100
+  stonebrick/25
+  steel/25
+  mechanicalparts/15
+  titanium/250
+
+]
+category: production
