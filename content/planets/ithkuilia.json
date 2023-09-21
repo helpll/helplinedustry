@@ -125,7 +125,7 @@ cloudMesh: [
   {
     type: HexSkyMesh
     //rotate speed 
-    speed: 0.5
+    speed: 0.1
     divisions: 6
     //this radius value is based on the planet "surface", not the "core" of the planet, unlike noise meshes
     radius: 0.1
