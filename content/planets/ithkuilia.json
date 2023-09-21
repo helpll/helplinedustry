@@ -27,7 +27,7 @@ orbitOffset: 210
 //broken, will have to ask for a bugfix
 atmosphereRadIn: 0
 atmosphereRadOut: 0.25
-//atmosphereColor: f2929
+atmosphereColor: f2929aa
 orbitTime: 600
 rotateTime: 60
 accessible: true
@@ -46,9 +46,9 @@ mesh: [
     //mesh size - 1 is serpulo
     radius: 2
     //first colour to use 
-    color1: 696969
+    color1: 5e5e5e
     //second
-    color2: ab6767
+    color2: 8f8f8f
     //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
     octaves: 1
     persistence: 0.01
@@ -79,8 +79,8 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 1.83
-    color1: 7a7a7a
-    color2: 7a7a7a
+    color1: 8c3838
+    color2: 8c3838
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
@@ -94,8 +94,8 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 2.2
-    color1: d1efff
-    color2: d1efff
+    color1: 8c3838
+    color2: 8c3838
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
@@ -109,8 +109,8 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 2.3
-    color1: a6896f
-    color2: d3ae8d
+    color1: 545454
+    color2: 363636
     octaves: 4.6
     persistence: 0.65
     scale: 0.6
