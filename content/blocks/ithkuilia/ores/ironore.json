@@ -4,4 +4,4 @@ itemDrop: Raw Iron
 playerUnmineable: true
 needsSurface:true
 color:c4c4c4
-oreDefault:true
+oreDefault:false
