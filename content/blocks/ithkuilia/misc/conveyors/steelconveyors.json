@@ -1,0 +1,10 @@
+type: Conveyor
+name: Steel Conveyor
+health: 150
+requirements: [
+  steelparts/1
+  steel/1
+]
+category: distribution
+speed: 0.14
+displayedSpeed: 22
