@@ -1,0 +1,74 @@
+type:mech
+name: Conlang
+health: 300
+mineSpeed: 8
+mineTier: 1
+buildSpeed: 1
+armor:40
+speed: 0.7
+drag: 0.3
+accel: 0.5
+rotateSpeed: 6
+engineSize:2
+retreatPercent: 0.70
+targetGround:true
+drawCell:false
+circleTarget:true
+targetAir:true
+outlines:false
+legLength:0
+size:1
+alwaysUnlocked: true
+hitsize:9
+weapons: [
+  {
+	  name: Multi-rocket launcher
+    x: -1
+    y: 0
+    recoil: 0
+    reload: 100
+    shake: 1
+    bullet: {
+      type: MissileBulletType
+      damage: 0
+      homingPower: 0.1
+      splashDamage:50
+      scaledSplashDamage:true
+    splashDamageRadius: 5
+	  speed: 5
+	  lifetime: 5
+	  inaccuracy:2
+  width: 1
+  height: 2
+    }
+  shoot: {
+ type: shootPattern
+  shots: 3
+  shotDelay: 30
+spread: 2
+   }
+  }
+   {
+	  name: Light machine gun
+    x: -1
+    y: 0
+    recoil: 0
+    reload: 10
+    shake: 1
+    bullet: {
+      type: BasicBulletType
+      damage: 10
+	  speed: 23
+	  lifetime: 5
+	  inaccuracy:2
+  width: 1
+  height: 2
+    }
+  shoot: {
+ type: shootPattern
+  shots: 6
+  shotDelay: 5
+  spread: 1
+   }
+  }
+  ]
