@@ -47,6 +47,7 @@ craftTime: 175
     items: [
       helplinedustry-castiron/2
     ]
+  power: 1
   }
 output: {
   items:[
