@@ -1,0 +1,34 @@
+type: ItemTurret
+name: helplium-Powered Sniping Obliterator of Doom V420
+buildTime: 600
+targetGround: true
+outlines:false
+health: 300
+size:3
+inaccuracy: 10
+placeEffect: spawnShockwave
+reload: 120
+shots: 1
+recoilAmount: 1
+shootCone: 50
+rotateSpeed: 1
+range: 350
+targetAir: true
+ammoTypes: {
+	helplium: {
+		type:BasicBulletType
+		speed: 7
+		damage: 30
+		shootEffect: 
+    homingPower: 0.1
+		collideTerrain:true
+		splashDamage:1
+		lifetime: 120
+		pierce:true
+	}
+}
+requirements: [
+	helplium^2/1
+	coal/100
+]
+category: turret
