@@ -22,19 +22,19 @@ ammoTypes: {
 		lifetime:10
 	}
 }
-drawer: DrawTurret({
-                parts.add(new RegionPart("-side"){{
-                    progress = PartProgress.warmup;
-                    moveX: 0.6
-                    moveRot: -15
-                    mirror: true
-                    layerOffset: 0.001
-                    moves.add(new PartMove(PartProgress.recoil, 0.5f, -0.5f, -8f));
-                }}, new RegionPart("-barrel"){{
-                    progress: PartProgress.recoil
-                    moveY: -2.5
-                }});
-            }
+//drawer: DrawTurret({
+//                parts.add(new RegionPart("-side"){{
+ //                   progress = PartProgress.warmup;
+ //                   moveX: 0.6
+ //                   moveRot: -15
+ //                   mirror: true
+ //                   layerOffset: 0.001
+ //                   moves.add(new PartMove(PartProgress.recoil, 0.5f, -0.5f, -8f));
+ //               }}, new RegionPart("-barrel"){{
+ //                   progress: PartProgress.recoil
+   //                 moveY: -2.5
+     //           }});
+       //     }
 requirements: [
   wroughtiron/50
   siliconcarbide/30
