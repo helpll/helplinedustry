@@ -2,7 +2,7 @@ type: Conveyor
 name: Cast Iron Conveyor
 health: 60
 requirements: [
-  castironparts/2
+  castironparts/1
   castiron/1
 ]
 category: distribution
