@@ -1,6 +1,6 @@
 type: OreBlock
 variants: 3
-itemDrop: Silicon carbide
+itemDrop: siliconcarbide
 playerUnmineable: true
 needsSurface:true
 color:c4c4c4
