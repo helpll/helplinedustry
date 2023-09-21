@@ -1,11 +1,10 @@
-type: Router 
-size:3
-name: Allocator
+type: Junction
+size: 1
+name: intersection
 speed: 10
 health: 280
 requirements: [
-  steel/5
-  mechanicalparts/2
+  castiron/2
+  castironparts/1
 ] 
 category: distribution
-placeEffect: smokeCloud
