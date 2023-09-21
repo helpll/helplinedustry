@@ -1,0 +1,17 @@
+  localizedName: Stronghold
+  type: CoreBlock
+  health: 6870
+  size: 3
+  absorbLasers: true
+  itemCapacity: 9000
+  isFirstTier: true
+  unitCapModifier: 32
+  researchCostMultiplier: 0.06
+  requiresCoreZone: true
+  armor: 100
+  alwaysUnlocked: true
+  unitType: conlang
+  requirements: [
+    castiron/50
+  ]
+  category: effect
