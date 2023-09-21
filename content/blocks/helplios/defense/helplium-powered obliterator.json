@@ -19,8 +19,6 @@ ammoTypes: {
 		type:BasicBulletType
 		speed: 7
 		damage: 30
-		shootEffect: 
-    homingPower: 0.1
 		collideTerrain:true
 		splashDamage:1
 		lifetime: 120
