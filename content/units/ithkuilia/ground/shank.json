@@ -1,0 +1,69 @@
+type:mech
+name: Shank
+health: 200
+armor:10
+speed: 0.4
+drag: 0.3
+accel: 0.5
+rotateSpeed: 2
+engineSize:2
+retreatPercent: 0.70
+targetGround:true
+drawCell:true
+circleTarget:true
+targetAir:true
+outlines:false
+legLength:0
+size:2
+alwaysUnlocked: true
+hitsize:18
+weapons: [
+  {
+	  name: rocket launcher
+    x: -2
+    y: 0
+    recoil: 0
+    reload: 300
+    shake: 1
+    bullet: {
+      type: MissileBulletType
+      damage: 0
+      homingPower: 0.1
+      splashDamage:50
+      scaledSplashDamage:true
+    splashDamageRadius: 5
+	  speed: 5
+	  lifetime: 5
+	  inaccuracy:2
+  width: 1
+  height: 2
+    }
+  }
+   {
+	  name: Shotcannon
+    x: 2
+    y: 0
+    recoil: 0
+    reload: 100
+    shake: 1
+    bullet: {
+      type: MissileBulletType
+      damage: 0
+      homingPower: 0.1
+      splashDamage:50
+      scaledSplashDamage:true
+    splashDamageRadius: 5
+	  speed: 5
+	  lifetime: 5
+	  inaccuracy:2
+  width: 1
+  height: 2
+    }
+  shoot: {
+ type: shootPattern
+  shots: 3
+  shotDelay: 30
+spread: 2
+   }
+  }
+  ]
