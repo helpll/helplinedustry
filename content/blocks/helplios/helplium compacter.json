@@ -20,4 +20,4 @@ requirements: [
 
 ]
 category: crafting
-outputItem: helplium2/1
+outputItem: helplium^2/1
