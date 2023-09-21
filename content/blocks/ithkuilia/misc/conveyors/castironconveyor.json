@@ -1,0 +1,10 @@
+type: Conveyor
+name: Cast Iron Conveyor
+health: 60
+requirements: [
+  castironparts/2
+  castiron/1
+]
+category: distribution
+speed: 0.07
+displayedSpeed: 10
