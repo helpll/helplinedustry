@@ -1,0 +1,112 @@
+type: multicraft.MultiCrafter
+//got that machine shop
+//i think this works
+name: Basic machine shop
+health:  250
+menu: Simple
+size: 2
+hasPower: true
+hasLiquids: false
+recipes:
+[
+//got that slightly less shitty stone
+  //this is so slow
+  {
+  input: {
+    items: [
+      helplinedustry-stone/2
+    ]
+    power: 1
+  }
+output: {
+  items:[
+  helplinedustry-stonebricks/1
+  ]
+}
+craftTime: 100
+}
+// castironparts
+{
+  input: {
+    items: [
+      helplinedustry-castironplates/3
+    ]
+power: 1
+  }
+output: {
+  items:[
+  helplinedustry-castironparts/3
+  ]
+}
+craftTime: 125
+}
+// cast iron plates
+// mmmm we love cast iron plates around here
+{
+  input: {
+    items: [
+      helplinedustry-castiron/2
+    ]
+  power: 1
+  }
+output: {
+  items:[
+  helplinedustry-castironplates/4
+  ]
+}
+craftTime: 100
+}
+{
+  input: {
+    items: [
+      helplinedustry-steel/2
+    ]
+  power: 1.2
+  }
+output: {
+  items:[
+  helplinedustry-steelplates/4
+  ]
+}
+craftTime: 150
+}
+{
+  input: {
+    items: [
+      helplinedustry-steelplates/2
+    ]
+  power: 1.4
+  }
+output: {
+  items:[
+  helplinedustry-steelparts/4
+  ]
+}
+craftTime: 200
+}
+{
+  input: {
+    items: [
+      helplinedustry-aluminum/2
+    ]
+  power: 1.2
+  }
+output: {
+  items:[
+  helplinedustry-aluminumplates/4
+  ]
+}
+craftTime: 210
+}
+]
+//cheapo smelter
+craftEffect: smokeCloud
+requirements: [
+  stonebrick/100
+  castironparts/25
+  castironplates/25
+  siliconcarbide/45
+  silver/25
+  steel/40
+]
+category: crafting
