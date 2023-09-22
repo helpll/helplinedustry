@@ -4,6 +4,7 @@ craftTime: 120
 size: 3
 hasPower: true
 hasLiquids: false
+buildTime: 360
 itemCapacity: 500
 consumes: {
   items: {
