@@ -1,0 +1,36 @@
+type: ItemTurret
+name: Scorchin' Hot Shit Blaster
+targetGround: true
+outlines:false
+health: 400
+size: 2
+inaccuracy: 0.5
+placeEffect: spawnShockwave
+reload: 60
+shots: 16
+attribute: burning
+recoilAmount: 1
+shootCone: 360
+rotateSpeed: 1
+range: 100
+targetAir: true
+ammoTypes: {
+	shitstainium: {
+		type: fireBulletType
+		speed: 2
+		damage: 50
+		shootEffect: smokePuff
+		collideTerrain:true
+		splashDamage: 30
+    trailEffect2: smokePuff
+    colorFrom: 6b4d27
+		lifetime:90
+		hitShake:3
+		pierce:true
+	}
+}
+requirements: [
+	shitstainium/100
+	coal/35
+]
+category: turret
