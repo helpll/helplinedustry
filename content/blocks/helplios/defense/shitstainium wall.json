@@ -7,8 +7,8 @@ placeEffect: greenCloud
 emitLight: true
 category:defense
 requirements: [
-	shitstainium core/3
+	shitstainium/3
 ]
 destructible:true
 chanceDeflect:0
-buildTime:0.01
+buildTime:0.1
