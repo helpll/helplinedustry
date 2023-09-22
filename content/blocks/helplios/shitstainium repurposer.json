@@ -4,6 +4,7 @@ craftTime: 10
 size: 2
 hasLiquids: false
 itemCapacity: 250
+buildTime: 180
 emitLight:true
 consumes: {
   items: {
