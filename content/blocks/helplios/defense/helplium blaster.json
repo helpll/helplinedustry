@@ -4,30 +4,28 @@ targetGround: true
 outlines:false
 health: 250
 size: 1
-inaccuracy: 5
+inaccuracy: 3
 placeEffect: spawnShockwave
-reload: 1
+reload: 3
 shots: 1
 recoilAmount: 1
-shootCone: 50
 rotateSpeed: 1
 range: 200
 targetAir: true
 ammoTypes: {
 	helplium: {
 		type:BasicBulletType
-		speed: 25
-		damage: 1
+		speed: 10
+		damage: 5
 		shootEffect: shootSmall
 		collideTerrain:true
-		splashDamage:300
 		lifetime:20
 		hitShake:3
 		pierce:true
 	}
 }
 requirements: [
-	helplium/30
+	helplium/35
 	coal/15
 ]
 category: turret
