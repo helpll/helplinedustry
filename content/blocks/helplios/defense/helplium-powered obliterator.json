@@ -5,7 +5,7 @@ targetGround: true
 outlines:false
 health: 300
 size:3
-inaccuracy: 10
+inaccuracy: 0
 placeEffect: spawnShockwave
 reload: 120
 shots: 1
@@ -18,8 +18,8 @@ ammoTypes: {
 	helplium: {
 		type:BasicBulletType
 		speed: 7
-		damage: 30
-		collideTerrain:true
+		damage: 50
+		collideTerrain:false
 		splashDamage:1
 		lifetime: 120
 		pierce:true
