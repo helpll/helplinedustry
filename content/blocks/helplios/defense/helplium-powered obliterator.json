@@ -22,7 +22,12 @@ ammoTypes: {
 		collideTerrain:false
 		splashDamage:1
 		lifetime: 120
+		homingPower: 1
+		homingRange: 200
+		homingDelay: 60
 		pierce:true
+		width:25
+		height: 25
 	}
 }
 requirements: [
