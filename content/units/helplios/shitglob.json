@@ -34,7 +34,7 @@ legBaseOffset:1
 legContinuousMove:true
 weapons: [
   {
-	  name: cumshot21
+	  name: DiarrheaBlaster21
     x: -1
     y: 0
 	size: 1
@@ -43,37 +43,43 @@ weapons: [
     shake: 0
 	shotDelay: 0
     bullet: {
-      type: laserBulletType
+      type: flakBulletType
       damage: 100
 	  speed: 1.5
-    colors: [613a22]
-	  lifetime: 
+    lightColor: 613a22
+    trailColor: 613a22
+    trailChance: 100
+    splashDamageRadius: 6
+	  lifetime: 60
 	  inaccuracy:1
+	  flakInterval: 2
+	  explodeDelay: 60
+	  explodeRange: 10
 	  collideTerrain:true
 	   width: 50
-	  legnth: 50
+	height: 50
     }
   }
     {
-	  name: diarrhea2
+	  name: DiarrheaBlaster21
     x: -1
     y: 0
 	size: 1
     recoil: 10
-    reload: 2
+    reload: 15
     shake: 0
 	shotDelay: 0
     bullet: {
       type: basicBulletType
-      damage: 4
+      damage: 50
 	  speed: 3
-    lightColor: 613a22
+    Color: 613a22
     splashDamageRadius: 6
 	  lifetime: 60
 	  inaccuracy:2
 	  collideTerrain:true
-	   width: 25
-	height: 25
+	   width: 50
+	height: 50
     }
   }
   ]
