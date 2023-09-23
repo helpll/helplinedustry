@@ -1,12 +1,11 @@
-type:legs
+type:tank
 name:Helplungi
 buildSpeed: 0.5
-health: 125
+health: 150
 armor:0
 speed: 0.9
 drag: 0.5
-groundLayer: 3
-legCount: 2
+groundLayer: 10
 mineFloor: true
 mineTier: 1
 mineSpeed: 2
@@ -21,17 +20,8 @@ targetAir:true
 drawCell:false
 circleTarget:true
 outlines:false
-legLength:2.5
-legPhysicsLayer: 1
 size:2
 hitsize:500
-legGroupSize:1
-legSpeed:1
-legMaxLength:5
-legMinLength:2
-lockLegBase:true
-legBaseOffset:0.5
-legContinuousMove:true
 weapons: [
   {
 	  name: bitchass69
