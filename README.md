@@ -27,4 +27,4 @@ sinpin (wall)
 li (ilo pi tawa ijo) (conveyor)
 
 ***helplios***
-fix enemies, shitsludge, more turrets and enemies, fake power generator
+fix units and turrets, shitsludge, more turrets and enemies, shitstainium solidifier, shitsteelium, shitsteelium wall, shitsteelium conveyor, gigifying pudditizer, giga puddite, helplium^3, puddin emmiter
