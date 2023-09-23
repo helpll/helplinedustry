@@ -10,13 +10,13 @@ reload: 10
 shots: 1
 recoilAmount: 1
 rotateSpeed: 1
-range: 200
+range: 180
 targetAir: true
 ammoTypes: {
 	helplium: {
 		type:BasicBulletType
 		speed: 10
-		damage: 20
+		damage: 17
 		shootEffect: shootSmall
 		collideTerrain:true
 		lifetime:20
