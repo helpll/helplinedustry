@@ -5,7 +5,7 @@ health: 2000
 armor:5
 speed: 0.7
 drag: 0.5
-groundLayer: 10
+groundLayer: 100
 legCount: 5
 mineFloor: true
 mineTier: 1
