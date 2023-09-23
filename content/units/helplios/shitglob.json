@@ -52,7 +52,7 @@ weapons: [
 	  flakInterval: 2
 	  explodeDelay: 60
 	  explodeRange: 10
-	  collideTerrain:true
+	  collideTerrain: false
 	   width: 50
 	height: 50
     }
@@ -74,9 +74,9 @@ weapons: [
     splashDamageRadius: 6
 	  lifetime: 60
 	  inaccuracy:2
-	  collideTerrain:true
-	   width: 50
-	height: 50
+	  collideTerrain:false
+	   width: 35
+	height: 35
     }
   }
   ]
