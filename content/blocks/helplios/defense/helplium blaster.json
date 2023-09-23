@@ -16,7 +16,7 @@ ammoTypes: {
 	helplium: {
 		type:BasicBulletType
 		speed: 10
-		damage: 14
+		damage: 12
 		shootEffect: shootSmall
 		collideTerrain:true
 		lifetime:18
