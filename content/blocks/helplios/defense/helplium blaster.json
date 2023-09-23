@@ -6,20 +6,20 @@ health: 250
 size: 1
 inaccuracy: 3
 placeEffect: spawnShockwave
-reload: 10
+reload: 8
 shots: 1
 recoilAmount: 1
 rotateSpeed: 1
-range: 180
+range: 170
 targetAir: true
 ammoTypes: {
 	helplium: {
 		type:BasicBulletType
 		speed: 10
-		damage: 17
+		damage: 14
 		shootEffect: shootSmall
 		collideTerrain:true
-		lifetime:20
+		lifetime:18
 		hitShake:3
 		pierce:true
 	}
