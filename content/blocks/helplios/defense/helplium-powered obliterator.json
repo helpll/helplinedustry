@@ -12,16 +12,16 @@ shots: 1
 recoilAmount: 1
 shootCone: 50
 rotateSpeed: 2
-range: 350
+range: 300
 targetAir: true
 ammoTypes: {
 	helplium: {
 		type:BasicBulletType
 		speed: 7
-		damage: 40
+		damage: 25
 		collideTerrain:false
 		splashDamage:1
-		lifetime: 120
+		lifetime: 105
 		homingPower: 1
 		homingRange: 200
 		homingDelay: 45
