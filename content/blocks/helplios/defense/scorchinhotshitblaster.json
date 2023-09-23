@@ -19,7 +19,7 @@ ammoTypes: {
 	shitstainium: {
 		type: basicBulletType
 		speed: 2
-		damage: 40
+		damage: 50
 		shootEffect: smokePuff
 		collideTerrain:true
 		splashDamage: 30
