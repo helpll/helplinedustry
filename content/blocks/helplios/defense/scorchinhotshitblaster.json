@@ -4,27 +4,29 @@ targetGround: true
 outlines:false
 health: 400
 size: 2
-inaccuracy: 0.5
+inaccuracy: 4
 placeEffect: spawnShockwave
 reload: 60
-shots: 16
+shots: 32
 status: burning
 statusDuration: 360
 recoilAmount: 1
-shootCone: 60
-rotateSpeed: 1
-range: 100
+shootCone: 90
+rotateSpeed: 3
+range: 135
 targetAir: true
 ammoTypes: {
 	shitstainium: {
 		type: basicBulletType
 		speed: 2
-		damage: 30
+		damage: 40
 		shootEffect: smokePuff
 		collideTerrain:true
 		splashDamage: 30
    		frontColor: 6b4d27
 		backColor: 6b4d27
+		width: 25
+		height: 25
 		lifetime:90
 		hitShake:3
 		pierce:true
