@@ -7,7 +7,7 @@ size: 2
 inaccuracy: 4
 placeEffect: spawnShockwave
 reload: 60
-shots: 32
+consumeAmmoOnce: true
 status: burning
 statusDuration: 360
 recoilAmount: 1
@@ -19,10 +19,11 @@ ammoTypes: {
 	shitstainium: {
 		type: basicBulletType
 		speed: 2
-		damage: 50
+		damage: 1
 		shootEffect: smokePuff
 		collideTerrain:true
-		splashDamage: 30
+		splashDamage: 1
+		shots: 32
    		frontColor: 6b4d27
 		backColor: 6b4d27
 		width: 25
