@@ -3,7 +3,7 @@ name:shitstainium core
 size: 3
 health: 1000
 emitLight: true
-category:defense
+category:effect
 requirements: [
 	shitstainium/1000
 ]
