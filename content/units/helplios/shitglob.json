@@ -1,7 +1,7 @@
 type:legs
 name:Shitglob
 buildSpeed: 1
-health: 800
+health: 2000
 armor:5
 speed: 0.7
 drag: 0.5
