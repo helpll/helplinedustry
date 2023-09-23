@@ -1,7 +1,7 @@
 type: Wall
 name:shitstainium wall
 size: 1
-health: 150
+health: 120
 placeEffect: greenCloud
 emitLight: true
 category:defense
