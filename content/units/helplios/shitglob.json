@@ -46,7 +46,7 @@ weapons: [
       type: laserBulletType
       damage: 100
 	  speed: 1.5
-    colors: 613a22
+    colors: [613a22]
 	  lifetime: 
 	  inaccuracy:1
 	  collideTerrain:true
