@@ -2,7 +2,6 @@ type: Wall
 name:shitstainium wall
 size: 1
 health: 150
-placeSound: ftart
 placeEffect: greenCloud
 emitLight: true
 category:defense
