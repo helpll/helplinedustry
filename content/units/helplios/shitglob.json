@@ -22,7 +22,7 @@ drawCell:false
 circleTarget:true
 outlines:false
 legLength:5.5
-legPhysicsLayer: true
+legPhysicsLayer: 1
 size:4
 hitsize:1500
 legGroupSize:1
