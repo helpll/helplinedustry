@@ -18,16 +18,16 @@ ammoTypes: {
 	helplium: {
 		type:BasicBulletType
 		speed: 7
-		damage: 50
+		damage: 40
 		collideTerrain:false
 		splashDamage:1
 		lifetime: 120
 		homingPower: 1
 		homingRange: 200
-		homingDelay: 60
+		homingDelay: 45
 		pierce:true
-		width:25
-		height: 25
+		width:20
+		height: 20
 	}
 }
 requirements: [
