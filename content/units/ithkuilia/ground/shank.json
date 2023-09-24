@@ -33,7 +33,7 @@ weapons: [
       scaledSplashDamage:true
     splashDamageRadius: 5
 	  speed: 5
-	  lifetime: 5
+	  lifetime: 50
 	  inaccuracy:2
   width: 1
   height: 2
@@ -46,7 +46,6 @@ weapons: [
     recoil: 0
     reload: 100
     shake: 1
-	shots: 10
 	velocityRnd: 0.2
     bullet: {
       type: BasicBulletType
@@ -55,5 +54,11 @@ weapons: [
   width: 1
   height: 2
     }
+	shoot: {
+ type: shootPattern
+  shots: 6
+  shotDelay: 0
+  spread: 0
+   }
   }
   ]
