@@ -1,0 +1,34 @@
+type: ItemTurret
+name: Annihilator
+targetGround: true
+outlines:true
+scaledHealth: 100
+size: 1
+inaccuracy: 10
+reload: 15
+shots: 1
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 10
+range: 165
+targetAir: true
+ammoTypes: {
+	wroughtiron: {
+		type: BasicBulletType
+    speed: 30
+		damage: 2
+		shootEffect: lancerLaserShoot
+		collideTerrain:false
+		lifetime:10
+      shoot: {
+ type: shootPattern
+  shots: 5
+  shotDelay: 2
+   }
+	}
+}
+requirements: [
+  wroughtiron/10
+  castironparts/2
+]
+category: turret
