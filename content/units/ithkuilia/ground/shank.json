@@ -46,24 +46,14 @@ weapons: [
     recoil: 0
     reload: 100
     shake: 1
+	shots: 10
+	velocityRnd: 0.2
     bullet: {
-      type: MissileBulletType
-      damage: 0
-      homingPower: 0.1
-      splashDamage:50
-      scaledSplashDamage:true
-    splashDamageRadius: 5
-	  speed: 5
-	  lifetime: 5
-	  inaccuracy:2
+      type: BasicBulletType
+      damage: 10
+	inaccuracy:10
   width: 1
   height: 2
     }
-  shoot: {
- type: shootPattern
-  shots: 3
-  shotDelay: 30
-spread: 2
-   }
   }
   ]
