@@ -99,6 +99,7 @@ output: {
 craftTime: 210
 }
 ]
+drawer: {
   type: multicraft.DrawRecipe
   defaultDrawer: 0 // an index used for generating the icon of this crafter. 
   drawers: [
