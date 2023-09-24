@@ -1,0 +1,17 @@
+type: powerNode
+name: Power line
+craftTime: 10
+size: 1
+hasLiquids: false
+hasPower: true
+maxNodes:4
+laserRange: 8
+itemCapacity: 0
+emitLight:true
+conductivePower: true
+requirements: [
+  silver/1
+  castiron/3
+
+]
+category: power
