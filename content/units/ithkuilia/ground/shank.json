@@ -1,7 +1,7 @@
 type:mech
 name: Shank
 health: 200
-armor:10
+armor:5
 speed: 0.4
 drag: 0.3
 accel: 0.5
@@ -50,7 +50,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
 	speed: 10
-      damage: 10
+      damage: 5
 	inaccuracy:10
   width: 1
   height: 2
