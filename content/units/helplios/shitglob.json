@@ -62,7 +62,7 @@ weapons: [
     y: 0
 	size: 1
     recoil: 10
-    reload: 15
+    reload: 60
     shake: 0
 	shotDelay: 0
     bullet: {
@@ -72,10 +72,16 @@ weapons: [
     Color: 613a22
     splashDamageRadius: 6
 	  lifetime: 60
-	  inaccuracy:2
+	  inaccuracy:8
 	  collideTerrain:false
 	   width: 35
 	height: 35
     }
+	    }
+  shoot: {
+ type: shootPattern
+  shots: 5
+  shotDelay: 0
+   }
   }
   ]
