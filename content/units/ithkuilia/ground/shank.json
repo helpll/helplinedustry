@@ -49,6 +49,7 @@ weapons: [
 	velocityRnd: 0.2
     bullet: {
       type: BasicBulletType
+	speed: 10
       damage: 10
 	inaccuracy:10
   width: 1
