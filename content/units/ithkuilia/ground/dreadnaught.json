@@ -33,7 +33,7 @@ weapons: [
       scaledSplashDamage:true
     splashDamageRadius: 5
 	  speed: 5
-	  lifetime: 5
+	  lifetime: 50
 	  inaccuracy:2
   width: 1
   height: 2
@@ -60,7 +60,7 @@ spread: 2
       scaledSplashDamage:true
     splashDamageRadius: 5
 	  speed: 5
-	  lifetime: 5
+	  lifetime: 50
 	  inaccuracy:2
   width: 1
   height: 2
