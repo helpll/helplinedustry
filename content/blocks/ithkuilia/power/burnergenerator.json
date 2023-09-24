@@ -23,7 +23,9 @@ consumes: {
     type: DrawMulti
 drawers: [
       {
-        type: DrawWarmupRegion
+        type: DrawGlowRegion
+        suffix: -top
+        color: f00511
       }
       {
         type: DrawDefault
