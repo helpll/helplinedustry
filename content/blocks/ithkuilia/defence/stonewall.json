@@ -1,0 +1,11 @@
+type: Wall
+name: Stone wall
+size: 1
+health: 240
+category:defense
+requirements: [
+	stone/3
+]
+destructible:true
+chanceDeflect:0
+buildTime:0.1
