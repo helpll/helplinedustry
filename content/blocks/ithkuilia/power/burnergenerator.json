@@ -1,0 +1,28 @@
+type: consumeGenerator
+name: Burner generator
+craftTime: 25
+itemDuration: 60
+size: 1
+hasLiquids: false
+consumesPower: false
+hasPower: true
+generateEffect: smokeCloud
+itemCapacity: 10
+emitLight:true
+outputsPower: true
+conductivePower: true
+powerProduction: 1.2
+consumes: {
+  items: {
+    items: [
+      coal2/1
+    ]
+  }
+}
+craftEffect: smokeCloud
+requirements: [
+  castiron/5
+  wroughtiron/15
+  stone/25
+]
+category: power
