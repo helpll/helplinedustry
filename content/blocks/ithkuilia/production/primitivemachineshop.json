@@ -20,7 +20,7 @@ recipes:
   }
 output: {
   items:[
-  helplinedustry-stonebricks/1
+  helplinedustry-stonebrick/1
   ]
 }
 craftTime: 150
