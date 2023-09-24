@@ -1,5 +1,9 @@
-type:mech
+type:legs
 name: Conlang
+legCount: 4
+legGroupSize:2
+legContinuousMove:true
+legSpeed:0.5
 health: 300
 mineSpeed: 8
 mineTier: 1
