@@ -3,7 +3,7 @@ type: multicraft.MultiCrafter
 name: Primitive Foundry
 health:  200
 menu: Simple
-size: 1
+size: 2
 hasPower: false
 hasLiquids: false
 recipes:
