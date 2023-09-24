@@ -77,7 +77,6 @@ weapons: [
 	   width: 35
 	height: 35
     }
-	    }
   shoot: {
  type: shootPattern
   shots: 5
