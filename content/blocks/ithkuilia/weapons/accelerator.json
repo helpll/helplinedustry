@@ -38,7 +38,7 @@ ammoTypes: {
    //             }});
      //       }
 requirements: [
-  wroughtiron/50
+  steel/50
   siliconcarbide/30
 ]
 category: turret
