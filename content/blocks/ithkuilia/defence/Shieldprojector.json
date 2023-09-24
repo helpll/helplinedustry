@@ -14,8 +14,9 @@ consumesPower: true
 loopSound: pew
 hasPower: true
 requirements: [
-  iron/50
-	steel/100
-	siliconcarbide/30
+  castiron/75
+iron/25
+castironparts/50
+  siliconcarbide/30
 ]
 category:defense
