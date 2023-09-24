@@ -88,6 +88,82 @@ output: {
 craftTime: 225
 }
 ]
+drawer: {
+  type: multicraft.DrawRecipe
+  defaultDrawer: 0 // an index used for generating the icon of this crafter. 
+  drawers: [
+    // for recipe 0
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawGlowRegion
+        suffix: -glow
+        color: f00511
+      }
+    ]
+    }
+    // for recipe 1
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawGlowRegion
+        suffix: -glow
+        color: f7ae25
+      }
+    ]
+    }
+    // for recipe 2
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawGlowRegion
+        suffix: -glow
+        color: fbff29
+      }
+    ]
+    }
+  // for recipe 3
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawGlowRegion
+        suffix: -glow
+        color: ff4400
+      }
+    ]
+    }
+// 4
+ { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawGlowRegion
+        suffix: -glow
+        color: ffbb00
+      }
+    ]
+    }
+  ]
+}
 //cheapo smelter
 craftEffect: smokeCloud
 requirements: [
