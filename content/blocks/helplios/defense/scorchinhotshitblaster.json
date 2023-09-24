@@ -30,13 +30,12 @@ ammoTypes: {
 		lifetime:90
 		hitShake:3
 		pierce:true
-	}
-	    }
   shoot: {
  type: shootPattern
   shots: 5
   shotDelay: 0
    }
+}
 }
 requirements: [
 	shitstainium/100
