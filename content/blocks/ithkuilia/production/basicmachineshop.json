@@ -4,7 +4,7 @@ type: multicraft.MultiCrafter
 name: Basic machine shop
 health:  250
 menu: Simple
-size: 2
+size: 3
 hasPower: true
 hasLiquids: false
 recipes:
