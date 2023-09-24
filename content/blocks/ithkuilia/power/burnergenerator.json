@@ -19,6 +19,17 @@ consumes: {
     ]
   }
 }
+  drawer: {
+    type: DrawMulti
+drawers: [
+      {
+        type: DrawWarmupRegion
+      }
+      {
+        type: DrawDefault
+      }
+    ]
+  }
 craftEffect: smokeCloud
 requirements: [
   castiron/5
