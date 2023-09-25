@@ -1,0 +1,45 @@
+type: flying
+name: Delimitizer
+weapons: [
+  {
+	  name: bomb bay
+    x: 0
+    y: 0
+    recoil: 0
+    reload: 100
+    shake: 4 
+//    shootSound: mgfire
+    bullet: {
+      type: BombBulletType
+    damage: 25
+      splashDamage:75
+      scaledSplashDamage:true
+    makeFire: true
+    incendAmount: 5
+	  speed: 0
+	  lifetime: 10
+	  inaccuracy:2
+	  drawSize:60
+	  hitSize:6
+    shoot: {
+ type: shootPattern
+  shots: 10
+  shotDelay: 3
+spread: 0
+   }
+    }
+  }
+]
+health: 475
+speed: 1.5
+flying: true
+drag: 0.1
+accel: 0.5
+rotateSpeed: 1
+engineSize:0
+omniMovement: false
+targetAir: true
+targetGround:true
+drawCell:true
+onTitleScreen:true
+circleTarget:true
