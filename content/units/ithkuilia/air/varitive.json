@@ -30,6 +30,6 @@ engineSize:0
 omniMovement: false
 targetAir: true
 targetGround:true
-drawCell:false
+drawCell:true
 onTitleScreen:true
 circleTarget:true
