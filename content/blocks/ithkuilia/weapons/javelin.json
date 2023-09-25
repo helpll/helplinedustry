@@ -1,7 +1,6 @@
 type: ItemTurret
 name: Javelin
 targetGround: true
-outlines:false
 scaledHealth: 100
 size: 2
 inaccuracy: 5
@@ -33,7 +32,7 @@ drawer: {
 	suffix: -spinner
 	      spinSprite: true
 	      rotateSpeed: 5
-	      y: -15
+	      y: -5
       }
     ]
 }
