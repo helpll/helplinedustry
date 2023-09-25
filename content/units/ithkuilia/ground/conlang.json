@@ -44,6 +44,7 @@ weapons: [
 	  speed: 5
 	  lifetime: 50
 	  inaccuracy:2
+	  collideTerrain:true
   width: 1
   height: 2
     }
@@ -67,6 +68,7 @@ spread: 0
 	  speed: 23
 	  lifetime: 5
 	  inaccuracy:2
+	collideTerrain:true
   width: 1
   height: 2
     }
