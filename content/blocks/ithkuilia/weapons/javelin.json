@@ -14,10 +14,10 @@ targetAir: false
 ammoTypes: {
 	voltite: {
 		type:LaserBulletType
-		laserEffect: lancerLaserChargeBegin
-		damage: 25
+		laserEffect: instBomb
+		damage: 20
 		shootEffect: lancerLaserShoot
-		collideTerrain:false
+		collideTerrain:true
 		lifetime:10
 	}
 }
