@@ -5,7 +5,7 @@
 # todo
 
 ***Ithkuilia:***
-item sink for wrought iron, cast iron, and cast iron plates, /n
+item sink for wrought iron, cast iron, and cast iron plates,
 steel mill and other crafters (mostly done for earlygame), 
 add the rest of the metals (mostly done), 
 sprites, 
