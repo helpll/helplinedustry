@@ -4,9 +4,9 @@ legCount: 4
 legGroupSize:1
 legContinuousMove:true
 legSpeed:0.5
-legLength:5
-legMaxLength:7
-legMinLength:3
+legLength:50
+legMaxLength:70
+legMinLength:30
 health: 300
 mineSpeed: 8
 mineTier: 1
