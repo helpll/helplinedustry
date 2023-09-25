@@ -4,6 +4,7 @@ legCount: 4
 legGroupSize:2
 legContinuousMove:true
 legSpeed:0.1
+legMoveSpace: 1
 legLength:6
 legMaxLength:8
 legMinLength:4
@@ -11,7 +12,7 @@ legPhysicsLayer: false
 legLengthScl: 0.96
 legForwardScl: 1.1
 legBaseOffset: 5
-legExtension: -2
+legExtension: 2
 health: 300
 mineSpeed: 8
 mineTier: 1
