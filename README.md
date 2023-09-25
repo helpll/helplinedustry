@@ -6,6 +6,7 @@
 
 ***Ithkuilia:***
 item sink for wrought iron, cast iron, and cast iron plates,
+add some more ground and air units, 
 steel mill and other crafters (mostly done for earlygame), 
 add the rest of the metals (mostly done), 
 sprites, 
