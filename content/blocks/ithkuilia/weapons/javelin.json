@@ -32,7 +32,8 @@ drawer: {
 	suffix: -spinner
 	      spinSprite: true
 	      rotateSpeed: 1
-	      y: -5
+	      y: -4
+	      buildingRotate: true
       }
     ]
 }
