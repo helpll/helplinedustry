@@ -3,10 +3,10 @@ name: Conlang
 legCount: 4
 legGroupSize:1
 legContinuousMove:true
-legSpeed:0.5
-legLength:5
-legMaxLength:7
-legMinLength:3
+legSpeed:0.25
+legLength:6
+legMaxLength:8
+legMinLength:4
 legPhysicsLayer: 100
 health: 300
 mineSpeed: 8
