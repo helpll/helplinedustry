@@ -10,6 +10,7 @@ legMinLength:4
 legPhysicsLayer: false
 legLengthScl: 0.96
 legForwardScl: 1.1
+legBaseOffset: 5
 legExtension: -2
 health: 300
 mineSpeed: 8
