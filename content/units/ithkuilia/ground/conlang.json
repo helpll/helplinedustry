@@ -3,7 +3,7 @@ name: Conlang
 legCount: 4
 legGroupSize:1
 legContinuousMove:true
-legSpeed:0.25
+legSpeed:0.1
 legLength:6
 legMaxLength:8
 legMinLength:4
@@ -23,6 +23,7 @@ targetGround:true
 drawCell:true
 circleTarget:true
 targetAir:true
+allowLegStep: true
 size:2
 alwaysUnlocked: true
 hitsize:9
