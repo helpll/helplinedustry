@@ -4,7 +4,7 @@ legCount: 4
 legGroupSize:2
 legContinuousMove:true
 legSpeed:0.5
-legMoveSpace: 1
+legMoveSpace: 2
 legLength:6
 legMaxLength:8
 legMinLength:4
