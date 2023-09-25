@@ -29,7 +29,11 @@ bullet: {
     incendSpread:15
 despawnEffect: {
 		 type:MultiEffect
-		 effects:[scatheExplosion, scatheLight]
+		 effects:[scatheExplosion, scatheLight, {
+	type: WaveEffect
+			 colorFrom: 03fce8
+			colorTo: 02427d
+			sides: 6}]
 	 }
 }
 requirements: [
