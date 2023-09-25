@@ -13,6 +13,22 @@ cooldownBrokenBase: 0.35
 consumesPower: true
 loopSound: pew
 hasPower: true
+drawer: {
+	type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawRegion
+	suffix: -spinner
+	      spinSprite: true
+	      rotateSpeed: 1
+	      y: -4
+	      buildingRotate: true
+      }
+    ]
+}
 requirements: [
   castiron/75
 iron/25
