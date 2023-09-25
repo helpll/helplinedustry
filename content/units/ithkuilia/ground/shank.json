@@ -28,7 +28,6 @@ circleTarget:true
 targetAir:true
 allowLegStep: true
 outlines:false
-legLength:0
 size:2
 alwaysUnlocked: true
 hitsize:18
