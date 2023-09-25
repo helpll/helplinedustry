@@ -1,5 +1,5 @@
 type: OreBlock
-variants: 1
+variants: 3
 itemDrop: rawiron
 playerUnmineable: false
 needsSurface:true
