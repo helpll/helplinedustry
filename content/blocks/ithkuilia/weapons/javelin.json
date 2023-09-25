@@ -21,22 +21,22 @@ ammoTypes: {
 		lifetime:10
 	}
 }
-drawer: {
-	type: DrawMulti
-    drawers: [
-      {
-          type: DrawDefault
-      }
-      {
-          type: DrawRegion
-	suffix: -spinner
-	      spinSprite: true
-	      rotateSpeed: 1
-	      y: -4
-	      buildingRotate: true
-      }
-    ]
-}
+//drawer: {
+//	type: DrawMulti
+ //   drawers: [
+//      {
+//          type: DrawDefault
+//      }
+ //     {
+//          type: DrawRegion
+//	suffix: -spinner
+//	      spinSprite: true
+//	      rotateSpeed: 1
+//	      y: -4
+//	      buildingRotate: true
+//      }
+//    ]
+//}
 requirements: [
   wroughtiron/50
   siliconcarbide/30
