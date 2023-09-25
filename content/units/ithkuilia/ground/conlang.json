@@ -44,7 +44,7 @@ weapons: [
 	  trailEffect: smokeCloud
 	  shootEffect: {
 		 type:MultiEffect
-		 effects:[scatheLight, smokeCloud]
+		 effects:[explosion, smokeCloud]
 	 }
 	despawnEffect: {
 		 type:MultiEffect
@@ -71,7 +71,7 @@ spread: 0
   }
    {
 	  name: Light machine gun
-    x: -7
+    x: -8
     y: -5
     recoil: 0
     reload: 50
