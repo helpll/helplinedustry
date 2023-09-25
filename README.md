@@ -5,11 +5,11 @@
 # todo
 
 ***Ithkuilia:***
-suicide headhunting drones, 
-steel mill and other crafters (they should be centeralised to minimise the amount of random sprites i have to do), 
-add the rest of the metals, 
+item sink for wrought iron, cast iron, and cast iron plates, /n
+steel mill and other crafters (mostly done for earlygame), 
+add the rest of the metals (mostly done), 
 sprites, 
-ores for everything, 
+ores for everything(done for now), 
 color all the items, 
 turret heat sprite, 
 more stuff (add items first),
