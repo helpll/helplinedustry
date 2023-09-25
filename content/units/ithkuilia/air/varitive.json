@@ -1,0 +1,35 @@
+type: flying
+name: Varitive
+weapons: [
+  {
+	  name: machinegun
+    x: 0
+    y: 0
+    recoil: 0
+    reload: 5
+    shake: 4 
+    shootSound: mgfire
+    bullet: {
+      type: BasicBulletType
+      damage: 5
+	  speed: 23
+	  lifetime: 5
+	  inaccuracy:2
+	  drawSize:60
+	  hitSize:6
+    }
+  }
+]
+health: 275
+speed: 2.5
+flying: true
+drag: 0
+accel: 0.5
+rotateSpeed: 6
+engineSize:0
+omniMovement: false
+targetAir: true
+targetGround:true
+drawCell:false
+onTitleScreen:true
+circleTarget:true
