@@ -7,7 +7,7 @@ legSpeed:0.1
 legLength:6
 legMaxLength:8
 legMinLength:4
-legPhysicsLayer: 100
+legPhysicsLayer: false
 health: 300
 mineSpeed: 8
 mineTier: 1
