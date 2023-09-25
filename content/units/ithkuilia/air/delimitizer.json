@@ -4,6 +4,7 @@ weapons: [
   {
 	  name: bomb bay
     x: 0
+	  shootCone: 360
     y: 0
     recoil: 0
     reload: 100
