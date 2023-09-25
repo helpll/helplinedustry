@@ -1,10 +1,10 @@
 type: legs
 name: Conlang
 legCount: 4
-legGroupSize:2
+legGroupSize:1
 legContinuousMove:true
-legSpeed:0.5
-legMoveSpace: 2
+legSpeed:0.25
+legMoveSpace: 3
 legLength:6
 legMaxLength:8
 legMinLength:4
