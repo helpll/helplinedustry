@@ -12,6 +12,7 @@ shootCone: 25
 rotateSpeed: 10
 range: 165
 targetAir: true
+shootSound: mgfire
 ammoTypes: {
 	wroughtiron: {
 		type: BasicBulletType
@@ -19,6 +20,7 @@ ammoTypes: {
 		damage: 2
 		collideTerrain:false
 		lifetime:10
+		velocityRnd: 0.1
 	}
 }
 shoot: {
