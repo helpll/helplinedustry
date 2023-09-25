@@ -84,7 +84,7 @@ spread: 0
     recoil: 0
     reload: 50
     shake: 1
-	   shootSound: mgfire2
+	   shootSound: mgfire
     bullet: {
       type: BasicBulletType
       damage: 10
