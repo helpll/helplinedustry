@@ -40,6 +40,12 @@ weapons: [
       homingPower: 0.1
       splashDamage:50
       scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[scatheExplosion, scatheLight, smokeCloud]
+	 }
     splashDamageRadius: 5
 	  speed: 5
 	  lifetime: 50
@@ -57,8 +63,8 @@ spread: 0
   }
    {
 	  name: Light machine gun
-    x: -6
-    y: -4
+    x: -7
+    y: -5
     recoil: 0
     reload: 50
     shake: 1
