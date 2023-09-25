@@ -8,6 +8,9 @@ legLength:6
 legMaxLength:8
 legMinLength:4
 legPhysicsLayer: false
+legLengthScl: 0.96
+legForwardScl: 1.1
+legExtension: -2
 health: 300
 mineSpeed: 8
 mineTier: 1
