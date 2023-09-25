@@ -11,7 +11,7 @@ weapons: [
     shootSound: mgfire
     bullet: {
       type: BasicBulletType
-      damage: 5
+      damage: 3
 	  speed: 23
 	  lifetime: 5
 	  inaccuracy:2
@@ -23,9 +23,9 @@ weapons: [
 health: 275
 speed: 2.5
 flying: true
-drag: 0
+drag: 0.1
 accel: 0.5
-rotateSpeed: 6
+rotateSpeed: 2
 engineSize:0
 omniMovement: false
 targetAir: true
