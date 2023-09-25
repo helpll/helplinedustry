@@ -20,13 +20,13 @@ ammoTypes: {
 		shootEffect: lancerLaserShoot
 		collideTerrain:false
 		lifetime:10
-      shoot: {
+	}
+}
+shoot: {
  type: shootPattern
   shots: 5
   shotDelay: 2
    }
-	}
-}
 requirements: [
   wroughtiron/10
   castironparts/2
