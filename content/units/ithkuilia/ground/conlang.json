@@ -57,8 +57,8 @@ spread: 0
   }
    {
 	  name: Light machine gun
-    x: -1
-    y: 0
+    x: -3
+    y: -2
     recoil: 0
     reload: 50
     shake: 1
