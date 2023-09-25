@@ -41,6 +41,7 @@ weapons: [
     recoil: 0
     reload: 200
     shake: 1
+	  shootSound: rocketlaunch
     bullet: {
       type: MissileBulletType
       damage: 0
