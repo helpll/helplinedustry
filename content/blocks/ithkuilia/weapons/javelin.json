@@ -11,6 +11,7 @@ shootCone: 25
 rotateSpeed: 10
 range: 165
 targetAir: false
+shootSound: flshoot
 ammoTypes: {
 	voltite: {
 		type:LaserBulletType
