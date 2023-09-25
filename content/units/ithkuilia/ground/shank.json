@@ -1,5 +1,19 @@
-type:mech
+type:legs
 name: Shank
+legCount: 4
+legGroupSize:1
+legContinuousMove:true
+legSpeed:0.25
+legMoveSpace: 4
+legLength:5
+legMaxLength:7
+legMinLength:3
+legPhysicsLayer: false
+legLengthScl: 0.96
+legForwardScl: 1.1
+legBaseOffset: 5
+legExtension: 2
+lockLegBase: true
 health: 200
 armor:10
 speed: 0.4
@@ -12,6 +26,7 @@ targetGround:true
 drawCell:true
 circleTarget:true
 targetAir:true
+allowLegStep: true
 outlines:false
 legLength:0
 size:2
@@ -25,6 +40,7 @@ weapons: [
     recoil: 0
     reload: 300
     shake: 1
+	  shootSound: rocketlaunch
     bullet: {
       type: MissileBulletType
       damage: 0
@@ -48,6 +64,7 @@ weapons: [
     reload: 100
     shake: 1
 	velocityRnd: 0.2
+	shootSound: mgfire2 //change this to shotcannon sfx later
     bullet: {
       type: BasicBulletType
 	speed: 10
