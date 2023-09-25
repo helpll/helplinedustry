@@ -5,8 +5,8 @@ legGroupSize:2
 legContinuousMove:true
 legSpeed:0.1
 legLength:6
-legMaxLength:3
-legMinLength:1
+legMaxLength:8
+legMinLength:4
 legPhysicsLayer: false
 health: 300
 mineSpeed: 8
