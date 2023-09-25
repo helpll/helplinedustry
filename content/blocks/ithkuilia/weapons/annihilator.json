@@ -5,7 +5,7 @@ outlines:true
 scaledHealth: 100
 size: 1
 inaccuracy: 5
-reload: 30
+reload: 50
 shots: 1
 recoilAmount: 10
 shootCone: 25
@@ -26,7 +26,7 @@ ammoTypes: {
 shoot: {
  type: shootPattern
   shots: 5
-  shotDelay: 1
+  shotDelay: 3
    }
 requirements: [
   wroughtiron/10
