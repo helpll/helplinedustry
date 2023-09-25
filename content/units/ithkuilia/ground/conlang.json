@@ -4,9 +4,9 @@ legCount: 4
 legGroupSize:1
 legContinuousMove:true
 legSpeed:0.5
-legLength:3
-legMaxLength:4
-legMinLength:2
+legLength:5
+legMaxLength:7
+legMinLength:3
 health: 300
 mineSpeed: 8
 mineTier: 1
@@ -24,7 +24,7 @@ circleTarget:true
 targetAir:true
 outlines:false
 legLength:0
-size:1
+size:2
 alwaysUnlocked: true
 hitsize:9
 weapons: [
