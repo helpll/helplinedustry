@@ -7,6 +7,7 @@ legSpeed:0.5
 legLength:5
 legMaxLength:7
 legMinLength:3
+legPhysicsLayer: 100
 health: 300
 mineSpeed: 8
 mineTier: 1
@@ -22,7 +23,6 @@ targetGround:true
 drawCell:true
 circleTarget:true
 targetAir:true
-outlines:false
 size:2
 alwaysUnlocked: true
 hitsize:9
