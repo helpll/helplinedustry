@@ -3,7 +3,7 @@ name: Conlang
 legCount: 4
 legGroupSize:2
 legContinuousMove:true
-legSpeed:0.1
+legSpeed:0.5
 legMoveSpace: 1
 legLength:6
 legMaxLength:8
