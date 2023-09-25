@@ -4,8 +4,8 @@ targetGround: true
 outlines:true
 scaledHealth: 100
 size: 1
-inaccuracy: 10
-reload: 15
+inaccuracy: 5
+reload: 30
 shots: 1
 recoilAmount: 10
 shootCone: 25
@@ -15,9 +15,8 @@ targetAir: true
 ammoTypes: {
 	wroughtiron: {
 		type: BasicBulletType
-    speed: 30
+    speed: 20
 		damage: 2
-		shootEffect: lancerLaserShoot
 		collideTerrain:false
 		lifetime:10
 	}
@@ -25,7 +24,7 @@ ammoTypes: {
 shoot: {
  type: shootPattern
   shots: 5
-  shotDelay: 2
+  shotDelay: 1
    }
 requirements: [
   wroughtiron/10
