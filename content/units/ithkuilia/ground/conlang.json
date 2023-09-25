@@ -1,9 +1,12 @@
-type:legs
+type: legs
 name: Conlang
 legCount: 4
-legGroupSize:2
+legGroupSize:1
 legContinuousMove:true
 legSpeed:0.5
+legLength:3
+legMaxLength:4
+legMinLength:2
 health: 300
 mineSpeed: 8
 mineTier: 1
