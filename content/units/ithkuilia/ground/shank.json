@@ -41,18 +41,34 @@ weapons: [
     shake: 1
 	  shootSound: rocketlaunch
     bullet: {
-      type: MissileBulletType
+            type: MissileBulletType
       damage: 0
       homingPower: 0.1
       splashDamage:50
       scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
     splashDamageRadius: 5
 	  speed: 5
 	  lifetime: 50
-	  inaccuracy:2
+	  inaccuracy:5
 	  collideTerrain:true
   width: 1
   height: 2
+weaveMag: 2
+weaveScale: 2
     }
   }
    {
