@@ -10,6 +10,7 @@ weapons: [
     reload: 100
     shake: 4 
 //    shootSound: mgfire
+	  targetFlags: [factory]
     bullet: {
       type: BombBulletType
     damage: 25
