@@ -1,3 +1,4 @@
 type: item
 name: Raw Iron
 description: Iron is useful for everything, its a shame you have to smelt it down first.
+hardness: 0
