@@ -92,8 +92,6 @@ spread: 0
 	  lifetime: 75
 	  inaccuracy:2
 	collideTerrain:true
-  width: 1
-  height: 2
     }
   shoot: {
  type: shootSpread
