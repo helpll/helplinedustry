@@ -32,10 +32,7 @@ despawnEffect: {
 	type: WaveEffect
 			 colorFrom: 03fce8
 			colorTo: 02427d
-			sides: 6}, {
-	type: ExplosionEffect
-			 waveColor: 03fce8
-			sparkColor: 02427d}]
+			sides: 6}]
 	 }
 }
 requirements: [
