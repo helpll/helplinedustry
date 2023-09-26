@@ -18,10 +18,12 @@ ammoTypes: {
 		colorFrom:00ffcc
     colorMid:0086d4
     colorTo:00056e
+		speed: 5
 		damage: 25
 		shootEffect: lancerLaserShoot
 		collideTerrain:false
-		lifetime:10
+		lifetime:20
+		velocityRnd: 0.3
 	}
 }
 shoot: {
