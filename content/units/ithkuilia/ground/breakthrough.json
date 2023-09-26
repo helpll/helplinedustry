@@ -1,0 +1,62 @@
+type: legs
+name: Breakthrough
+legCount: 4
+legGroupSize:2
+legContinuousMove:true
+legSpeed:0.4
+legMoveSpace: 3
+legLength:4
+legMaxLength:5
+legMinLength:3
+legPhysicsLayer: false
+legLengthScl: 0.96
+legForwardScl: 1.1
+legBaseOffset: 5
+legExtension: 2
+lockLegBase: true
+health: 200
+mineSpeed: 8
+mineTier: 1
+buildSpeed: 1
+armor:2
+speed: 1.2
+targetFlags: [generator, null]
+drag: 0.3
+accel: 0.5
+rotateSpeed: 6
+engineSize:2
+retreatPercent: 0.70
+targetGround:true
+drawCell:true
+circleTarget:true
+targetAir:true
+allowLegStep: true
+size:1
+alwaysUnlocked: true
+hitsize:9
+weapons: [
+   {
+	  name: Light machine gun
+    x: -8
+    y: -5
+    recoil: 0
+    reload: 100
+    shake: 1
+	   shootSound: mgfire
+     alternate: false
+    bullet: {
+      type: BasicBulletType
+      damage: 5
+	  speed: 23
+	  lifetime: 5
+	  inaccuracy:2
+	collideTerrain:true
+    }
+  shoot: {
+ type: shootPattern
+  shots: 12
+  shotDelay: 4
+  spread: 0
+   }
+  }
+  ]
