@@ -20,7 +20,7 @@ mineTier: 1
 buildSpeed: 1
 armor:2
 speed: 1.2
-targetFlags: [generator, null]
+targetFlags: [factory, generator, turret, battery, core]
 drag: 0.3
 accel: 0.5
 rotateSpeed: 6
