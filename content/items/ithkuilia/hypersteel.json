@@ -1,3 +1,6 @@
 type: item
 name: Hypersteel
 description: Stainless steel infused with Voltite
+explosiveness: 0.1
+radioactivity: 0.2
+charge: 0.4
