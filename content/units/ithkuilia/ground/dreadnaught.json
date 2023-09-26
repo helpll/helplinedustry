@@ -1,5 +1,20 @@
-type:mech
+type:legs
 name: Dreadnaught
+legCount: 8
+legGroupSize:2
+legContinuousMove:true
+legSpeed:0.15
+legMoveSpace: 4
+legLength:7
+legMaxLength:9
+legMinLength:5
+legPhysicsLayer: false
+legLengthScl: 0.96
+legForwardScl: 1.1
+legBaseOffset: 5
+legExtension: 2
+lockLegBase: true
+allowLegStep: true
 health: 650
 armor:40
 speed: 0.3
