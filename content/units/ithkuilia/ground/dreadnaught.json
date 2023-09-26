@@ -62,8 +62,10 @@ hitEffect: {
     splashDamageRadius: 7
 	  speed: 5
 	  lifetime: 50
-	  inaccuracy:2
+	  inaccuracy:10
 	  collideTerrain:true
+weaveMag: 2
+weaveScale: 2
     }
   shoot: {
  type: shootPattern
