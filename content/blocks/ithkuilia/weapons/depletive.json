@@ -1,0 +1,53 @@
+type: ItemTurret
+name: Depletive
+targetGround: false
+scaledHealth: 250
+size: 2
+inaccuracy: 10
+reload: 250
+shots: 1
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 10
+range: 165
+targetAir: true
+shootSound: rocketlaunch
+ammoTypes: {
+	castiron: {
+		type:MissileBulletType
+		damage: 0
+      homingPower: 0.1
+      splashDamage:100
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 5
+	  speed: 5
+	  lifetime: 50
+	  collideTerrain:false
+	}
+}
+shoot: {
+ type: shootPattern
+  shots: 10
+  shotDelay: 5
+   }
+requirements: [
+  castiron/75
+  wroughtiron/50
+  castironplates/75
+  siliconcarbide/35
+]
+category: turret
