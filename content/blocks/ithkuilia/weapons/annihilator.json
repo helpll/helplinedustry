@@ -17,7 +17,7 @@ ammoTypes: {
 	wroughtiron: {
 		type: BasicBulletType
     speed: 20
-		damage: 2
+		damage: 4
 		collideTerrain:false
 		lifetime:10
 		velocityRnd: 0.1
