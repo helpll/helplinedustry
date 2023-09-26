@@ -14,6 +14,7 @@ legForwardScl: 1.1
 legBaseOffset: 5
 legExtension: 2
 lockLegBase: true
+targetFlags: [generator, battery, factory, turret, core]
 health: 200
 armor:10
 speed: 0.4
@@ -24,10 +25,9 @@ engineSize:2
 retreatPercent: 0.70
 targetGround:true
 drawCell:true
-circleTarget:true
+circleTarget: false
 targetAir:true
 allowLegStep: true
-outlines:false
 size:2
 alwaysUnlocked: true
 hitsize:18
