@@ -83,7 +83,7 @@ weaveScale: 2
     bullet: {
       type: BasicBulletType
 	speed: 10
-      damage: 7
+      damage: 8
 	inaccuracy:10
 	collideTerrain:true
   width: 1
