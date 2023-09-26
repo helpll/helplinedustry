@@ -16,7 +16,7 @@ recipes:
     items: [
       helplinedustry-stone/2
     ]
-    power: 1
+    power: 2
   }
 output: {
   items:[
@@ -31,7 +31,7 @@ craftTime: 100
     items: [
       helplinedustry-castironplates/3
     ]
-power: 1
+power: 2
   }
 output: {
   items:[
@@ -47,7 +47,7 @@ craftTime: 125
     items: [
       helplinedustry-castiron/2
     ]
-  power: 1
+  power: 2
   }
 output: {
   items:[
@@ -61,7 +61,7 @@ craftTime: 100
     items: [
       helplinedustry-steel/2
     ]
-  power: 1.2
+  power: 2.2
   }
 output: {
   items:[
@@ -75,7 +75,7 @@ craftTime: 150
     items: [
       helplinedustry-steelplates/2
     ]
-  power: 1.4
+  power: 2.4
   }
 output: {
   items:[
@@ -89,7 +89,7 @@ craftTime: 200
     items: [
       helplinedustry-aluminum/2
     ]
-  power: 1.2
+  power: 2.2
   }
 output: {
   items:[
