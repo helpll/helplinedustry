@@ -24,6 +24,11 @@ ammoTypes: {
 		lifetime:10
 	}
 }
+shoot: {
+ type: shootPattern
+  shots: 100
+  shotDelay: 0.5
+   }
 //drawer: DrawTurret({
 //                parts.add(new RegionPart("-side"){{
 //                    progress = PartProgress.warmup;
