@@ -15,7 +15,7 @@ recipes:
       helplinedustry-rawiron/3
       helplinedustry-coal2/3
     ]
-    power: 1
+    power: 2
   }
 output: {
   items:[
@@ -31,7 +31,7 @@ craftTime: 100
       helplinedustry-bauxite/3
       helplinedustry-coal2/3
     ]
-    power: 1
+    power: 2
   }
 output: {
   items:[
@@ -48,7 +48,7 @@ craftTime: 120
       helplinedustry-wroughtiron/2
       helplinedustry-coal2/3
     ]
-    power: 1
+    power: 2
   }
 output: {
   items:[
@@ -63,7 +63,7 @@ craftTime: 150
       helplinedustry-wroughtiron/3
       helplinedustry-coal2/2
     ]
-    power: 1.2
+    power: 2.2
   }
 output: {
   items:[
@@ -78,7 +78,7 @@ craftTime: 175
       helplinedustry-iron/3
       helplinedustry-coal2/1
     ]
-    power: 1.4
+    power: 2.4
   }
 output: {
   items:[
