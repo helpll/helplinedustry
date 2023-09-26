@@ -1,3 +1,4 @@
 type: item
-name: Aluminium
-description: Lightweight metal, kinda weak. Useful for air vehicles.
+name: Uranium
+description: Radioactive, but not that radioactive. needs to be enriched for real use. this version is still useful for AP ammo for turrets and such.
+radioactivity: 0.25
