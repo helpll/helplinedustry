@@ -2,3 +2,6 @@ type: item
 name: Voltite
 description: Highly energetic material, useful for energy production and weapons.
 hardness: 2
+explosiveness: 1
+radioactivity: 0.5
+charge: 1
