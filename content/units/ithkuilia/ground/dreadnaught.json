@@ -35,10 +35,10 @@ hitsize:18
 weapons: [
   {
 	  name: Multi-rocket launcher
-    x: -2
-    y: 0
+    x: -4
+    y: -3
     recoil: 0
-    reload: 100
+    reload: 200
     shake: 1
     bullet: {
       type: MissileBulletType
@@ -46,47 +46,32 @@ weapons: [
       homingPower: 0.1
       splashDamage:50
       scaledSplashDamage:true
-    splashDamageRadius: 5
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 7
 	  speed: 5
 	  lifetime: 50
 	  inaccuracy:2
 	  collideTerrain:true
-  width: 1
-  height: 2
     }
   shoot: {
  type: shootPattern
-  shots: 3
-  shotDelay: 30
-spread: 2
+  shots: 4
+  shotDelay: 4
+spread: 0
    }
   }
-   {
-	  name: Multi-rocket launcher
-    x: 2
-    y: 0
-    recoil: 0
-    reload: 100
-    shake: 1
-    bullet: {
-      type: MissileBulletType
-      damage: 0
-      homingPower: 0.1
-      splashDamage:50
-      scaledSplashDamage:true
-    splashDamageRadius: 5
-	  speed: 5
-	  lifetime: 50
-	  inaccuracy:2
-	collideTerrain:true
-  width: 1
-  height: 2
-    }
-  shoot: {
- type: shootPattern
-  shots: 3
-  shotDelay: 30
-spread: 2
-   }
   }
   ]
