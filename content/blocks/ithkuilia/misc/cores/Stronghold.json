@@ -11,6 +11,18 @@
   armor: 100
   alwaysUnlocked: true
   unitType: conlang
+drawer: { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: 404040
+      }
+    ]
+    }
   requirements: [
     castiron/50
   ]
