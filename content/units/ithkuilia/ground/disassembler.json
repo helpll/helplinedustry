@@ -1,0 +1,104 @@
+type: legs
+name: Disassembler
+legCount: 6
+legGroupSize:1
+legContinuousMove:true
+legSpeed:0.2
+legMoveSpace: 3
+legLength:9
+legMaxLength:11
+legMinLength:7
+legPhysicsLayer: false
+legLengthScl: 0.96
+legForwardScl: 1.1
+legBaseOffset: 5
+legExtension: 2
+lockLegBase: true
+health: 1500
+armor: 50
+speed: 0.2
+drag: 0.3
+accel: 0.5
+rotateSpeed: 6
+engineSize:2
+retreatPercent: 0.70
+targetGround:true
+drawCell:true
+circleTarget:true
+targetAir:true
+allowLegStep: true
+size:3
+alwaysUnlocked: true
+hitsize:9
+weapons: [
+  {
+	  name: Multi-rocket launcher
+    x: -8
+    y: -5
+    recoil: 0
+    reload: 300
+    shake: 1
+	  shootSound: rocketlaunch
+    bullet: {
+      type: MissileBulletType
+      damage: 0
+      homingPower: 0.1
+      splashDamage:50
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 5
+	  speed: 5
+	  lifetime: 50
+	  inaccuracy:2
+	  collideTerrain:true
+  width: 1
+  height: 2
+    }
+  shoot: {
+ type: shootPattern
+  shots: 10
+  shotDelay: 4
+spread: 0
+   }
+  }
+   {
+	  name: Annahilator-beam
+    x: 0
+    y: 1
+     mirror: false
+    recoil: 0
+    reload: 350
+    shake: 1
+	 //  shootSound: mgfire
+    bullet: {
+      type: ContinuousLaserBulletType
+     color: [a1fff6ff, 57b9ffff, 195bffff]
+     length: 100
+      damageInterval: 25
+     width: 5
+	  lifetime: 25
+	  inaccuracy:2
+	collideTerrain:true
+  width: 1
+  height: 2
+    }
+  shoot: {
+ type: shootSpread
+  shots: 3
+  spread: 20
+   }
+  }
+  ]
