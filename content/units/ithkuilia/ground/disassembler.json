@@ -64,8 +64,8 @@ hitEffect: {
 	  lifetime: 50
 	  inaccuracy:2
 	  collideTerrain:true
-  width: 1
-  height: 2
+weaveMag: 2
+weaveScale: 2
     }
   shoot: {
  type: shootPattern
@@ -89,7 +89,7 @@ spread: 0
      length: 100
       damageInterval: 25
      width: 5
-	  lifetime: 25
+	  lifetime: 75
 	  inaccuracy:2
 	collideTerrain:true
   width: 1
