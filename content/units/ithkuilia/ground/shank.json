@@ -14,7 +14,7 @@ legForwardScl: 1.1
 legBaseOffset: 5
 legExtension: 2
 lockLegBase: true
-targetFlags: [generator, battery, factory, turret, core]
+targetFlags: [generator]
 health: 200
 armor:10
 speed: 0.4
