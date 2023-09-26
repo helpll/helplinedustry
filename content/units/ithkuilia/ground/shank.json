@@ -15,7 +15,7 @@ legBaseOffset: 5
 legExtension: 2
 lockLegBase: true
 targetFlags: [generator]
-health: 200
+health: 300
 armor:10
 speed: 0.4
 drag: 0.3
