@@ -16,7 +16,7 @@ legExtension: 2
 lockLegBase: true
 allowLegStep: true
 health: 650
-armor:40
+armor:30
 speed: 0.3
 drag: 0.3
 accel: 0.5
@@ -28,7 +28,6 @@ drawCell:true
 circleTarget:true
 targetAir:true
 outlines:false
-legLength:0
 size:2
 alwaysUnlocked: true
 hitsize:18
