@@ -20,7 +20,7 @@ sectorSeed: -4
 startSector: 0
 iconColor: ffffff
 parent: sun
-radius: 1.4
+radius: 1
 camRadius: 1
 orbitRadius: 9
 orbitOffset: 210
@@ -52,7 +52,7 @@ mesh: [
     //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
     octaves: 1
     persistence: 0.01
-    scale: 0.01
+    scale: 0.1
     mag: 1
     //these control how the two colours behave on the mesh
     coct: 1
