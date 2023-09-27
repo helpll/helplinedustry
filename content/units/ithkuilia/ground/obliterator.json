@@ -1,0 +1,158 @@
+type: legs
+name: Obliterator
+legCount: 8
+legGroupSize:1
+legContinuousMove:true
+legSpeed:0.1
+legMoveSpace: 3
+legLength:10
+legMaxLength:12
+legMinLength:8
+legPhysicsLayer: false
+forceMultiTarget: true
+legLengthScl: 0.96
+legForwardScl: 1.1
+legBaseOffset: 5
+legExtension: 2
+lockLegBase: true
+health: 3500
+armor: 100
+speed: 0.2
+drag: 0.3
+accel: 0.5
+rotateSpeed: 6
+engineSize:2
+retreatPercent: 0.70
+targetGround:true
+drawCell:true
+circleTarget:true
+targetAir:true
+allowLegStep: true
+size:3
+alwaysUnlocked: true
+hitsize:9
+weapons: [
+  {
+	  name: Shotcannon
+    x: 5
+    y: -2
+    recoil: 0
+    reload: 50
+    shake: 1
+	velocityRnd: 0.3
+	shootSound: shotcannon
+    bullet: {
+      type: BasicBulletType
+	speed: 10
+      damage: 10
+	inaccuracy:15
+	collideTerrain:true
+  width: 2
+  height: 4
+    velocityRnd: 0.3
+    }
+	shoot: {
+ type: shootPattern
+  shots: 12
+  shotDelay: 0
+  spread: 0
+   }
+  }
+  {
+	  name: Multi-rocket launcher
+    x: -8
+    y: -5
+    recoil: 0
+    reload: 300
+    shake: 1
+	  shootSound: rocketlaunch
+    bullet: {
+      type: MissileBulletType
+      damage: 0
+      homingPower: 0.1
+      splashDamage:50
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 5
+	  speed: 5
+	  lifetime: 50
+	  inaccuracy:2
+	  collideTerrain:true
+weaveMag: 2
+weaveScale: 2
+    }
+  shoot: {
+ type: shootPattern
+  shots: 10
+  shotDelay: 4
+spread: 0
+   }
+  }
+{
+	  name: flamethrower
+    x: 0
+    y: 0
+     mirror: false
+    recoil: 0
+    reload: 1
+    shake: 1
+	 //  shootSound: mgfire
+    bullet: {
+      ttype:FireBulletType
+		colorFrom:00ffcc
+    colorMid:0086d4
+    colorTo:00056e
+		speed: 5
+		damage: 25
+		shootEffect: lancerLaserCharge
+		collideTerrain:true
+		lifetime:20
+		velocityRnd: 0.3
+  velMin: 2
+  velMax: 6
+    }
+  shoot: {
+ type: shootPattern
+  shots: 5
+  shotDelay: 0
+spread: 0
+   }
+  }
+{
+	  name: Light machine gun
+    x: -8
+    y: -5
+    recoil: 0
+    reload: 100
+    shake: 1
+	   shootSound: mgfire
+     alternate: false
+    bullet: {
+      type: BasicBulletType
+      damage: 5
+	  speed: 23
+	  lifetime: 5
+	  inaccuracy:2
+	collideTerrain:true
+    }
+  shoot: {
+ type: shootPattern
+  shots: 12
+  shotDelay: 4
+  spread: 0
+   }
+  }
+  ]
