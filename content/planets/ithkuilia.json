@@ -25,7 +25,7 @@ camRadius: 1
 orbitRadius: 90
 orbitOffset: 210
 //broken, will have to ask for a bugfix
-atmosphereRadIn: 1
+atmosphereRadIn: 0
 atmosphereRadOut: 1.35
 atmosphereColor: f2929aa
 orbitTime: 600
