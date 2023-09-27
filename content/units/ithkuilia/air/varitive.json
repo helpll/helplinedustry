@@ -1,5 +1,6 @@
 type: flying
 name: Varitive
+targetFlags: [factory]
 weapons: [
   {
 	  name: machinegun
