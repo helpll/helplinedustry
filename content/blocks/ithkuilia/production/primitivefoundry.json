@@ -24,6 +24,22 @@ output: {
 }
 craftTime: 150
 }
+//silicon carbide (this is gonna be annoying)
+{
+  input: {
+    items: [
+      helplinedustry-silicasand/2
+      helplinedustry-coal2/2
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-siliconcarbide/2
+  ]
+}
+craftTime: 150
+}
 // aluminum
 {
   input: {
@@ -74,6 +90,19 @@ drawer: {
       }
     ]
     }
+{ 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawGlowRegion
+        suffix: -glow
+        color: ff7c36
+      }
+    ]
+    }//SiC
     // for recipe 1
     { 
     type: DrawMulti
