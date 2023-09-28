@@ -1,7 +1,8 @@
-type: OreBlock
+//sand alternitive
+type: floor
 variants: 2
 itemDrop: siliconcarbide
-playerUnmineable: false
+playerUnmineable: true
 needsSurface:true
 color:c4c4c4
 oreDefault:false
