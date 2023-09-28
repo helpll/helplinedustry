@@ -79,7 +79,7 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 1.83
-    color1: 8c3838
+    color1: e0e0e0
     color2: 8c3838
     octaves: 4.6
     persistence: 0.9
