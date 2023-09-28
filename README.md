@@ -2,6 +2,8 @@
 *helpl will not save you*
 
 ***i give up tryna import multicrafter just download it here https://github.com/liplum/MultiCrafterLib/releases/tag/v1.7***
+
+this mod is very much unfinished, but it is indeed *playable*...
 # todo
 
 ***Ithkuilia:***
