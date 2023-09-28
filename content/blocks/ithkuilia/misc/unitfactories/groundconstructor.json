@@ -9,10 +9,11 @@ plans: [
     unit: breakthrough
     time: 360
     requirements: [
-      /10
-      solder/2
-	  //tankfuel/5
-	  supplies/3
+      castiron/30
+      castironplates/20
+	  castironparts/5
+	  wroughtiron/25
+	  siliconcarbide/35
     ]
   }
 ]
