@@ -18,11 +18,10 @@ plans: [
   }
 ]
 requirements: [
-  iron/240
-  steel/100
-  stonebrick/250
-  mechanicalparts/145
-  steelplate/50
+  castiron/120
+  wroughtiron/100
+  castironplates/75
+  castironparts/25
 ]
 category: units
 placeEffect: smokeCloud
