@@ -28,13 +28,13 @@ orbitOffset: 210
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 atmosphereColor: f2929aaa
-orbitTime: 600
-rotateTime: 60
+orbitTime: 1
+rotateTime: 1
 accessible: true
 allowLaunchToNumbered: false
 alwaysUnlocked: true
 visible: true
-defaultCore: core-nucleus
+defaultCore: Stronghold
 localizedName: Ithkuilia
 //finish this
 mesh: [
