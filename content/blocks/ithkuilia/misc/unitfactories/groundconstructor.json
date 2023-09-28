@@ -1,0 +1,27 @@
+type: UnitFactory
+name: Ground constructor
+size: 3
+consumes: {
+  power: 7
+}
+plans: [
+  {
+    unit: breakthrough
+    time: 360
+    requirements: [
+      /10
+      solder/2
+	  //tankfuel/5
+	  supplies/3
+    ]
+  }
+]
+requirements: [
+  iron/240
+  steel/100
+  stonebrick/250
+  mechanicalparts/145
+  steelplate/50
+]
+category: units
+placeEffect: smokeCloud
