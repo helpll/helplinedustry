@@ -1,0 +1,21 @@
+type: ParticleWeather
+name: Blizzard
+color: dedede
+noiseColor: a6a6a6
+sizeMax: 5
+sizeMin: 2
+density: 200
+//status: blizzard
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 0.95
+baseSpeed: 10.1
+//sound: blizzardwind
+soundVol: 0.65
+force: 0.2
+yspeed: -35
+xspeed: 35
+noiseLayers:1
+noiseLayerAlphaM:0.9
+noiseLayerSclM:0.9999
+noiseScale:10000
