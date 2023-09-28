@@ -26,8 +26,8 @@ orbitRadius: 90
 orbitOffset: 210
 //broken, will have to ask for a bugfix
 atmosphereRadIn: 0
-atmosphereRadOut: 2.35
-atmosphereColor: f2929aa
+atmosphereRadOut: 0.35
+atmosphereColor: f2929aaa
 orbitTime: 600
 rotateTime: 60
 accessible: true
