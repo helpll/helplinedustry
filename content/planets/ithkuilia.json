@@ -36,6 +36,8 @@ alwaysUnlocked: true
 visible: true
 defaultCore: Stronghold
 localizedName: Ithkuilia
+bloom: true
+hasAtmosphere: true
 //finish this
 mesh: [
   {
@@ -149,3 +151,6 @@ cloudMesh: [
     thresh: 0.43
   }
 ]
+//itemWhitelist: [
+//  aluminum, aluminumplates, anodizedaluminum, anodizedaluminumplates, bauxite
+//]
