@@ -33,6 +33,7 @@ hitEffect: {
 		 effects:[instBomb, scatheLight, smokeCloud]
 	 }
 	  collideTerrain:false
+  speed: 7
 	}
 }
 shoot: {
