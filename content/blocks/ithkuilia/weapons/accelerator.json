@@ -10,17 +10,17 @@ shots: 1
 recoilAmount: 10
 shootCone: 25
 rotateSpeed: 10
-range: 200
+range: 250
 targetAir: true
 ammoTypes: {
 	voltite: {
 		type:RailBulletType
-		lineEffect: lancerLaserShoot
+		lineEffect: instTrail
 		damage: 225
 		shootEffect: lancerLaserShoot
-    pointEffect: lancerLaserShoot
-    length: 200
-		collideTerrain:false
+    pointEffect: instBomb
+    length: 250
+		collideTerrain:true
 		lifetime:10
 	}
 }
