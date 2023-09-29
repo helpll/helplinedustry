@@ -17,8 +17,7 @@ ores for everything(done for now),
 color all the items, 
 turret heat sprite, 
 more stuff (add items first),
-shield generator (?),
-turret ides: incinerator (good flamethrower), voltite accelerator (railgun), repeater(laser mg), (insert name for multi-rocket launcher here), (insert name for laser shotgun turret here), cluster (kinda like ripple but better), some sam turret or something, fancy point defense gun, really long range artillery launcher, anti-air mg
+turret ides: (insert name for multi-rocket launcher here), (insert name for laser shotgun turret here), cluster (kinda like ripple but better), fancy point defense gun, really long range artillery launcher
 
 ***ma pona***
 ponium, tokium
