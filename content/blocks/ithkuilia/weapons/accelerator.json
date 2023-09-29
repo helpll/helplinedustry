@@ -17,8 +17,8 @@ ammoTypes: {
 		type:RailBulletType
 		lineEffect: instTrail
 		damage: 225
-		shootEffect: lancerLaserShoot
-    pointEffect: instTrai
+		shootEffect: instShoot
+    pointEffect: instTrail
     length: 250
 		collideTerrain:true
 		lifetime:10
