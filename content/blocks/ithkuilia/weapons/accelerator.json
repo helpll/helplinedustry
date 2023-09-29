@@ -18,7 +18,7 @@ ammoTypes: {
 		lineEffect: instTrail
 		damage: 225
 		shootEffect: lancerLaserShoot
-    pointEffect: instBomb
+    pointEffect: instTrai
     length: 250
 		collideTerrain:true
 		lifetime:10
