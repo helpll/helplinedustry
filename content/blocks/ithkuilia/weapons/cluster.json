@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Cluster
+targetGround: true
+scaledHealth: 250
+size: 3
+inaccuracy: 15
+reload: 250
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 5
+range: 265
+targetAir: false
+velocityRnd: 0.4
+//shootSound: rocketlaunch
+ammoTypes: {
+	iron: {
+		type:ArtilleryBulletType
+		damage: 50
+      knockback: 0.8
+  lifetime:80
+  splashDamageRadius:35
+  splashDamage:25
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+	  collideTerrain:false
+	}
+}
+shoot: {
+ type: shootPattern
+  shots: 25
+  shotDelay: 0
+   }
+requirements: [
+  iron/50
+  castiron/60
+  castironplates/80
+  siliconcarbide/40
+  castironparts/25
+]
+category: turret
