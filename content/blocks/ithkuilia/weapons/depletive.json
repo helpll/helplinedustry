@@ -9,15 +9,15 @@ shots: 1
 recoilAmount: 10
 shootCone: 25
 rotateSpeed: 10
-range: 165
+range: 265
 targetAir: true
 shootSound: rocketlaunch
 ammoTypes: {
 	castiron: {
 		type:MissileBulletType
-		damage: 0
+		damage: 50
       homingPower: 0.1
-      splashDamage:100
+      splashDamage:150
       scaledSplashDamage:true
 	  trailInterval: 1
 	  trailEffect: smokeCloud
@@ -35,7 +35,7 @@ hitEffect: {
 	 }
     splashDamageRadius: 5
 	  speed: 5
-	  lifetime: 50
+	  lifetime: 100
 	  collideTerrain:false
 	}
 }
