@@ -1,0 +1,51 @@
+type: ItemTurret
+name: Accost
+targetGround: true
+scaledHealth: 250
+size: 2
+inaccuracy: 5
+reload: 125
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 5
+range: 365
+targetAir: false
+velocityRnd: 0.2
+//shootSound: rocketlaunch
+ammoTypes: {
+	castiron: {
+		type:ArtilleryBulletType
+		damage: 75
+      knockback: 0.8
+  lifetime:280
+  splashDamageRadius:35
+  splashDamage:75
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+	  collideTerrain:false
+	}
+}
+shoot: {
+ type: shootPattern
+  shots: 3
+  shotDelay: 10
+   }
+requirements: [
+  iron/80
+  steel/15
+  castiron/65
+  castironplates/85
+  siliconcarbide/45
+  castironparts/30
+]
+category: turret
