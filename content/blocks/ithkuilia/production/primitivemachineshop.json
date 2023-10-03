@@ -89,6 +89,19 @@ drawer: {
       }
     ]
     }
+ // for recipe 0123
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawParticles
+        color: 969696
+      }
+    ]
+    }
     // for recipe 1
     { 
     type: DrawMulti
