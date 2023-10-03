@@ -26,6 +26,20 @@ output: {
 }
 craftTime: 150
 }
+  {
+  input: {
+    items: [
+      helplinedustry-stone/2
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-silicacand/1
+  ]
+}
+craftTime: 100
+}
 // castironparts
 {
   input: {
