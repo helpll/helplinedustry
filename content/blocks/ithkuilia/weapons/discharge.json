@@ -25,7 +25,7 @@ shootType: {
 }
 shoot: {
  type: shootPattern
-  shots: 10
+  shots: 3
   shotDelay: 0
    }
 requirements: [
