@@ -1,0 +1,16 @@
+type: Battery
+name: Accumulator
+conductivePower: true
+emptyLightColor:0f2b30
+fullLightColor:34cceb
+topRegion: -top
+size: 4
+consumes: {
+  powerBuffered: 500
+}
+category: power
+buildCostMultiplier: 0.8
+requirements: [
+  siliconcarbide/5
+  castironplates/5
+]
