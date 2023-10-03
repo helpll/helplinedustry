@@ -1,8 +1,8 @@
 type: PowerTurret
 name: Discharge
 targetGround: true
-scaledHealth: 100
-size: 2
+scaledHealth: 150
+size: 1
 inaccuracy: 360
 reload: 1
 shots: 1
@@ -29,7 +29,9 @@ shoot: {
   shotDelay: 0
    }
 requirements: [
-  steel/50
-  siliconcarbide/30
+  castiron/25
+  silver/30
+siliconcarbide/25
+castironplates/20
 ]
 category: turret
