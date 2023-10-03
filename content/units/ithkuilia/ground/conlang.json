@@ -42,6 +42,18 @@ weapons: [
     reload: 200
     shake: 1
 	  shootSound: rocketlaunch
+	  	parts: [
+        {
+          type: FlarePart
+          color2: "FFFFFF
+          color1: "A9D8FFFF
+          y: 0
+          followRotation: true
+          stroke: 3
+          radius: 10
+          partProgress: warmup
+        }
+      ]
     bullet: {
       type: MissileBulletType
       damage: 0
