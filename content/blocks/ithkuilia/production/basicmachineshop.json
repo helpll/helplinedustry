@@ -26,6 +26,20 @@ output: {
 }
 craftTime: 100
 }
+  {
+  input: {
+    items: [
+      helplinedustry-stone/2
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-silicacand/1
+  ]
+}
+craftTime: 50
+}
 // castironparts
 {
   input: {
@@ -105,6 +119,19 @@ drawer: {
   defaultDrawer: 0 // an index used for generating the icon of this crafter. 
   drawers: [
     // for recipe 0
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawParticles
+        color: 969696
+      }
+    ]
+    }
+ // for recipe 1231231232
     { 
     type: DrawMulti
     drawers: [
