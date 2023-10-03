@@ -20,6 +20,18 @@ ammoTypes: {
   lifetime:280
   splashDamageRadius:35
   splashDamage:75
+		parts: [
+        {
+          type: FlarePart
+          color2: "FFFFFF
+          color1: "A9D8FFFF
+          y: 0
+          followRotation: true
+          stroke: 3
+          radius: 10
+          partProgress: warmup
+        }
+      ]
 	  shootEffect: {
 		 type:MultiEffect
 		 effects:[explosion, smokeCloud]
