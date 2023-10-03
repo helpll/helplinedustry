@@ -6,7 +6,7 @@ fullLightColor:34cceb
 topRegion: -top
 size: 4
 consumes: {
-  powerBuffered: 500
+  powerBuffered: 1000
 }
 category: power
 buildCostMultiplier: 0.8
