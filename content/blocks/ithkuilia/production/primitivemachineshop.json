@@ -2,6 +2,7 @@ type: multicraft.MultiCrafter
 //got that machine shop
 //i think this works
 name: Primitive machine shop
+itemCapacity: 12
 health:  250
 menu: Simple
 size: 2
