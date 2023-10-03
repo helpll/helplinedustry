@@ -4,6 +4,7 @@ conductivePower: true
 emptyLightColor:0f2b30
 fullLightColor:34cceb
 //topRegion: -top
+outputsPower:true
 size: 1
 consumes: {
   powerBuffered: 1000
