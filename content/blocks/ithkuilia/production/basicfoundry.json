@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 //got that basic smelt... i mean foundry
 name: Basic Foundry
+itemCapacity: 24
 health:  400
 menu: Simple
 size: 3
