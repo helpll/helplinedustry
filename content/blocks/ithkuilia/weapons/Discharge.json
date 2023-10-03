@@ -1,0 +1,35 @@
+type: PowerTurret
+name: Discharge
+targetGround: true
+scaledHealth: 100
+size: 2
+inaccuracy: 360
+reload: 1
+shots: 1
+recoilAmount: 10
+shootCone: 360
+rotateSpeed: 0
+recoil: 0
+consumes: {
+  power: 2
+} 
+range: 80
+targetAir: false
+shootType: {
+		type:LightningBulletType
+		damage: 2
+    lightningLength: 20
+		collideTerrain:true
+    collidesAir: false
+    lightningLengthRand: 3
+}
+shoot: {
+ type: shootPattern
+  shots: 10
+  shotDelay: 0
+   }
+requirements: [
+  steel/50
+  siliconcarbide/30
+]
+category: turret
