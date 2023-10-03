@@ -1,0 +1,35 @@
+type: Battery
+conductivePower: true
+size: 4
+consumes: {
+  powerBuffered: 2000
+}
+research: {
+  parent: 0b04-12-plasma-booster
+  objectives: [
+    0b-shock-weaponry
+  ]
+}
+category: power
+buildCostMultiplier: 0.8
+requirements: [
+  dantrales/300
+  territe-alloy/1800
+  baenite/400
+]
+drawer: [
+  {
+  }
+  {
+    type: DrawPower
+    mixcol: false
+  }
+  {
+    type: DrawRegion
+    suffix: -top
+  }
+  {
+    type: DrawGlowRegion
+    color: feb380
+  }
+]
