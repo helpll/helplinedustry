@@ -21,6 +21,19 @@ ammoTypes: {
       scaledSplashDamage:true
 	  trailInterval: 1
 	  trailEffect: smokeCloud
+		parts: [
+        {
+          type: FlarePart
+          color2: FFFFFF
+          color1: A9D8FFFF
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	rotateSpeed: 1
+          partProgress: warmup
+        }
+      ]
 	  shootEffect: {
 		 type:MultiEffect
 		 effects:[explosion, smokeCloud]
