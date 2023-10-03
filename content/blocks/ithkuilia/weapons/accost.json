@@ -23,8 +23,8 @@ ammoTypes: {
 		parts: [
         {
           type: FlarePart
-          color2: "FFFFFF
-          color1: "A9D8FFFF
+          color2: FFFFFF
+          color1: A9D8FFFF
           y: 0
           followRotation: true
           stroke: 3
