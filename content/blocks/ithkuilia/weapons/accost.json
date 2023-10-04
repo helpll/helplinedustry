@@ -71,8 +71,8 @@ amount: 0.65
 y: -4
 }
 ]
-}
 ]
+}
 requirements: [
   iron/80
   steel/15
