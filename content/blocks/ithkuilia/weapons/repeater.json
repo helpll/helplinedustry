@@ -18,10 +18,15 @@ ammoTypes: {
     speed: 25
 		damage: 10
 		shootEffect: lancerLaserShoot
-		collideTerrain:false
+		collideTerrain: true
 		lifetime:10
 	}
 }
+shoot: {
+ type: ShootHelix
+  shots: 2
+  shotDelay: 0
+   }
 requirements: [
   wroughtiron/50
 	castiron/25
