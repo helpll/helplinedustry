@@ -56,7 +56,7 @@ weapons: [
           color2: FFFFFF
           color1: A9D8FFFF
           y: 0
-	  spinSpeed: 10
+	  spinSpeed: 2
           followRotation: true
           stroke: 3
           radius: 20
