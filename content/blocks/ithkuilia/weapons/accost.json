@@ -54,6 +54,34 @@ shoot: {
   shots: 3
   shotDelay: 10
    }
+drawer: {
+type: drawTurret
+parts: [
+{
+type: RegionPart
+suffix: -mid
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 0.65
+}
+y: -4
+}
+]
+progress: {
+type: recoil
+op: blend
+other: recoil
+amount: 0.5
+}
+moveX: 3
+}
+}
+]
+}
 requirements: [
   iron/80
   steel/15
