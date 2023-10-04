@@ -20,7 +20,7 @@ sectorSeed: -4
 startSector: 0
 iconColor: de0000
 parent: sun
-radius: 1.5
+radius: 1.1
 camRadius: 1
 orbitRadius: 90
 orbitOffset: 210
