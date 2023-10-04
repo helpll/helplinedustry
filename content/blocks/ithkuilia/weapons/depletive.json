@@ -30,7 +30,7 @@ ammoTypes: {
           followRotation: false
           stroke: 3
           radius: 20
-	spinSpeed: 10
+	spinSpeed: 2
           partProgress: warmup
         }
       ]
