@@ -15,16 +15,16 @@ targetAir: true
 ammoTypes: {
 	voltite: {
 		type:LaserBoltBulletType
-    speed: 25
+    speed: 5
 		damage: 10
 		shootEffect: lancerLaserShoot
 		collideTerrain: true
-		lifetime:10
+		lifetime:70
 	}
 }
 shoot: {
  type: ShootHelix
-  shots: 2
+  shots: 1
   shotDelay: 0
    }
 requirements: [
