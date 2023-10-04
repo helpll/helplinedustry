@@ -24,6 +24,9 @@ ammoTypes: {
 }
 requirements: [
   wroughtiron/50
+	castiron/25
+	castironparts/25
+	castironplates/50
   siliconcarbide/30
 ]
 category: turret
