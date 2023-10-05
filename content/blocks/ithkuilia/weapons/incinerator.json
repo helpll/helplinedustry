@@ -4,8 +4,8 @@ targetGround: true
 outlines:false
 scaledHealth: 100
 size: 2
-inaccuracy: 5
-reload: 2
+inaccuracy: 0
+reload: 1
 shots: 1
 recoilAmount: 10
 shootCone: 25
@@ -27,8 +27,8 @@ ammoTypes: {
 	}
 }
 shoot: {
- type: shootPattern
-  shots: 8
+ type: ShootHelix
+  shots: 1
   shotDelay: 0
    }
 //drawer: DrawTurret({
