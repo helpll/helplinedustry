@@ -43,6 +43,7 @@ parts: [
 {
 type: RegionPart
 suffix: -lb
+under: true
 moves: [
 	{
 type: PartMove
@@ -69,6 +70,7 @@ y: -5
 {
 type: RegionPart
 suffix: -rb
+under: true
 moves: [
 	{
 type: PartMove
