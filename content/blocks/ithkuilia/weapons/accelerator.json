@@ -29,7 +29,18 @@ ammoTypes: {
 	 }
 		damage: 225
 		shootEffect: instShoot
- //   pointEffect: instTrail
+    pointEffect: {
+		 type:MultiEffect
+		 effects:[instTrail, scatheLight, {
+	type: WaveEffect
+			 colorFrom: 03fce8
+			colorTo: 02427d
+			sides: 6}, {
+	type: ParticleEffect
+			 colorFrom: 03fce8
+			colorTo: 02427d
+			sides: 6}]
+	 }
     length: 250
 		collideTerrain:true
 		lifetime:10
