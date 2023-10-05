@@ -22,7 +22,7 @@ ammoTypes: {
 		damage: 25
 		shootEffect: lancerLaserShoot
 		collideTerrain:false
-		lifetime:20
+		lifetime:40
 		velocityRnd: 0.3
 	}
 }
