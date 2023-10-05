@@ -34,7 +34,7 @@ type: drawTurret
 parts: [
 {
 type: RegionPart
-suffix: -sidebarrel
+suffix: -mid
 moves: [
 {
 type: PartMove
