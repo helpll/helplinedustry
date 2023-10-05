@@ -8,8 +8,8 @@ reload: 125
 recoilAmount: 10
 shootCone: 25
 rotateSpeed: 5
-range: 365
-minRange: 30
+range: 400
+minRange: 50
 targetAir: false
 velocityRnd: 0.2
 //shootSound: rocketlaunch
@@ -19,8 +19,8 @@ ammoTypes: {
 		damage: 75
       knockback: 0.8
   lifetime:280
-  splashDamageRadius:35
-  splashDamage:75
+  splashDamageRadius:40
+  splashDamage:100
 		parts: [
         {
           type: FlarePart
@@ -47,7 +47,7 @@ hitEffect: {
 		 effects:[instBomb, scatheLight, smokeCloud]
 	 }
 	  collideTerrain:false
-  speed: 7
+  speed: 8
 	}
 }
 shoot: {
