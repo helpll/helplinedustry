@@ -28,6 +28,79 @@ shoot: {
   shots: 3
   shotDelay: 0
    }
+drawer: {
+type: drawTurret
+parts: [
+//topleft
+{
+type: RegionPart
+suffix: -tl
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 0.65
+}
+x: -2
+y: 2
+}
+]
+}
+//topright
+{
+type: RegionPart
+suffix: -tr
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 0.65
+}
+x: 2
+y: 2
+}
+]
+}
+//bottomleft
+	{
+type: RegionPart
+suffix: -bl
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 0.65
+}
+x: -2
+y: -2
+}
+]
+}
+//bottomright
+{
+type: RegionPart
+suffix: -tr
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 0.65
+}
+x: 2
+y: -2
+}
+]
+}
+]
+}
 requirements: [
   castiron/25
   silver/30
