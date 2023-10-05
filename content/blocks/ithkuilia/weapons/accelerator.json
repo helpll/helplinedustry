@@ -1,8 +1,10 @@
 type: ItemTurret
 name: Accelerator
 targetGround: true
-outlines:false
+outlines:true
 scaledHealth: 300
+minWarmup: 5
+warmupMaintainTime: 3
 size: 2
 inaccuracy: 5
 reload: 40
@@ -29,7 +31,7 @@ ammoTypes: {
 	 }
 		damage: 225
 		shootEffect: instShoot
-    pointEffect: instTrail
+ //   pointEffect: instTrail
     length: 250
 		collideTerrain:true
 		lifetime:10
@@ -42,6 +44,16 @@ parts: [
 type: RegionPart
 suffix: -lb
 moves: [
+	{
+type: PartMove
+progress: {
+type: warmup
+op: delay
+amount: 0.65
+}
+x: 1
+y: 0
+}
 {
 type: PartMove
 progress: {
@@ -58,6 +70,16 @@ y: -5
 type: RegionPart
 suffix: -rb
 moves: [
+	{
+type: PartMove
+progress: {
+type: warmup
+op: delay
+amount: 0.65
+}
+x: -1
+y: 0
+}
 {
 type: PartMove
 progress: {
