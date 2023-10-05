@@ -2,7 +2,7 @@ type: ItemTurret
 name: Accelerator
 targetGround: true
 outlines:false
-scaledHealth: 100
+scaledHealth: 300
 size: 2
 inaccuracy: 5
 reload: 40
