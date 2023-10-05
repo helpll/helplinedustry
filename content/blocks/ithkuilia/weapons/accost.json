@@ -9,6 +9,7 @@ recoilAmount: 10
 shootCone: 25
 rotateSpeed: 5
 range: 365
+minRange: 30
 targetAir: false
 velocityRnd: 0.2
 //shootSound: rocketlaunch
@@ -23,12 +24,12 @@ ammoTypes: {
 		parts: [
         {
           type: FlarePart
-          color2: FFFFFF
-          color1: A9D8FFFF
+     	color2: ff8d30
+          color1: ffaf59
           y: 0
           followRotation: false
-          stroke: 3
-          radius: 10
+          stroke: 5
+          radius: 15
 		spinSpeed: 5
           partProgress: warmup
         }
