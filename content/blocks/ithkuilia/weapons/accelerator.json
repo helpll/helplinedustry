@@ -3,7 +3,6 @@ name: Accelerator
 targetGround: true
 outlines:true
 scaledHealth: 300
-minWarmup: 5
 warmupMaintainTime: 3
 size: 2
 inaccuracy: 5
