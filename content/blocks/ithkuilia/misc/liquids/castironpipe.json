@@ -1,0 +1,10 @@
+type: Conduit
+name: Cast Iron Pipe
+requirements: [
+  castiron/1
+  castironplate/2
+]
+liquidCapacity: 8
+liquidPressure: 1
+category: liquid
+//junctionReplacement:
