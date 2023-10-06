@@ -39,7 +39,7 @@ moves: [
 {
 type: PartMove
 progress: {
-type: recoil
+type: warmup
 op: delay
 amount: 0.65
 }
@@ -56,7 +56,7 @@ moves: [
 {
 type: PartMove
 progress: {
-type: recoil
+type: warmup
 op: delay
 amount: 0.65
 }
@@ -73,7 +73,7 @@ moves: [
 {
 type: PartMove
 progress: {
-type: recoil
+type: warmup
 op: delay
 amount: 0.65
 }
@@ -90,7 +90,7 @@ moves: [
 {
 type: PartMove
 progress: {
-type: recoil
+type: warmup
 op: delay
 amount: 0.65
 }
