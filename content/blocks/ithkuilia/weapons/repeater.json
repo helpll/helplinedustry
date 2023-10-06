@@ -12,6 +12,7 @@ shootCone: 25
 rotateSpeed: 10
 range: 165
 targetAir: true
+shootSound: blaster
 ammoTypes: {
 	voltite: {
 		type:LaserBoltBulletType
@@ -22,7 +23,6 @@ ammoTypes: {
 		lifetime:70
 		trailInterval: 1
 	  trailEffect: hitLaser
-		shootSound: blaster
 	}
 }
 shoot: {
