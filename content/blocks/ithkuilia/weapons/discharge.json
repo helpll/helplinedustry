@@ -9,6 +9,7 @@ shots: 1
 recoilAmount: 10
 shootCone: 360
 rotateSpeed: 0
+shootY: 0
 recoil: 0
 consumes: {
   power: 2
@@ -25,7 +26,7 @@ shootType: {
 }
 shoot: {
  type: shootPattern
-  shots: 3
+  shots: 2
   shotDelay: 0
    }
 drawer: {
