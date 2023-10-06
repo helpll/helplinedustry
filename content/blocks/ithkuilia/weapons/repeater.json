@@ -20,7 +20,7 @@ ammoTypes: {
 		damage: 10
 		shootEffect: lancerLaserShoot
 		collideTerrain: true
-		lifetime:70
+		lifetime:35
 		trailInterval: 1
 	  trailEffect: hitLaser
 	}
