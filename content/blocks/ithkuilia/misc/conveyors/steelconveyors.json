@@ -6,5 +6,6 @@ requirements: [
   steel/1
 ]
 category: distribution
+junctionReplacement: Intersection
 speed: 0.14
 displayedSpeed: 22
