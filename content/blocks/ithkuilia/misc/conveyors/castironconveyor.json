@@ -6,5 +6,6 @@ requirements: [
   castiron/1
 ]
 category: distribution
+junctionReplacement: Intersection
 speed: 0.07
 displayedSpeed: 10
