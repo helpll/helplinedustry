@@ -28,7 +28,7 @@ shoot: {
  type: ShootHelix
   shots: 1
   shotDelay: 0
-	scl: 8
+	scl: 6
    }
 drawer: {
 type: drawTurret
