@@ -1,0 +1,6 @@
+name: Steam
+temperature: 0.9
+gas: true
+color: c7cdd6
+viscosity: 0.1
+coolant: false
