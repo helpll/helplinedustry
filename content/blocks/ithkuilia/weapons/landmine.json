@@ -17,7 +17,14 @@ bullet: {
 	type:ExplosionBulletType
 	speed: 0
 	damage: 100
-    shootEffect: shootBig
+    shootEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, bigShockwave, massiveExplosion, {
+	type: WaveEffect
+			 colorFrom: 03fce8
+			colorTo: 02427d
+			sides: 6}]
+	 }
 	collideTerrain:false
 	lifetime:500
     killShooter:true
