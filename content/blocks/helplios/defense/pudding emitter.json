@@ -21,12 +21,13 @@ ammoTypes: {
 		hitShake:3
 		pierce:true
 	}
+}
   shoot: {
  type: shootSpread
   shots: 16
   spread: 22.5
    }
-}
+
 requirements: [
 	puddite/50
 	helplium/35
