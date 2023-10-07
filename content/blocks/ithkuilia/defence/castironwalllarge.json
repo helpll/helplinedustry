@@ -1,0 +1,12 @@
+type: Wall
+name: Large Cast Iron wall
+size: 2
+health: 1920
+category:defense
+requirements: [
+	castiron/8
+  castironplates/4
+]
+destructible:true
+chanceDeflect:0.1
+buildTime:0.4
