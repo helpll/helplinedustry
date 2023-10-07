@@ -1,7 +1,7 @@
 type: Wall
 name:shitsteelium wall
 size: 1
-health: 360
+health: 320
 placeEffect: greenCloud
 emitLight: true
 category:defense
