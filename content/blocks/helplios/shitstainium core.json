@@ -7,12 +7,10 @@ category:effect
 requirements: [
 	shitstainium/1000
 ]
-destructible:true
-chanceDeflect:0
 buildTime:5
 isFirstTier: true
 unitType: shitwalker
 itemCapacity: 1500
 seperateItemCapacity: true
 acceptsItems: true
-requiresCoreZone: true
+destructible:true
