@@ -1,0 +1,12 @@
+type: Wall
+name: Cast Iron wall
+size: 1
+health: 480
+category:defense
+requirements: [
+	castiron/2
+  castironplates/1
+]
+destructible:true
+chanceDeflect:0.1
+buildTime:0.2
