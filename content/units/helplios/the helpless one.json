@@ -10,9 +10,9 @@ mineTier: 1
 mineSpeed: 5
 mineRange: 250
 buildRange: 250
-itemCapacity: 300
+itemCapacity: 100
 accel: 0.4
-rotateSpeed: 2
+rotateSpeed: 3
 engineSize:0
 targetGround:true
 targetAir:true
@@ -28,15 +28,17 @@ weapons: [
     y: 0
 	size: 1
     recoil: 10
-    reload: 20
+    reload: 0
     shake: 0
 	shotDelay: 0
     bullet: {
       type: continuousLaserBulletType
-      damage: 6
+      damage: 8
     colors: [fcfcfc, 030303, d4d4d4]
     damageInterval: 10
-    shake: 40
+    shake: 10
+	  width: 5
+	  fadeTime: 2
 	  speed: 3
 	  lifetime: 60
 	  inaccuracy:0
