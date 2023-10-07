@@ -1,1 +1,10 @@
-
+type: Conveyor
+name: shitsteelium conveyor
+health: 80
+placeEffect: greenCloud
+requirements: [
+  shitsteelium/2
+]
+category: distribution
+speed: 0.06
+displayedSpeed: 0.8
