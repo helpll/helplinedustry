@@ -8,6 +8,7 @@ inaccuracy: 3
 placeEffect: spawnShockwave
 reload: 30
 recoilAmount: 1
+shootCone:360
 rotateSpeed: 0
 range: 100
 targetAir: true
