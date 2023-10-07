@@ -9,7 +9,6 @@ requirements: [
   helplium^2/1
 ]
 destructible:true
-chanceDeflect:0
 buildTime:1000
 isFirstTier: false
 unitType: helplglider
