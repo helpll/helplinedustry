@@ -8,7 +8,6 @@ size:3
 inaccuracy: 0
 placeEffect: spawnShockwave
 reload: 150
-shots: 1
 recoilAmount: 1
 shootCone: 50
 rotateSpeed: 4
@@ -17,10 +16,10 @@ targetAir: true
 ammoTypes: {
 	helplium: {
 		type:BasicBulletType
-		speed: 15
-		damage: 80
+		speed: 10
+		damage: 65
 		collideTerrain:false
-		lifetime: 100
+		lifetime: 110
 		pierce:true
 		width:15
 		height: 15
