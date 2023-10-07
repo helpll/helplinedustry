@@ -6,5 +6,5 @@ requirements: [
   shitstainium/2
 ]
 category: distribution
-speed: 0.03
+speed: 0.025
 displayedSpeed: 0.4
