@@ -1,0 +1,25 @@
+type: genericCrafter
+name: shitstainium solidifier
+craftTime: 120
+size: 3
+hasLiquids: false
+itemCapacity: 15
+buildTime: 180
+emitLight:true
+consumes: {
+  items: {
+    items: [
+      shitstainium/10
+      puddite/2
+    ]
+  }
+}
+craftEffect: smokeCloud
+requirements: [
+  puddite/50
+  helplium/25
+  shitstainium/250
+
+]
+category: crafting
+outputItem: shitsteelium/4
