@@ -20,7 +20,7 @@ drawCell:false
 circleTarget:true
 outlines:false
 size:2
-hitsize:500
+hitsize:2500
 weapons: [
   {
 	  name: HELPLESS LAZER
@@ -32,11 +32,12 @@ weapons: [
 	shotDelay: 0
     bullet: {
       type: continuousLaserBulletType
-      damage: 4
+      damage: 2
     colors: [fcfcfc, 030303, d4d4d4]
     damageInterval: 10
     shake: 10
 	  width: 5
+	  length: 200
 	  fadeTime: 2
 	  speed: 3
 	  lifetime: 60
