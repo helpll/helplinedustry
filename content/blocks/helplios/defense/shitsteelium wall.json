@@ -1,0 +1,13 @@
+type: Wall
+name:shitsteelium wall
+size: 1
+health: 360
+placeEffect: greenCloud
+emitLight: true
+category:defense
+requirements: [
+	shitsteelium/3
+]
+destructible:true
+chanceDeflect:0
+buildTime:0.3
