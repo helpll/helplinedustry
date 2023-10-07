@@ -16,3 +16,4 @@ unitType: helplglider
 itemCapacity: 3500
 seperateItemCapacity: true
 acceptsItems: true
+requiresCoreZone: true
