@@ -1,0 +1,46 @@
+type:flying
+name:The Helpless One
+buildSpeed: 0.7
+health: 250
+armor:0
+speed: 1.3
+drag: 0.5
+mineFloor: true
+mineTier: 1
+mineSpeed: 5
+mineRange: 250
+buildRange: 250
+itemCapacity: 300
+accel: 0.4
+rotateSpeed: 2
+engineSize:0
+targetGround:true
+targetAir:true
+drawCell:false
+circleTarget:true
+outlines:false
+size:2
+hitsize:500
+weapons: [
+  {
+	  name: HELPLESS LAZER
+    x: -1
+    y: 0
+	size: 1
+    recoil: 10
+    reload: 20
+    shake: 0
+	shotDelay: 0
+    bullet: {
+      type: continuousLaserBulletType
+      damage: 6
+    colors: [fcfcfc, 030303, d4d4d4]
+    damageInterval: 10
+    shake: 40
+	  speed: 3
+	  lifetime: 60
+	  inaccuracy:0
+	  collideTerrain:true
+    }
+  }
+  ]
