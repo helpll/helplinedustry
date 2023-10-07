@@ -16,7 +16,7 @@ ammoTypes: {
 	helplium: {
 		type:BasicBulletType
 		speed: 10
-		damage: 12
+		damage: 9
 		shootEffect: shootSmall
 		collideTerrain:true
 		lifetime:18
@@ -26,6 +26,6 @@ ammoTypes: {
 }
 requirements: [
 	helplium/35
-	coal/15
+	coal/20
 ]
 category: turret
