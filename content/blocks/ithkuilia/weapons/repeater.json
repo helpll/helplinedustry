@@ -37,6 +37,7 @@ parts: [
 {
 type: RegionPart
 suffix: -mid
+under: true
 moves: [
 {
 type: PartMove
