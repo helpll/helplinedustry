@@ -2,30 +2,33 @@ type: ItemTurret
 name: pudding emitter
 targetGround: true
 outlines:false
-health: 250
+health: 150
 size: 1
 inaccuracy: 3
 placeEffect: spawnShockwave
-reload: 8
-shots: 1
+reload: 30
 recoilAmount: 1
-rotateSpeed: 2
-range: 170
+rotateSpeed: 0
+range: 100
 targetAir: true
 ammoTypes: {
-	helplium: {
+	puddite: {
 		type:BasicBulletType
-		speed: 10
-		damage: 12
-		shootEffect: shootSmall
+		speed: 1
+		damage: 40
 		collideTerrain:true
-		lifetime:18
+		lifetime:60
 		hitShake:3
 		pierce:true
 	}
+  shoot: {
+ type: shootSpread
+  shots: 16
+  spread: 22.5
+   }
 }
 requirements: [
+	puddite/50
 	helplium/35
-	coal/15
 ]
 category: turret
