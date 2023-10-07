@@ -42,15 +42,12 @@ weapons: [
     shake: 0
 	shotDelay: 0
     bullet: {
-      type: flakBulletType
+      type: laserBulletType
       damage: 100
 	  speed: 1.5
     splashDamageRadius: 6
 	  lifetime: 60
 	  inaccuracy:1
-	  flakInterval: 2
-	  explodeDelay: 60
-	  explodeRange: 10
 	  collideTerrain: false
 	   width: 50
 	height: 50
