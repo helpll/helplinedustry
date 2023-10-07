@@ -41,6 +41,31 @@ shoot: {
   shots: 25
   shotDelay: 0
    }
+shoot: {
+ type: shootPattern
+  shots: 3
+  shotDelay: 10
+   }
+drawer: {
+type: drawTurret
+parts: [
+{
+type: RegionPart
+suffix: -mid
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 0.65
+}
+y: -5
+}
+]
+}
+]
+}
 requirements: [
   iron/50
   castiron/60
