@@ -19,7 +19,7 @@ targetAir:true
 drawCell:false
 circleTarget:true
 outlines:false
-size:2
+size:3
 hitsize:500
 weapons: [
   {
@@ -28,15 +28,17 @@ weapons: [
     y: 0
 	size: 1
     recoil: 10
-    reload:30
+    reload:3
 	shotDelay: 0
     bullet: {
       type: laserBoltBulletType
       damage: 50
     frontColor: f5f5f5
     backColor: e8e8e8
-	  speed: 4
-	  lifetime: 50
+	  width: 20
+	  length: 10
+	  speed: 7
+	  lifetime: 20
 	  inaccuracy:0
 	  collideTerrain:true
     }
