@@ -1,7 +1,7 @@
 type: genericCrafter
 name: shitstainium solidifier
 craftTime: 120
-size: 3
+size: 2
 hasLiquids: false
 itemCapacity: 15
 buildTime: 180
