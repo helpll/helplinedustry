@@ -10,7 +10,7 @@ mineFloor: true
 mineTier: 1
 mineSpeed: 3
 mineRange: 250
-buildRange: 400
+buildRange: 250
 itemCapacity: 15
 accel: 0.4
 rotateSpeed: 100
