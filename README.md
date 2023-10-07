@@ -26,4 +26,4 @@ sinpin (wall)
 li (ilo pi tawa ijo) (conveyor)
 
 ***helplios***
-fix units and turrets, shitsludge, more turrets and enemies, gigifying pudditizer, giga puddite, helplium^3
+fix units and turrets, shitsludge, more turrets and enemies, gigifying pudditizer, giga puddite, helplium^3, shitsteelium-puddite router
