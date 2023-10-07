@@ -41,11 +41,6 @@ shoot: {
   shots: 25
   shotDelay: 0
    }
-shoot: {
- type: shootPattern
-  shots: 3
-  shotDelay: 10
-   }
 drawer: {
 type: drawTurret
 parts: [
