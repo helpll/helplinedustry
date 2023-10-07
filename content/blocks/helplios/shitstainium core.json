@@ -15,3 +15,4 @@ unitType: shitwalker
 itemCapacity: 1500
 seperateItemCapacity: true
 acceptsItems: true
+requiresCoreZone: true
