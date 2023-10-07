@@ -7,17 +7,13 @@ this mod is very much unfinished, but it is indeed *playable*...
 # todo
 
 ***Ithkuilia:***
-fix shotcannon sfx (why is it a .wav????), 
 item sink for wrought iron, cast iron, and cast iron plates,
-add some more ground and air units, 
-steel mill and other crafters (mostly done for earlygame), 
+give steam and hyper steel and stuff a use, 
+add some more air units, 
+steel mill and other crafters (mostly done for earlygame-midgame), 
 add the rest of the metals (mostly done), 
-sprites, 
-ores for everything(done for now), 
-color all the items, 
-turret heat sprite, 
-more stuff (add items first),
-turret ides: (insert name for multi-rocket launcher here), (insert name for laser shotgun turret here), cluster (kinda like ripple but better), fancy point defense gun, really long range artillery launcher
+sprites (units and shit), 
+more stuff (add items first)
 
 ***ma pona***
 ponium, tokium
