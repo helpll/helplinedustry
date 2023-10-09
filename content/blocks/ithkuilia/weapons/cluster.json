@@ -1,5 +1,6 @@
 type: ItemTurret
 name: Cluster
+description: Very short range. Fires 25 chunks of iron at enemies. decent, but outdated in later stages.
 targetGround: true
 scaledHealth: 250
 size: 3
