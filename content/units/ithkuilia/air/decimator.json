@@ -33,7 +33,7 @@ spread: 0
     }
   }
 ]
-drawer: [
+parts: [
 		{
 			type:RegionPart
 			suffix: -ring1
