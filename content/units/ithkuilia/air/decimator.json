@@ -62,6 +62,7 @@ parts: [
 			followRotation: false
 			spinSpeed: 1
 			moveRot:360
+			progress: recoil
 			
 		}
 	{
@@ -70,6 +71,7 @@ parts: [
 			followRotation: false
 			spinSpeed: -1
 			 moveRot:-360
+			progress: recoil
 			
 		}
 	{
