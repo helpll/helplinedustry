@@ -33,12 +33,21 @@ spread: 0
     }
   }
 ]
+drawer: [
+		{
+			type:RegionPart
+			suffix: -ring1
+			spinSprite: true
+			
+		}
+	
+]
 health: 48000
 speed: 0.2
 flying: true
 drag: 0.05
 accel: 0.2
-rotateSpeed: 8
+rotateSpeed: 32
 engineSize:0
 omniMovement: true
 targetAir: true
