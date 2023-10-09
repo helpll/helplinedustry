@@ -1,5 +1,6 @@
 type: ItemTurret
 name: Repeater
+description: A powerful general use turret for early game, though it gets weak fast.
 targetGround: true
 outlines:true
 scaledHealth: 100
@@ -29,7 +30,7 @@ shoot: {
  type: ShootHelix
   shots: 1
   shotDelay: 0
-	scl: 6
+	scl: 3
    }
 drawer: {
 type: drawTurret
