@@ -1,6 +1,6 @@
 type: CoreBlock
 name:helplium core
-size: 3
+size: 4
 health: 2000
 emitLight: true
 category:effect
