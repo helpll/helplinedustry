@@ -1,6 +1,6 @@
 type: flying
 name: Decimator
-description: An ancient weapon not used since the ithkuil-toki pona war. Not even the strongest one of its type. Fires antimatter missiles that do extremely heave amounts of damage.
+description: A prototype ancient weapon not used since the ithkuil-toki pona war. Not even the strongest one of its type. Fires antimatter missiles that do extremely large amounts of damage.
 weapons: [
   {
 	  name: antimatter missiles
@@ -13,9 +13,9 @@ weapons: [
 //    shootSound: mgfire
     bullet: {
       	type:MissileBulletType
-		damage: 950
+		damage: 550
       homingPower: 0.3
-      splashDamage:4050
+      splashDamage:1050
       scaledSplashDamage:true
 	  trailInterval: 1
 	  trailEffect: hitLaser
@@ -44,7 +44,7 @@ hitEffect: {
 	 }
     splashDamageRadius: 150
 	  speed: 5
-	  lifetime: 200
+	  lifetime: 150
 	  collideTerrain:false
     }
 shoot: {
