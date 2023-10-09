@@ -49,7 +49,7 @@ hitEffect: {
     }
 shoot: {
  type: ShootHelix
-  shots: 2
+  shots: 1
   shotDelay: 0
 	scl: 6
    }
@@ -83,7 +83,6 @@ parts: [
           stroke: 3
           radius: 20
 	spinSpeed: 0.5
-          partProgress: warmup
 	}
 	
 ]
