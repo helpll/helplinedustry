@@ -45,11 +45,11 @@ hitEffect: {
 	  speed: 5
 	  lifetime: 100
 	  collideTerrain:false
-    shoot: {
- type: shootPattern
-  shots: 10
-  shotDelay: 3
-spread: 0
+   shoot: {
+ type: ShootHelix
+  shots: 1
+  shotDelay: 0
+	scl: 6
    }
     }
   }
