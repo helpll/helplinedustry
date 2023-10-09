@@ -37,7 +37,13 @@ drawer: [
 		{
 			type:RegionPart
 			suffix: -ring1
-			spinSprite: true
+			moveRot: 4
+			
+		}
+	{
+			type:RegionPart
+			suffix: -ring2
+			moveRot: -4
 			
 		}
 	
