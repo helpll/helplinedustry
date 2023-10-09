@@ -46,13 +46,13 @@ hitEffect: {
 	  speed: 5
 	  lifetime: 200
 	  collideTerrain:false
-   shoot: {
+    }
+shoot: {
  type: ShootHelix
   shots: 2
   shotDelay: 0
 	scl: 6
    }
-    }
   }
 ]
 parts: [
@@ -74,23 +74,6 @@ parts: [
 			progress: smoothReload
 			
 		}
-	{
-type: HaloPart
-radius: 12
-tri: true
-//layer: 110
-color: 8ca9e8
-shapeRotation: 180
-followRotation: false
-haloRotateSpeed: -1.7
-haloRadius: 36
-haloRadiusTo: 36
-stroke: 2
-strokeTo: 2
-shapes: 1
-triLengthTo: 6
-triLength: 6
-}
 	{
 	type: FlarePart
           color2: ff8d30
