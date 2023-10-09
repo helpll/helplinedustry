@@ -90,7 +90,7 @@ health: 48000
 speed: 0.2
 flying: true
 drag: 0.05
-accel: 0.2
+accel: 0.05
 rotateSpeed: 0
 engineSize:0
 omniMovement: true
