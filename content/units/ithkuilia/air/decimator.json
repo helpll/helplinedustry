@@ -61,6 +61,7 @@ parts: [
 			suffix: -ring1
 			followRotation: false
 			spinSpeed: 1
+			moveRot:360
 			
 		}
 	{
@@ -68,6 +69,7 @@ parts: [
 			suffix: -ring2
 			followRotation: false
 			spinSpeed: -1
+			 moveRot:-360
 			
 		}
 	{
