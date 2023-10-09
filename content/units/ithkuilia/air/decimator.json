@@ -17,7 +17,7 @@ weapons: [
       splashDamage:4050
       scaledSplashDamage:true
 	  trailInterval: 1
-	  trailEffect: smokeCloud
+	  trailEffect: hitLaser
 		parts: [
         {
           type: FlarePart
