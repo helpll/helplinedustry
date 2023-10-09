@@ -5,25 +5,46 @@ weapons: [
   {
 	  name: antimatter missiles
     x: 0
-	  shootCone: 360
     y: 0
     recoil: 0
     reload: 100
     shake: 4 
 //    shootSound: mgfire
-	  targetFlags: [factory]
     bullet: {
-      type: BombBulletType
-    damage: 25
-      splashDamage:75
+      	type:MissileBulletType
+		damage: 950
+      homingPower: 0.3
+      splashDamage:4050
       scaledSplashDamage:true
-    makeFire: true
-    incendAmount: 5
-	  speed: 0
-	  lifetime: 10
-	  inaccuracy:2
-	  drawSize:60
-	  hitSize:6
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+		parts: [
+        {
+          type: FlarePart
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.5
+          partProgress: warmup
+        }
+      ]
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 50
+	  speed: 5
+	  lifetime: 100
+	  collideTerrain:false
     shoot: {
  type: shootPattern
   shots: 10
@@ -38,14 +59,14 @@ parts: [
 			type:RegionPart
 			suffix: -ring1
 			followRotation: false
-			spinSpeed: 0.25
+			spinSpeed: 1
 			
 		}
 	{
 			type:RegionPart
 			suffix: -ring2
 			followRotation: false
-			spinSpeed: -0.25
+			spinSpeed: -1
 			
 		}
 	{
