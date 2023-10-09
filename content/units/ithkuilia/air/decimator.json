@@ -43,7 +43,7 @@ hitEffect: {
 	 }
     splashDamageRadius: 50
 	  speed: 5
-	  lifetime: 100
+	  lifetime: 200
 	  collideTerrain:false
    shoot: {
  type: ShootHelix
