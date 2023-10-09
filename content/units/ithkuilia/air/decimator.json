@@ -10,7 +10,7 @@ weapons: [
 	  rotate:true
     reload: 100
     shake: 4 
-//    shootSound: mgfire
+    shootSound: antimatterping
     bullet: {
       	type:MissileBulletType
 		damage: 550
