@@ -46,6 +46,22 @@ drawer: [
 			moveRot: -4
 			
 		}
+	{
+type: HaloPart
+radius: 12,
+tri: true,
+layer: 110,
+color: "8ca9e8",
+shapeRotation": 180,
+haloRotateSpeed": -1.7,
+haloRadius": 36,
+haloRadiusTo": 36,
+stroke": 2,
+strokeTo": 2,
+shapes": 1,
+triLengthTo": 6,
+triLength": 6
+},
 	
 ]
 health: 48000
