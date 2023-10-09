@@ -1,5 +1,6 @@
 type: ShockMine
 name: Landmine
+description: One of the worst things you can steap on.
 health: 100
 size: 1
 inaccuracy: 0
