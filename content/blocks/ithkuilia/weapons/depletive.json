@@ -1,5 +1,6 @@
 type: ItemTurret
 name: Depletive
+description: Powerful anti-aircraft system. Obliterates small aircraft, but is very weak against stronger forces.
 targetGround: false
 scaledHealth: 250
 size: 2
