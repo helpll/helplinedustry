@@ -37,31 +37,44 @@ drawer: [
 		{
 			type:RegionPart
 			suffix: -ring1
-			moveRot: 4
+			followRotation: false
+			spinSpeed: 0.25
 			
 		}
 	{
 			type:RegionPart
 			suffix: -ring2
-			moveRot: -4
+			followRotation: false
+			spinSpeed: -0.25
 			
 		}
 	{
 type: HaloPart
-radius: 12,
-tri: true,
-//layer: 110,
-color: "8ca9e8",
-shapeRotation: 180,
-haloRotateSpeed: -1.7,
-haloRadius: 36,
-haloRadiusTo: 36,
-stroke": 2,
-strokeTo": 2,
-shapes": 1,
-triLengthTo": 6,
-triLength": 6
-},
+radius: 12
+tri: true
+//layer: 110
+color: 8ca9e8
+shapeRotation: 180
+haloRotateSpeed: -1.7
+haloRadius: 36
+haloRadiusTo: 36
+stroke: 2
+strokeTo: 2
+shapes: 1
+triLengthTo: 6
+triLength: 6
+}
+	{
+	type: FlarePart
+          color2: ff8d30
+          color1: ffaf59
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.5
+          partProgress: warmup
+	}
 	
 ]
 health: 48000
