@@ -10,8 +10,8 @@ requirements: [
 ]
 destructible:true
 buildTime:1000
-isFirstTier: true
 unitType: helplglider
 itemCapacity: 3500
 seperateItemCapacity: true
 acceptsItems: true
+alwaysReplace: true
