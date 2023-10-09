@@ -1,5 +1,6 @@
 type: ItemTurret
 name: Annihilator
+description: Ridiculously weak turret, has trouble piercing armour. Fires pellets of wrought iron in bursts of 5.
 targetGround: true
 outlines:true
 scaledHealth: 100
