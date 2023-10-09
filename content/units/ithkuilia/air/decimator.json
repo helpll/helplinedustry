@@ -62,7 +62,7 @@ parts: [
 			followRotation: false
 			spinSpeed: 1
 			moveRot:720
-			progress: smoothReload
+			progress: recoil
 			
 		}
 	{
@@ -71,7 +71,7 @@ parts: [
 			followRotation: false
 			spinSpeed: -1
 			 moveRot:-720
-			progress: smoothReload
+			progress: recoil
 			
 		}
 	{
