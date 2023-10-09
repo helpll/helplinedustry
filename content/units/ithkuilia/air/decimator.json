@@ -61,7 +61,7 @@ parts: [
 			suffix: -ring1
 			followRotation: false
 			spinSpeed: 1
-			moveRot:360
+			moveRot:720
 			progress: smoothReload
 			
 		}
@@ -70,7 +70,7 @@ parts: [
 			suffix: -ring2
 			followRotation: false
 			spinSpeed: -1
-			 moveRot:-360
+			 moveRot:-720
 			progress: smoothReload
 			
 		}
