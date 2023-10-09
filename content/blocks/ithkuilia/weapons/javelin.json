@@ -1,5 +1,6 @@
 type: ItemTurret
 name: Javelin
+description: State of the art turret for its price, though not very powerful for long.
 targetGround: true
 scaledHealth: 100
 size: 2
