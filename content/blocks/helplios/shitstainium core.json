@@ -14,3 +14,4 @@ itemCapacity: 1500
 seperateItemCapacity: true
 acceptsItems: true
 destructible:true
+alwaysReplace: true
