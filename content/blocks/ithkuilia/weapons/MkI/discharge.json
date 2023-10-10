@@ -1,5 +1,5 @@
 type: PowerTurret
-name: Discharge
+name: Discharge Mk I
 description: Fires electricity in all directions. burns through power rapidly, but does decent damage.
 targetGround: true
 scaledHealth: 150
