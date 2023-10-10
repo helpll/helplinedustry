@@ -15,6 +15,7 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 # todo
 
 ***Ithkuilia:***  
+balance Decimator to be defeatable with MK II turrets  
 add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI) (Mk I Done) (Mk II Done) (do Mk III)  
 wacky higher tier end game materials   
 give steam and hyper steel and stuff a use  
