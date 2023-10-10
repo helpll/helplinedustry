@@ -1,0 +1,68 @@
+type: ItemTurret
+name: Depletive Mk II
+description: Just like its weaker counterpart, this turret is a strong anti-aircraft system, though with many improvements.
+targetGround: false
+scaledHealth: 300
+size: 2
+inaccuracy: 14
+reload: 225
+shots: 1
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 10
+range: 265
+targetAir: true
+shootSound: rocketlaunch
+ammoTypes: {
+	iron: {
+		type:MissileBulletType
+		damage: 50
+      homingPower: 0.2
+      splashDamage:200
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+		parts: [
+        {
+          type: FlarePart
+          color2: ff8d30
+          color1: ffaf59
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.5
+          partProgress: warmup
+        }
+      ]
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 15
+	  speed: 6
+	  lifetime: 120
+	  collideTerrain:false
+	}
+}
+shoot: {
+ type: shootPattern
+  shots: 10
+  shotDelay: 4
+   }
+requirements: [
+  steel/50
+  castiron/100
+  castironparts/25
+  castironplates/125
+  siliconcarbide/75
+]
+category: turret
