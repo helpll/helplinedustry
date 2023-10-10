@@ -14,7 +14,7 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 
 # todo
 
-***Ithkuilia:***
+***Ithkuilia:***  
 add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI),   
 wacky higher tier end game materials,   
 give steam and hyper steel and stuff a use,  
@@ -24,15 +24,21 @@ add the rest of the metals (mostly done),
 sprites (units and shit),  
 more stuff (add items first)
 
-***ma pona***
-ponium, tokium
-soweli, pipi, akesi, and waso enemies and kijetesantakalu boss
-ilo (ilo pi weka ma) (drill)
-tomo (tomo insa) (core)
-jan (jan pi tomo insa) (core unit)
-utala (ilo utala)(turret)
-sinpin (wall)
-li (ilo pi tawa ijo) (conveyor)
+***ma pona***  
+ponium, tokium  
+soweli, pipi, akesi, and waso enemies and kijetesantakalu boss  
+ilo (ilo pi weka ma) (drill)  
+tomo (tomo insa) (core)  
+jan (jan pi tomo insa) (core unit)  
+utala (ilo utala)(turret)  
+sinpin (wall)  
+li (ilo pi tawa ijo) (conveyor)  
 
-***helplios***
-fix units and turrets, shitsludge, more turrets and enemies, gigifying pudditizer, giga puddite, helplium^3, shitsteelium-puddite router
+***helplios***  
+fix units and turrets,  
+shitsludge,  
+more turrets and enemies,  
+gigifying pudditizer,  
+giga puddite,  
+helplium^3,  
+shitsteelium-puddite router  
