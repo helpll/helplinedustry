@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Cluster MK0
+name: Cluster Mk I
 description: Very short range. Fires 25 chunks of iron at enemies. decent, but outdated in later stages.
 targetGround: true
 scaledHealth: 250
