@@ -1,7 +1,7 @@
 name: "helplinedustry"
 displayName: "helplinedustry"
 author: helpl/DeltaV
-description: "the game is now slightly easier but more complicated"
+description: "Adds a bunch of ridiculous stuff and is very cursed"
 version: "0.1"
 minGameVersion: "136"
 dependencies: ["multi-crafter"]
