@@ -1,6 +1,6 @@
 type: ItemTurret
 description: Long-range artillery, weak and outdated, but cheap and reliable!
-name: Accost MK0
+name: Accost Mk I
 targetGround: true
 scaledHealth: 250
 size: 2
