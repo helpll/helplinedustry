@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Repeater
+name: Repeater MK0
 description: A powerful general use turret for early game, though it gets weak fast.
 targetGround: true
 outlines:true
