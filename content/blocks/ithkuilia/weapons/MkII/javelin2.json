@@ -1,0 +1,71 @@
+type: ItemTurret
+name: Javelin Mk II
+description: Upgraded form of the javelin.
+targetGround: true
+scaledHealth: 150
+size: 2
+inaccuracy: 3
+reload: 35
+shots: 1
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 12
+range: 175
+targetAir: false
+shootSound: flshoot
+ammoTypes: {
+	voltite: {
+		type:LaserBulletType
+		laserEffect: instBomb
+		damage: 30
+		shootEffect: lancerLaserShoot
+		collideTerrain:true
+		lifetime:10
+	}
+}
+drawer: {
+type: drawTurret
+parts: [
+{
+type: RegionPart
+suffix: -left
+moves: [
+{
+type: PartMove
+progress: {
+type: smoothReload
+op: delay
+amount: 0.65
+}
+x: -1
+y: -2
+}
+]
+}
+{
+type: RegionPart
+suffix: -right
+moves: [
+{
+type: PartMove
+progress: {
+type: smoothReload
+op: delay
+amount: 0.65
+}
+x: 1
+y: -2
+}
+]
+}
+]
+}
+requirements: [
+  iron/50
+	stainlesssteel/25
+	steel/45
+	castironparts/20
+	castironplates/50
+  siliconcarbide/40
+]
+category: turret
