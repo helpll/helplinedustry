@@ -5,11 +5,10 @@
 
 this mod is very much unfinished, but it is indeed *playable*...
 
-***ADD mindustry-mod TAG ALREADY!!!***
-
 # todo
 
 ***Ithkuilia:***
+add turret tiers (ex. Javelin MKII or Accost MKVI), 
 item sink for wrought iron, cast iron, and cast iron plates,
 give steam and hyper steel and stuff a use, 
 add some more air units, 
