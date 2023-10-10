@@ -1,0 +1,102 @@
+type: ItemTurret
+description: An upgraded form of the Accost. Deals higher damage in a more concentrated area and is just better overall.
+name: Accost Mk II
+targetGround: true
+scaledHealth: 300
+size: 2
+inaccuracy: 4
+reload: 110
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 5
+range: 400
+minRange: 50
+targetAir: false
+velocityRnd: 0.15
+//shootSound: rocketlaunch
+ammoTypes: {
+	castiron: {
+		type:ArtilleryBulletType
+		damage: 90
+      knockback: 0.9
+  lifetime:290
+  splashDamageRadius:50
+  splashDamage:120
+		parts: [
+        {
+          type: FlarePart
+     	color2: ff8d30
+          color1: ffaf59
+          y: 0
+          followRotation: false
+          stroke: 5
+          radius: 15
+		spinSpeed: 5
+          partProgress: warmup
+        }
+      ]
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+	  collideTerrain:false
+  speed: 8
+	}
+}
+shoot: {
+ type: shootPattern
+  shots: 3
+  shotDelay: 10
+   }
+drawer: {
+type: drawTurret
+parts: [
+{
+type: RegionPart
+suffix: -mid
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 0.65
+}
+y: -4
+}
+]
+}
+  {
+type: RegionPart
+suffix: -mid2
+moves: [
+{
+type: PartMove
+progress: {
+type: warmup
+op: delay
+amount: 0.65
+}
+y: 2
+}
+]
+}
+]
+}
+requirements: [
+  iron/100
+  stainlesssteel/25
+  steel/65
+  castironplates/85
+  siliconcarbide/55
+  castironparts/35
+]
+category: turret
