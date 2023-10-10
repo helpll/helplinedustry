@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Depletive MkI
+name: Depletive Mk I
 description: Powerful anti-aircraft system. Obliterates small aircraft, but is very weak against stronger forces.
 targetGround: false
 scaledHealth: 250
