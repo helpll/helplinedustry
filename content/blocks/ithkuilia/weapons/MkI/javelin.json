@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Javelin
+name: Javelin Mk I
 description: State of the art turret for its price, though not very powerful for long.
 targetGround: true
 scaledHealth: 100
