@@ -6,7 +6,7 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 *stuff below will be fixed to be better later*
 # planets
 
-*Ithkuilia*: everything is extremely overcomplicated and meant to cause as much annoyance as possible.  
+*Ithkuilia*: everything is extremely overcomplicated and meant to cause as much annoyance as possible while remaining playable.  
 *helplios*: everything is very goofy ahh  
 *ma pona*(not started): the opposite of *Ithkuilia*, everything is really easy and straight forward.  
 
@@ -15,13 +15,13 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 # todo
 
 ***Ithkuilia:***  
-add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI),   
-wacky higher tier end game materials,   
-give steam and hyper steel and stuff a use,  
-add some more air units,  
-steel mill and other crafters (mostly done for earlygame-midgame),  
-add the rest of the metals (mostly done),  
-sprites (units and shit),  
+add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI) (Mk I Done) (Mk II Done) (do Mk III)  
+wacky higher tier end game materials   
+give steam and hyper steel and stuff a use  
+add some more air units  
+steel mill and other crafters (mostly done for earlygame-midgame)  
+add the rest of the metals (mostly done)  
+sprites (units and shit)  
 more stuff (add items first)
 
 ***ma pona***  
