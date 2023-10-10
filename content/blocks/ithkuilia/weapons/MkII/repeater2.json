@@ -1,0 +1,64 @@
+type: ItemTurret
+name: Repeater Mk II
+description: An upgraded form of the old repeater.
+targetGround: true
+outlines:true
+scaledHealth: 150
+size: 2
+inaccuracy: 0
+reload: 8
+shots: 1
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 15
+range: 180
+targetAir: true
+shootSound: blaster
+ammoTypes: {
+	voltite: {
+		type:LaserBoltBulletType
+    speed: 6
+		damage: 20
+		shootEffect: lancerLaserShoot
+		collideTerrain: true
+		lifetime:35
+		trailInterval: 1
+	  trailEffect: hitLaser
+	}
+}
+shoot: {
+ type: ShootHelix
+  shots: 1
+  shotDelay: 0
+	scl: 3
+   }
+drawer: {
+type: drawTurret
+parts: [
+{
+type: RegionPart
+suffix: -mid
+under: true
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 0.65
+}
+x: 0
+y: -3
+}
+]
+}
+]
+}
+requirements: [
+  iron/50
+	steel/50
+	castironparts/35
+	castironplates/75
+  siliconcarbide/50
+]
+category: turret
