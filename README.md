@@ -8,7 +8,7 @@ this mod is very much unfinished, but it is indeed *playable*...
 # todo
 
 ***Ithkuilia:***
-add turret tiers (ex. Javelin MKII or Accost MKVI), 
+add turret tiers (ex. Javelin Mk II or Accost Mk VI), 
 item sink for wrought iron, cast iron, and cast iron plates,
 give steam and hyper steel and stuff a use, 
 add some more air units, 
