@@ -1,0 +1,270 @@
+type: multicraft.MultiCrafter
+//got that Intermediat smelt... i mean foundry
+name: Intermediate Foundry
+itemCapacity: 36
+health:  800
+menu: Simple
+size: 4
+hasPower: true
+hasLiquids: false
+recipes:
+[
+  //stainless steel
+  {
+  input: {
+    items: [
+      helplinedustry-steel/2
+      helplinedustry-coal2/1
+      helplinedustry-chromium/2
+    ]
+    power: 3.5
+  }
+output: {
+  items:[
+  helplinedustry-stainlesssteel/2
+  ]
+}
+craftTime: 250
+}
+  //hypersteel
+  {
+  input: {
+    items: [
+      helplinedustry-stainlesssteel/2
+      helplinedustry-voltite/2
+    ]
+    power: 4.5
+  }
+output: {
+  items:[
+  helplinedustry-hypersteel/1
+  ]
+}
+craftTime: 350
+}
+//wrought iron
+  {
+  input: {
+    items: [
+      helplinedustry-rawiron/3
+      helplinedustry-coal2/3
+    ]
+    power: 2.5
+  }
+output: {
+  items:[
+  helplinedustry-wroughtiron/3
+  ]
+}
+craftTime: 50
+}
+//silicon carbide (this is gonna be annoying)
+{
+  input: {
+    items: [
+      helplinedustry-silicasand/2
+      helplinedustry-coal2/2
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-siliconcarbide/2
+  ]
+}
+craftTime: 50
+}
+// aluminum
+{
+  input: {
+    items: [
+      helplinedustry-bauxite/3
+      helplinedustry-coal2/3
+    ]
+    power: 2.5
+  }
+output: {
+  items:[
+  helplinedustry-aluminum/3
+  ]
+}
+craftTime: 60
+}
+// cast iron
+// mmmm we love cast iron around here
+{
+  input: {
+    items: [
+      helplinedustry-wroughtiron/2
+      helplinedustry-coal2/3
+    ]
+    power: 2.5
+  }
+output: {
+  items:[
+  helplinedustry-castiron/2
+  ]
+}
+craftTime: 100
+}
+{
+  input: {
+    items: [
+      helplinedustry-wroughtiron/3
+      helplinedustry-coal2/2
+    ]
+    power: 2.7
+  }
+output: {
+  items:[
+  helplinedustry-iron/2
+  ]
+}
+craftTime: 125
+}
+{
+  input: {
+    items: [
+      helplinedustry-iron/3
+      helplinedustry-coal2/1
+    ]
+    power: 2.9
+  }
+output: {
+  items:[
+  helplinedustry-steel/2
+  ]
+}
+craftTime: 175
+}
+]
+drawer: {
+  type: multicraft.DrawRecipe
+  defaultDrawer: 0 // an index used for generating the icon of this crafter. 
+  drawers: [
+  { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawGlowRegion
+        suffix: -glow
+        color: ff8833
+      }
+    ]
+    }
+{ 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawGlowRegion
+        suffix: -glow
+        color: 33b4ff
+      }
+    ]
+    }
+    // for recipe 0
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawGlowRegion
+        suffix: -glow
+        color: f00511
+      }
+    ]
+    }
+{ 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawGlowRegion
+        suffix: -glow
+        color: ff7c36
+      }
+    ]
+    }//SiC
+    // for recipe 1
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawGlowRegion
+        suffix: -glow
+        color: f7ae25
+      }
+    ]
+    }
+    // for recipe 2
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawGlowRegion
+        suffix: -glow
+        color: ffc336
+      }
+    ]
+    }
+  // for recipe 3
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawGlowRegion
+        suffix: -glow
+        color: ff4400
+      }
+    ]
+    }
+// 4
+ { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawGlowRegion
+        suffix: -glow
+        color: ffbb00
+      }
+    ]
+    }
+  ]
+}
+//cheapo smelter (not even)
+craftEffect: smokeCloud
+requirements: [
+  stonebrick/150
+  iron/25
+  steel/50
+  steelparts/5
+  steelplates/25
+  castironplates/25
+  castironparts/45
+  wroughtiron/35
+  siliconcarbide/50
+  silver/50
+]
+category: crafting
