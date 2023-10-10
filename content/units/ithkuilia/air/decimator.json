@@ -42,9 +42,9 @@ hitEffect: {
 		 type:MultiEffect
 		 effects:[instBomb, scatheLight, smokeCloud]
 	 }
-    splashDamageRadius: 150
+    splashDamageRadius: 100
 	  speed: 5
-	  lifetime: 150
+	  lifetime: 100
 	  collideTerrain:false
     }
 shoot: {
@@ -86,7 +86,7 @@ parts: [
 	}
 	
 ]
-health: 24000
+health: 10000
 speed: 0.2
 flying: true
 drag: 0.05
