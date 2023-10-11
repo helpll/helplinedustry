@@ -10,7 +10,7 @@ shots: 1
 recoilAmount: 10
 shootCone: 25
 rotateSpeed: 10
-range: 265
+range: 275
 targetAir: true
 shootSound: rocketlaunch
 ammoTypes: {
