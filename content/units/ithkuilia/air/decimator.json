@@ -13,9 +13,9 @@ weapons: [
     shootSound: antimatterping
     bullet: {
       	type:MissileBulletType
-		damage: 550
+		damage: 350
       homingPower: 0.3
-      splashDamage:1050
+      splashDamage:850
       scaledSplashDamage:true
 	  trailInterval: 1
 	  trailEffect: hitLaser
@@ -87,10 +87,10 @@ parts: [
 	
 ]
 health: 10000
-speed: 0.2
+speed: 0.3
 flying: true
 drag: 0.05
-accel: 0.05
+accel: 0.1
 rotateSpeed: 0
 engineSize:0
 omniMovement: true
