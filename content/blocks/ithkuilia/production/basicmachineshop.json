@@ -10,6 +10,20 @@ hasPower: true
 hasLiquids: false
 recipes:
 [
+  {
+  input: {
+    items: [
+      helplinedustry-silver/1
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-silverwires/3
+  ]
+}
+craftTime: 150
+}
 //got that slightly less shitty stone
   //this is so slow
   {
@@ -118,6 +132,18 @@ drawer: {
   type: multicraft.DrawRecipe
   defaultDrawer: 0 // an index used for generating the icon of this crafter. 
   drawers: [
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawParticles
+        color: d4d4d4
+      }
+    ]
+    }
     // for recipe 0
     { 
     type: DrawMulti
