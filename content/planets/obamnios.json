@@ -11,9 +11,10 @@ mesh: {
   ]
 }
 bloom: true
-solarSystem: obamnios #whatever this star's file name is
+solarSystem: obamnios
+//whatever this star's file name is
 
-#now, we just link this to the sun, give it a ridiculous orbit radius and pretend it's a new solar system.
+//now, we just link this to the sun, give it a ridiculous orbit radius and pretend it's a new solar system.
 accessible: true
 parent: null
 //orbitRadius: 12000
