@@ -14,6 +14,10 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 
 # todo
 
+***General***
+make sure new system's star works (or just remove it if it doesnt)  
+add planet sectiors  
+
 ***Ithkuilia:***  
 balance Decimator to be defeatable with MK II turrets  
 add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI) (Mk I Done) (Mk II Done) (do Mk III)  
