@@ -1,5 +1,5 @@
 type: ItemTurret
-description: Even better form of the accost. Artillery shells fragment on impact
+description: Even better form of the accost. Artillery shells fire beams of energy in all directions on collision.
 name: Accost Mk III
 targetGround: true
 scaledHealth: 350
@@ -25,8 +25,6 @@ ammoTypes: {
 		parts: [
         {
           type: FlarePart
-     	color2: ff8d30
-          color1: ffaf59
           y: 0
           followRotation: false
           stroke: 6
@@ -100,11 +98,11 @@ y: 2
 ]
 }
 requirements: [
-  iron/100
-  stainlesssteel/25
-  steel/65
-  castironplates/85
+  steel/125
+  hypersteel/25
+  stainlesssteel/65
+  steelplates/85
   siliconcarbide/55
-  castironparts/35
+  steelparts/35
 ]
 category: turret
