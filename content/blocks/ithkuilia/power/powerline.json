@@ -10,7 +10,7 @@ itemCapacity: 0
 emitLight:true
 conductivePower: true
 requirements: [
-  silver/1
+  silverwires/1
   castiron/3
 
 ]
