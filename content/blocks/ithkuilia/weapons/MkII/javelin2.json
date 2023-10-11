@@ -67,5 +67,6 @@ requirements: [
 	castironparts/20
 	castironplates/50
   siliconcarbide/40
+	silverwires/75
 ]
 category: turret
