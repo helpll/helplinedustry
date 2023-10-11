@@ -1,0 +1,7 @@
+type: item
+name: Ampite
+description: Known to most as "surge alloy" but the different synthesis method we use on ithkuilia allow for it to be more powerful than ever.
+//hardness: 2
+explosiveness: 1
+radioactivity: 0.5
+charge: 3
