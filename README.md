@@ -14,7 +14,7 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 
 # todo
 
-***General***
+***General***  
 make sure new system's star works (or just remove it if it doesnt)  
 add planet sectiors  
 
