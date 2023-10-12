@@ -1,0 +1,76 @@
+type: ItemTurret
+name: Javelin Mk III
+description: Even farther upgraded form of the Javelin. Fires 3 lasers at once.
+targetGround: true
+scaledHealth: 200
+size: 2
+inaccuracy: 2
+reload: 45
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 15
+range: 175
+targetAir: false
+shootSound: flshoot
+ammoTypes: {
+	voltite: {
+		type:LaserBulletType
+		laserEffect: instBomb
+		damage: 20
+		shootEffect: lancerLaserShoot
+		collideTerrain:true
+		lifetime:10
+	}
+}
+  shoot: {
+ type: shootSpread
+  shots: 3
+  spread: 22.5
+   }
+drawer: {
+type: drawTurret
+parts: [
+{
+type: RegionPart
+suffix: -left
+moves: [
+{
+type: PartMove
+progress: {
+type: smoothReload
+op: delay
+amount: 0.65
+}
+x: -1
+y: -2
+}
+]
+}
+{
+type: RegionPart
+suffix: -right
+moves: [
+{
+type: PartMove
+progress: {
+type: smoothReload
+op: delay
+amount: 0.65
+}
+x: 1
+y: -2
+}
+]
+}
+]
+}
+requirements: [
+  steel/50
+	hypersteel/25
+	stainlesssteel/50
+	steelparts/20
+	steelplates/50
+  siliconcarbide/50
+	silverwires/80
+]
+category: turret
