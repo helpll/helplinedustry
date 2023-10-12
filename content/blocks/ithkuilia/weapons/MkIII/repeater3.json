@@ -1,0 +1,77 @@
+type: ItemTurret
+name: Repeater Mk III
+description: Fires fragmenting bullets
+targetGround: true
+outlines:true
+scaledHealth: 150
+size: 2
+inaccuracy: 0
+reload: 8
+shots: 1
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 15
+range: 180
+targetAir: true
+shootSound: blaster
+ammoTypes: {
+	voltite: {
+		type:LaserBoltBulletType
+    speed: 7
+		damage: 30
+		shootEffect: lancerLaserShoot
+		collideTerrain: true
+		lifetime:30
+		trailInterval: 1
+	  trailEffect: hitLaser
+    fragBullets:8
+fragBullet:{
+		type:LaserBoltBulletType
+    speed: 10
+		damage: 10
+		shootEffect: lancerLaserShoot
+		collideTerrain: true
+		lifetime:5
+		trailInterval: 1
+	  trailEffect: hitLaser
+    
+	}
+	}
+}
+shoot: {
+ type: ShootHelix
+  shots: 1
+  shotDelay: 0
+	scl: 3
+   }
+drawer: {
+type: drawTurret
+parts: [
+{
+type: RegionPart
+suffix: -mid
+under: true
+moves: [
+{
+type: PartMove
+progress: {
+type: recoil
+op: delay
+amount: 0.65
+}
+x: 0
+y: -3
+}
+]
+}
+]
+}
+requirements: [
+  steel/50
+	stainlesssteel/50
+	steelparts/50
+	steelplates/50
+  siliconcarbide/75
+	silverwires/125
+]
+category: turret
