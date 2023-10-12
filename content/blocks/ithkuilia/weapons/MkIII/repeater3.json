@@ -67,6 +67,7 @@ y: -3
 ]
 }
 requirements: [
+	hypersteel/25
   steel/50
 	stainlesssteel/50
 	steelparts/50
