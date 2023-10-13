@@ -48,7 +48,7 @@ mesh: [
     //mesh size - 1 is serpulo
     radius: 1
     //first colour to use 
-    color1: 5e5e5e
+    color1: 383838
     //second
     color2: 8f8f8f
     //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
