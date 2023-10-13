@@ -54,7 +54,7 @@ mesh: [
     //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
     octaves: 1
     persistence: 0.01
-    scale: 0.01
+    scale: 1
     mag: 1
     //these control how the two colours behave on the mesh
     coct: 1
@@ -96,8 +96,8 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 1.2
-    color1: 545454
-    color2: 363636
+    color1: 4e7278
+    color2: 688e94
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
