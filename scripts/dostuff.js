@@ -5,8 +5,8 @@ Events.on(UnitDestroyEvent, event => {
     Vars.ui.hudfrag.showToast("Skill issue");
   }
 })
-Events.on(ResearchEvent, event => {
+//Events.on(ResearchEvent, event => {
   
-    Vars.ui.hudfrag.showToast("Nice");
+ //   Vars.ui.hudfrag.showToast("Nice");
   
-})
+//})
