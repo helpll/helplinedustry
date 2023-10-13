@@ -16,6 +16,7 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 
 ***General***  
 add planet sectiors  
+*how tf do i use js scripting???*
 
 ***Ithkuilia:***  
 balance new turrets  
