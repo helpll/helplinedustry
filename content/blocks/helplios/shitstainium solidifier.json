@@ -9,10 +9,11 @@ emitLight:true
 consumes: {
   items: {
     items: [
-      shitstainium/10
-      puddite/2
+      shitstainium/8
+      puddite/1
     ]
   }
+  power: 5
 }
 craftEffect: smokeCloud
 requirements: [
