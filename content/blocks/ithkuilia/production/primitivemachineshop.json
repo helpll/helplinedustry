@@ -159,9 +159,9 @@ drawer: {
 //cheapo smelter
 craftEffect: smokeCloud
 requirements: [
-  stone/70
-  castiron/30
-  wroughtiron/25
-  silver/20
+  stone/50
+  castiron/20
+  wroughtiron/15
+  silver/10
 ]
 category: crafting
