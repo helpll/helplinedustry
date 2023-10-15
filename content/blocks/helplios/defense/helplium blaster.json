@@ -10,7 +10,7 @@ reload: 8
 shots: 1
 recoilAmount: 1
 rotateSpeed: 2
-range: 170
+range: 190
 targetAir: true
 ammoTypes: {
 	helplium: {
