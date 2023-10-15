@@ -11,9 +11,9 @@ consumeAmmoOnce: true
 status: burning
 statusDuration: 360
 recoilAmount: 1
-shootCone: 55
-rotateSpeed: 3
-range: 135
+shootCone: 30
+rotateSpeed: 4
+range: 150
 targetAir: true
 ammoTypes: {
 	shitstainium: {
@@ -23,11 +23,11 @@ ammoTypes: {
 		shootEffect: smokePuff
 		collideTerrain:true
 		splashDamage: 1
-   		frontColor: 6b4d27
-		backColor: 6b4d27
-		width: 25
-		height: 25
-		lifetime:90
+   		frontColor: 332409
+		backColor: 94500c
+		width: 15
+		height: 15
+		lifetime:85
 		hitShake:3
 		pierce:true
 }	
@@ -35,7 +35,7 @@ ammoTypes: {
   shoot: {
  type: shootSpread
   shots: 32
-  spread: 7
+  spread: 2
    }
 requirements: [
 	shitstainium/100
