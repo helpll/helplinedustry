@@ -77,11 +77,11 @@ y: -4
 ]
 }
 requirements: [
-  iron/80
-  steel/15
+  iron/30
+  steel/10
   castiron/65
-  castironplates/85
-  siliconcarbide/45
-  castironparts/30
+  castironplates/50
+  siliconcarbide/35
+  castironparts/20
 ]
 category: turret
