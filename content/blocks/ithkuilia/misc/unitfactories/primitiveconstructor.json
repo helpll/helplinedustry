@@ -20,10 +20,11 @@ plans: [
     unit: varitive
     time: 360
     requirements: [
-      castiron/45
-      castironplates/25
+      castiron/25
+      castironplates/10
 	  castironparts/3
-	  wroughtiron/30
+	  aluminum/25
+	aluminumplates/20
 	  siliconcarbide/30
     ]
   }
