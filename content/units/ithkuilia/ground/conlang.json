@@ -14,11 +14,12 @@ legForwardScl: 1.1
 legBaseOffset: 5
 legExtension: 2
 lockLegBase: true
+itemCapacity: 250
 health: 300
-mineSpeed: 8
+mineSpeed: 12
 mineTier: 1
-buildSpeed: 1
-armor:20
+buildSpeed: 2
+armor:30
 speed: 0.7
 drag: 0.3
 accel: 0.5
