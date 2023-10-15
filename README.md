@@ -26,6 +26,7 @@ wacky higher tier end game materials
 give steam and hyper steel and stuff a use  
 create sector "Operation: Balls" for ithkuilia (do the rest later)  
 more bosses  
+sector idea: you get bombed by offscreen artillery constantly  
 add some more air units  
 add intermediate machine shop  
 add the rest of the metals (mostly done)  
