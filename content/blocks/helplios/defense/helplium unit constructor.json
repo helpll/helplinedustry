@@ -1,5 +1,5 @@
 type: UnitFactory
-name:helplium contstructor
+name:helplium unit contstructor
 size: 3
 consumes: {
   power: 3
