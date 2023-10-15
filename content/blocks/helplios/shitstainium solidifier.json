@@ -1,6 +1,6 @@
 type: genericCrafter
 name: shitstainium solidifier
-craftTime: 120
+craftTime: 100
 size: 2
 hasLiquids: false
 itemCapacity: 15
@@ -13,7 +13,7 @@ consumes: {
       puddite/1
     ]
   }
-  power: 5
+  power: 3
 }
 craftEffect: smokeCloud
 requirements: [
