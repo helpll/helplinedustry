@@ -16,7 +16,7 @@ legExtension: 2
 lockLegBase: true
 itemCapacity: 250
 health: 300
-mineSpeed: 12
+mineSpeed: 16
 mineTier: 1
 buildSpeed: 2
 armor:30
