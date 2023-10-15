@@ -1,4 +1,4 @@
-type:groundUnit
+type:ground
 name:Helplungi
 buildSpeed: 0.5
 health: 150
