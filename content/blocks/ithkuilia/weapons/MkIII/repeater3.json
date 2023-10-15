@@ -18,7 +18,7 @@ ammoTypes: {
 	voltite: {
 		type:LaserBoltBulletType
     speed: 7
-		damage: 30
+		damage: 50
 		shootEffect: lancerLaserShoot
 		collideTerrain: true
 		lifetime:30
@@ -28,7 +28,7 @@ ammoTypes: {
 fragBullet:{
 		type:LaserBoltBulletType
     speed: 10
-		damage: 10
+		damage: 20
 		shootEffect: lancerLaserShoot
 		collideTerrain: true
 		lifetime:5
