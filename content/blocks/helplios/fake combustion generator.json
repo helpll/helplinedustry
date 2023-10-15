@@ -12,7 +12,7 @@ itemCapacity: 2
 emitLight:true
 outputsPower: true
 conductivePower: true
-powerProduction: 2
+powerProduction: 3
 consumes: {
   items: {
     items: [
