@@ -1,9 +1,9 @@
 type:legs
 name:mitochondira
 buildSpeed: 0.5
-health: 50
+health: 120
 armor:0
-speed: 2.5
+speed: 3
 drag: 0.5
 legCount: 4
 mineFloor: true
@@ -25,7 +25,7 @@ legPhysicsLayer: 100
 size:2
 hitsize:500
 legGroupSize:1
-legSpeed:2
+legSpeed:10
 legMaxLength:1
 legMinLength:3.5
 lockLegBase:true
@@ -33,7 +33,7 @@ legBaseOffset:1
 legContinuousMove:true
 weapons: [
   {
-	  name: Shitshot69
+	  name: fuckyoubitch
     x: -1
     y: 0
 	size: 1
@@ -42,6 +42,7 @@ weapons: [
     bullet: {
       type: explosionBulletType
       splashDamage: 80
+	  damage: 80
     splashDamageRadius: 5
     splashDamagePierce:true
 	  speed: 3
