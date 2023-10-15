@@ -18,7 +18,7 @@ health: 300
 mineSpeed: 8
 mineTier: 1
 buildSpeed: 1
-armor:40
+armor:20
 speed: 0.7
 drag: 0.3
 accel: 0.5
@@ -45,7 +45,7 @@ weapons: [
     bullet: {
       type: MissileBulletType
       damage: 0
-      homingPower: 0.1
+      homingPower: 0.2
       splashDamage:50
       scaledSplashDamage:true
 	  trailInterval: 1
@@ -57,7 +57,7 @@ weapons: [
           color1: A9D8FFFF
           y: 0
 	  spinSpeed: 0.5
-          followRotation: true
+          followRotation: false
           stroke: 3
           radius: 20
           partProgress: warmup
@@ -75,15 +75,15 @@ hitEffect: {
 		 type:MultiEffect
 		 effects:[instBomb, scatheLight, smokeCloud]
 	 }
-    splashDamageRadius: 5
+    splashDamageRadius: 25
 	  speed: 5
 	  lifetime: 50
 	  inaccuracy:2
 	  collideTerrain:true
   width: 1
   height: 2
-weaveMag: 2
-weaveScale: 2
+weaveMag: 4
+weaveScale: 4
     }
   shoot: {
  type: shootPattern
