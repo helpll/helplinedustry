@@ -4,7 +4,7 @@ buildSpeed: 0.7
 health: 250
 armor:0
 speed: 1.5
-drag: 0.5
+drag: 0.1
 mineFloor: true
 mineTier: 1
 mineSpeed: 5
@@ -12,7 +12,7 @@ mineRange: 250
 buildRange: 250
 itemCapacity: 100
 accel: 0.4
-rotateSpeed: 3
+rotateSpeed: 5
 engineSize:0
 targetGround:true
 targetAir:true
@@ -28,17 +28,17 @@ weapons: [
     y: 0
 	size: 1
     recoil: 10
-    reload:3
+    reload:2
 	shotDelay: 0
     bullet: {
       type: laserBoltBulletType
-      damage: 50
+      damage: 8
     frontColor: f5f5f5
     backColor: e8e8e8
 	  width: 20
-	  length: 10
+	  length: 4
 	  speed: 7
-	  lifetime: 20
+	  lifetime: 30
 	  inaccuracy:0
 	  collideTerrain:true
     }
