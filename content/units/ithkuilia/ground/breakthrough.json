@@ -14,7 +14,7 @@ legForwardScl: 1.1
 legBaseOffset: 5
 legExtension: 2
 lockLegBase: true
-health: 200
+health: 300
 mineSpeed: 8
 mineTier: 1
 buildSpeed: 1
@@ -40,13 +40,13 @@ weapons: [
     x: -8
     y: -5
     recoil: 0
-    reload: 100
+    reload: 75
     shake: 1
 	   shootSound: mgfire
      alternate: false
     bullet: {
       type: BasicBulletType
-      damage: 5
+      damage: 10
 	  speed: 23
 	  lifetime: 5
 	  inaccuracy:2
