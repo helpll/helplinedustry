@@ -1,0 +1,54 @@
+type:legs
+name:mitochondira
+buildSpeed: 0.5
+health: 50
+armor:0
+speed: 2.5
+drag: 0.5
+legCount: 4
+mineFloor: true
+mineTier: 1
+mineSpeed: 3
+mineRange: 250
+buildRange: 250
+itemCapacity: 15
+accel: 0.4
+rotateSpeed: 100
+engineSize:0
+targetGround:true
+targetAir:true
+drawCell:false
+circleTarget:true
+outlines:false
+legLength:3.5
+legPhysicsLayer: 100
+size:2
+hitsize:500
+legGroupSize:1
+legSpeed:2
+legMaxLength:1
+legMinLength:3.5
+lockLegBase:true
+legBaseOffset:1
+legContinuousMove:true
+weapons: [
+  {
+	  name: Shitshot69
+    x: -1
+    y: 0
+	size: 1
+    shake: 0
+	shotDelay: 20
+    bullet: {
+      type: explosionBulletType
+      splashDamage: 80
+    splashDamageRadius: 5
+    splashDamagePierce:true
+	  speed: 3
+	  lifetime: 60
+	  collideTerrain:true
+	   width: 15
+	height: 15
+    }
+  }
+  ]
