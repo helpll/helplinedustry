@@ -23,7 +23,7 @@ parent: sun
 radius: 1.3
 camRadius: 1
 orbitRadius: 90
-orbitOffset: 210
+orbitOffset: 24
 //broken, will have to ask for a bugfix
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
