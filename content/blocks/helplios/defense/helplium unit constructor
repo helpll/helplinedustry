@@ -1,0 +1,45 @@
+type: UnitFactory
+name:helplium contstructor
+size: 3
+consumes: {
+  power: 3
+}
+plans: [
+  {
+    unit: helplungi
+    time: 360
+    requirements: [
+      helplium/40
+      coal/20
+    ]
+  }
+  {
+    unit: shitwalker
+    time: 720
+    requirements: [
+	  shitstainium/120
+    ]
+  }
+  {
+    unit: shitglob
+    time: 720
+    requirements: [
+    shitstainium/500
+	  puddite/50
+    ]
+  }
+  {
+    unit: the helpless one
+    time: 2000
+    requirements: [
+    helplium^2/1
+	  puddite/100
+    ]
+  }
+
+]
+requirements: [
+  puddite/30
+  helplium/80
+]
+category: units
