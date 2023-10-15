@@ -7,7 +7,7 @@ scaledHealth: 100
 size: 1
 radius: 101.7
 sides: 30
-shieldHealth: 500
+shieldHealth: 250
 cooldownNormal: 2
 cooldownBrokenBase: 0.35
 consumesPower: true
@@ -30,9 +30,8 @@ drawer: {
     ]
 }
 requirements: [
-  castiron/75
-iron/25
-castironparts/50
+  castiron/35
+castironparts/10
   siliconcarbide/30
 ]
 category:defense
