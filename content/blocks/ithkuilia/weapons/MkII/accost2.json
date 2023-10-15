@@ -92,9 +92,9 @@ y: 2
 ]
 }
 requirements: [
-  iron/100
+  iron/75
   stainlesssteel/25
-  steel/65
+  steel/50
   castironplates/85
   siliconcarbide/55
   castironparts/35
