@@ -22,18 +22,20 @@ plans: [
   }
   {
     unit: shitglob
-    time: 720
+    time: 1000
     requirements: [
     shitstainium/500
-	  puddite/50
+	  puddite/200
+	  shitsteelium/50
     ]
   }
   {
     unit: the helpless one
-    time: 2000
+    time: 1500
     requirements: [
-    helplium^2/1
+    helplium^2/2
 	  puddite/100
+	    shitsteelium/200
     ]
   }
 
