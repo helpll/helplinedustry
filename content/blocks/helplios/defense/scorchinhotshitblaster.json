@@ -18,24 +18,24 @@ targetAir: true
 ammoTypes: {
 	shitstainium: {
 		type: basicBulletType
-		speed: 2
-		damage: 3
+		speed: 2.5
+		damage: 4
 		shootEffect: smokePuff
 		collideTerrain:true
 		splashDamage: 1
    		frontColor: 332409
 		backColor: 94500c
-		width: 15
-		height: 15
+		width: 12
+		height: 12
 		lifetime:85
 		hitShake:3
-		pierce:true
+		pierce:false
 }	
 }
   shoot: {
  type: shootSpread
-  shots: 32
-  spread: 2
+  shots: 25
+  spread: 1
    }
 requirements: [
 	shitstainium/100
