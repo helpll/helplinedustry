@@ -17,7 +17,7 @@ ammoTypes: {
 	voltite: {
 		type:LaserBulletType
 		laserEffect: instBomb
-		damage: 20
+		damage: 40
 		shootEffect: lancerLaserShoot
 		collideTerrain:true
 		lifetime:10
