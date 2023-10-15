@@ -1,8 +1,8 @@
 type:legs
 name:Shitglob
 buildSpeed: 1
-health: 1500
-armor:5
+health: 1200
+armor:4
 speed: 0.7
 drag: 0.5
 legCount: 5
@@ -38,15 +38,15 @@ weapons: [
     y: 0
 	size: 1
     recoil: 10
-    reload: 120
+    reload: 150
     shake: 0
 	shotDelay: 0
     bullet: {
       type: laserBulletType
-      damage: 100
+      damage: 120
 	  speed: 1.5
     splashDamageRadius: 6
-	  lifetime: 60
+	  lifetime: 120
 	  inaccuracy:1
 	  collideTerrain: false
 	   width: 50
