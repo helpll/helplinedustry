@@ -2,7 +2,7 @@ type: UnitFactory
 name: Primitive Constructor
 size: 3
 consumes: {
-  power: 7
+  power: 3
 }
 plans: [
   {
