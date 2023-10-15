@@ -20,14 +20,14 @@ targetAir:true
 drawCell:false
 circleTarget:true
 outlines:false
-legLength:3.5
+legLength:1
 legPhysicsLayer: 100
 size:2
 hitsize:500
 legGroupSize:1
-legSpeed:10
-legMaxLength:1
-legMinLength:3.5
+legSpeed:7
+legMaxLength:2
+legMinLength:1
 lockLegBase:true
 legBaseOffset:1
 legContinuousMove:true
