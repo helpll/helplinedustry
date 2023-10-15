@@ -3,7 +3,7 @@ name: Rotary drill
 discription: A simple early game drill
 tier: 2
 health: 750
-drillTime: 500
+drillTime: 250
 size: 2
 hasPower: false
 rotateSpeed: 15
