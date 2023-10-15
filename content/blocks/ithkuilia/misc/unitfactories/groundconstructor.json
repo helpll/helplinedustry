@@ -1,5 +1,5 @@
 type: UnitFactory
-name: Ground constructor
+name: Primitive Constructor
 size: 3
 consumes: {
   power: 7
@@ -14,6 +14,17 @@ plans: [
 	  castironparts/5
 	  wroughtiron/25
 	  siliconcarbide/35
+    ]
+  }
+	  {
+    unit: varitive
+    time: 360
+    requirements: [
+      castiron/45
+      castironplates/25
+	  castironparts/3
+	  wroughtiron/30
+	  siliconcarbide/30
     ]
   }
 ]
