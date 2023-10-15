@@ -15,7 +15,7 @@ legBaseOffset: 5
 legExtension: 2
 lockLegBase: true
 targetFlags: [generator]
-health: 300
+health: 500
 armor:10
 speed: 0.4
 drag: 0.3
@@ -76,7 +76,7 @@ weaveScale: 2
     x: 2
     y: 0
     recoil: 0
-    reload: 100
+    reload: 75
     shake: 1
 	velocityRnd: 0.2
 	shootSound: shotcannon
