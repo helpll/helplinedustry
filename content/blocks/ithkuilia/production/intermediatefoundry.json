@@ -62,7 +62,7 @@ craftTime: 50
 {
   input: {
     items: [
-      helplinedustry-silicasand/2
+      helplinedustry-silicasand/1
       helplinedustry-coal2/2
     ]
     power: 2
@@ -256,7 +256,7 @@ drawer: {
 //cheapo smelter (not even)
 craftEffect: smokeCloud
 requirements: [
-  stonebrick/150
+  stonebrick/100
   iron/25
   steel/50
   steelparts/5
