@@ -19,7 +19,7 @@ ammoTypes: {
 	shitstainium: {
 		type: basicBulletType
 		speed: 2
-		damage: 10
+		damage: 3
 		shootEffect: smokePuff
 		collideTerrain:true
 		splashDamage: 1
@@ -30,13 +30,13 @@ ammoTypes: {
 		lifetime:90
 		hitShake:3
 		pierce:true
+}	
+}
   shoot: {
  type: shootSpread
-  shots: 9
+  shots: 32
   spread: 7
    }
-}
-}
 requirements: [
 	shitstainium/100
 	coal/35
