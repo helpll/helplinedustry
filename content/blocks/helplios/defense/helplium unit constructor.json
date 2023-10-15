@@ -7,9 +7,9 @@ consumes: {
 plans: [
   {
     unit: helplungi
-    time: 360
+    time: 720
     requirements: [
-      helplium/40
+      helplium/30
       coal/20
     ]
   }
@@ -17,7 +17,7 @@ plans: [
     unit: shitwalker
     time: 720
     requirements: [
-	  shitstainium/120
+	  shitstainium/100
     ]
   }
   {
@@ -33,9 +33,9 @@ plans: [
     unit: the helpless one
     time: 1500
     requirements: [
-    helplium^2/2
+    helplium^2/5
 	  puddite/100
-	    shitsteelium/200
+	    shitsteelium/300
     ]
   }
 
