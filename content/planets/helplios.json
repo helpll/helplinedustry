@@ -22,7 +22,7 @@ iconColor: ffffff
 parent: sun
 radius: 1
 camRadius: 1
-orbitRadius: 250
+orbitRadius: 200
 orbitOffset: 210
 //broken, will have to ask for a bugfix
 atmosphereRadIn: 0
