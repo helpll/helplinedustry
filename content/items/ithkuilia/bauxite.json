@@ -2,3 +2,4 @@ type: item
 name: Bauxite
 description: Basically just Aluminum ore, not useful for anything other than making Aluminum.
 hardness: 2
+research: stone
