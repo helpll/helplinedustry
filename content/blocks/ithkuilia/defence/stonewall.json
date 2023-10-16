@@ -9,3 +9,4 @@ requirements: [
 destructible:true
 chanceDeflect:0
 buildTime:0.1
+research: Stronghold
