@@ -166,3 +166,4 @@ requirements: [
 ]
 category: crafting
 research: primitivefoundry
+researchCostMultiplier:0.1
