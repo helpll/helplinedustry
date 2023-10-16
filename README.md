@@ -24,7 +24,6 @@ add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI) (Mk I Done
 implement uranium and crafting voltite and such  
 wacky higher tier end game materials   
 give steam and hyper steel and stuff a use  
-create sector "Operation: Balls" for ithkuilia (do the rest later)  
 more bosses  
 sector idea: you get bombed by offscreen artillery constantly  
 add some more air units  
