@@ -250,3 +250,4 @@ requirements: [
 ]
 category: crafting
 research: primitivemachineshop
+researchCostMultiplier:0.3
