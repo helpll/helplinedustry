@@ -10,3 +10,4 @@ requirements: [
 destructible:true
 chanceDeflect:0.1
 buildTime:0.2
+research: stonewall
