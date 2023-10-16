@@ -11,3 +11,4 @@ speed: 0.07
 displayedSpeed: 10
 
 research:Stronghold
+researchCostMultiplier:0.05
