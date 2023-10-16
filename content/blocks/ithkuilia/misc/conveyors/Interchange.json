@@ -9,3 +9,4 @@ requirements: [
 ] 
 category: distribution
 research: Intersection
+researchCostMultiplier:0.1
