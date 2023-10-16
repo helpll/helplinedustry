@@ -1,0 +1,6 @@
+localizedName: Flatlands
+description: This sector is weakly defended, but will likely be bombed in order to slow your expansion.
+sector: 1
+planet: ithkuilia
+difficulty: 5
+research: operationballs
