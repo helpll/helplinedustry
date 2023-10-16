@@ -1,3 +1,4 @@
 type: item
 name: Stone
-description: A pile of mostly uncut rocks. Only really useful for primitive smelteries.
+description: A pile of mostly uncut rocks.
+research: Stronghold
