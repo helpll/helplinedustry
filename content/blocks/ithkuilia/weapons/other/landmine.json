@@ -48,6 +48,7 @@ requirements: [
   steel/10
 ]
 category: turret
+research: annihilator
 
 //, WaveEffect{
 	//		 colorFrom: 03fce8
