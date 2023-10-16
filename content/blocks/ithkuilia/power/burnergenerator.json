@@ -40,3 +40,4 @@ requirements: [
 ]
 category: power
 research: Stronghold
+researchCostMultiplier:0.1
