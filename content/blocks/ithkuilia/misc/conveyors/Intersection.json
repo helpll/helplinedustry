@@ -9,3 +9,4 @@ requirements: [
 ] 
 category: distribution
 research: castironconveyor
+researchCostMultiplier:0.1
