@@ -16,3 +16,4 @@ requirements: [
 ]
 category: power
 research: burnergenerator
+researchCostMultiplier:0.2
