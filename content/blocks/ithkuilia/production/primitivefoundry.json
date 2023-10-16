@@ -141,4 +141,4 @@ requirements: [
 ]
 category: crafting
 research: Stronghold
-researchCostMultiplier:0.1
+researchCostMultiplier:0.02
