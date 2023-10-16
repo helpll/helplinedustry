@@ -28,8 +28,6 @@ orbitOffset: 24
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 atmosphereColor: f2929aaa
-orbitTime: 1
-rotateTime: 1
 accessible: true
 allowLaunchToNumbered: false
 alwaysUnlocked: true
