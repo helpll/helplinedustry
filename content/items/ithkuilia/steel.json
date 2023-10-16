@@ -1,3 +1,4 @@
 type: item
 name: steel
 description: Kinda like an upgraded form of iron.
+research: iron
