@@ -26,4 +26,10 @@ drawer: {
   requirements: [
     castiron/50
   ]
+research: {
+  planet: ithkuilia
+  root: true
+  name: Ithkuilia
+  requiresUnlock: false
+}
   category: effect
