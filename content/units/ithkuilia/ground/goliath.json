@@ -35,10 +35,10 @@ weapons: [
 	collideTerrain:false
 	lifetime:500
     killShooter:true
-    splashDamage:70
+    splashDamage:140
     makeFire:false
     incendAmount:0
-    splashDamageRadius:30
+    splashDamageRadius:60
 despawnEffect: {
 		 type:MultiEffect
 		 effects:[instBomb, scatheLight, bigShockwave, massiveExplosion, {
