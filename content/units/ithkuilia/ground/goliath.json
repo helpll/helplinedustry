@@ -22,7 +22,7 @@ weapons: [
    shootOnDeath: true
          bullet: {
 	type:ExplosionBulletType
-		  speed: 1
+		  speed: 0
 
 	damage: 100
     shootEffect: {
