@@ -1,5 +1,6 @@
 type:mech
 name:Goliath
+aiController: SuicideAI
 health: 150
 armor:0
 speed: 2
