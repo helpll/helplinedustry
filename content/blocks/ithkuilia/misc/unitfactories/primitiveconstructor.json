@@ -28,11 +28,20 @@ plans: [
 	  siliconcarbide/30
     ]
   }
+ {
+    unit: goliath
+    time: 75
+    requirements: [
+      castiron/10
+      castironplates/5
+	 voltite/10
+    ]
+  }
 ]
 requirements: [
-  castiron/50
-  wroughtiron/50
-  castironplates/45
+  castiron/35
+  wroughtiron/35
+  castironplates/25
   castironparts/10
 ]
 category: units
