@@ -1,7 +1,7 @@
 type:legs
 name:Shitass
 buildSpeed: 0.5
-health: 4000
+health: 3000
 armor:0
 speed: 0.6
 drag: 0.5
@@ -20,14 +20,14 @@ targetAir:true
 drawCell:false
 circleTarget:true
 outlines:false
-legLength:3.5
+legLength:8
 legPhysicsLayer: 100
 size:2
 hitsize:500
 legGroupSize:1
-legSpeed:2
-legMaxLength:10
-legMinLength:3.5
+legSpeed:3
+legMaxLength:18
+legMinLength:8
 lockLegBase:true
 legBaseOffset:3
 legContinuousMove:true
@@ -44,12 +44,12 @@ weapons: [
     bullet: {
       type: basicBulletType
       damage: 30
-	  speed: 3
-	  lifetime: 90
-	  inaccuracy:13
+	  speed: 4
+	  lifetime: 65
+	  inaccuracy:11
 	  collideTerrain:true
 	   width: 4
-	height: 4
+	height: 7
     }
   }
   ]
