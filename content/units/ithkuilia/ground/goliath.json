@@ -1,0 +1,54 @@
+type:mech
+name:Goliath
+health: 150
+armor:0
+speed: 2
+drag: 0.3
+accel: 0.5
+rotateSpeed: 6
+engineSize:0
+targetGround:true
+drawCell:false
+targetAir:false
+circleTarget:false
+outlines:true
+//legLength:0
+size:1
+hitsize:20
+weapons: [
+       {
+	  name: voltitebomb
+   shootOnDeath: true
+         bullet: {
+	type:ExplosionBulletType
+		  speed: 1
+
+	damage: 100
+    shootEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, bigShockwave, massiveExplosion, {
+	type: WaveEffect
+			 colorFrom: 03fce8
+			colorTo: 02427d
+			sides: 6}]
+	 }
+	collideTerrain:false
+	lifetime:500
+    killShooter:true
+    splashDamage:70
+    makeFire:false
+    incendAmount:0
+    splashDamageRadius:30
+despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, bigShockwave, massiveExplosion, {
+	type: WaveEffect
+			 colorFrom: 03fce8
+			colorTo: 02427d
+			sides: 6}]
+	 }
+}
+    }
+    }
+  }
+  ]
