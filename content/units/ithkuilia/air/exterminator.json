@@ -1,0 +1,129 @@
+type: flying
+name: Exterminator
+description: Similar to the Decimator, but more powerful.
+weapons: [
+  {
+	  name: antimatter missiles
+    x: 0
+    y: 0
+    recoil: 0
+	  rotate:true
+    reload: 75
+    speed:7
+    shake: 4 
+    shootSound: antimatterping
+    bullet: {
+      	type:MissileBulletType
+		damage: 550
+      homingPower: 0.3
+      splashDamage:1500
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: hitLaser
+		parts: [
+        {
+          type: FlarePart
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.5
+          partProgress: warmup
+        }
+      ]
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 100
+	  speed: 5
+	  lifetime: 100
+	  collideTerrain:false
+    }
+shoot: {
+ type: ShootHelix
+  shots: 2
+  shotDelay: 10
+	scl: 6
+   }
+  }
+{
+  name: Exterminator laser
+    x: 0
+    y: 0
+    recoil: 0
+	  rotate:true
+    reload: 50
+    shake: 4 
+    shootSound: flshoot
+    bullet: {
+		type:LaserBulletType
+		laserEffect: instBomb
+		damage: 125
+		shootEffect: lancerLaserShoot
+		collideTerrain:false
+		lifetime:10
+}  
+}
+]
+parts: [
+		{
+			type:RegionPart
+			suffix: -ring1
+			followRotation: false
+			spinSpeed: 1
+			moveRot:720
+			progress: smoothReload
+			
+		}
+	{
+			type:RegionPart
+			suffix: -ring2
+			followRotation: false
+			spinSpeed: -1
+			 moveRot:-720
+			progress: smoothReload
+			
+		}
+  	{
+			type:RegionPart
+			suffix: -ring3
+			followRotation: false
+			spinSpeed: 1
+			 moveRot:720
+			progress: smoothReload
+			
+		}
+	{
+	type: FlarePart
+          color2: ff8d30
+          color1: ffaf59
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.7
+	}
+	
+]
+health: 20000
+speed: 0.2
+flying: true
+drag: 0.05
+accel: 0.1
+rotateSpeed: 0
+engineSize:0
+omniMovement: true
+targetAir: true
+targetGround:true
+drawCell:false
+onTitleScreen:true
+circleTarget:false
