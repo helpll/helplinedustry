@@ -20,16 +20,17 @@ targetAir:true
 drawCell:false
 circleTarget:true
 outlines:false
-legLength:8
+legLength:4
 legPhysicsLayer: 100
 size:2
 hitsize:500
 legGroupSize:1
 legSpeed:3
-legMaxLength:18
-legMinLength:8
+legMaxLength:6
+legMinLength:4
 lockLegBase:true
 legBaseOffset:3
+legStraightness: 20
 legContinuousMove:true
 weapons: [
   {
