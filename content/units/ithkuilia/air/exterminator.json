@@ -1,6 +1,7 @@
 type: flying
 name: Exterminator
 description: Similar to the Decimator, but more powerful.
+deathExplosionEffect:impactReactorExplosion
 weapons: [
   {
 	  name: antimatter missiles
