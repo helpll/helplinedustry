@@ -38,7 +38,7 @@ weapons: [
     splashDamage:140
     makeFire:false
     incendAmount:0
-    splashDamageRadius:60
+    splashDamageRadius:80
 despawnEffect: {
 		 type:MultiEffect
 		 effects:[instBomb, scatheLight, bigShockwave, massiveExplosion, {
