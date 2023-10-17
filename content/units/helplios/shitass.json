@@ -1,0 +1,55 @@
+type:legs
+name:Shitass
+buildSpeed: 0.5
+health: 4000
+armor:0
+speed: 0.6
+drag: 0.5
+legCount: 8
+mineFloor: true
+mineTier: 2
+mineSpeed: 10
+mineRange: 250
+buildRange: 250
+itemCapacity: 15
+accel: 0.4
+rotateSpeed: 5
+engineSize:0
+targetGround:true
+targetAir:true
+drawCell:false
+circleTarget:true
+outlines:false
+legLength:3.5
+legPhysicsLayer: 100
+size:2
+hitsize:500
+legGroupSize:1
+legSpeed:2
+legMaxLength:10
+legMinLength:3.5
+lockLegBase:true
+legBaseOffset:3
+legContinuousMove:true
+weapons: [
+  {
+	  name: mf
+    x: -1
+    y: 0
+	size: 1
+    recoil: 10
+    reload: 5
+    shake: 0
+	shotDelay: 0
+    bullet: {
+      type: basicBulletType
+      damage: 30
+	  speed: 3
+	  lifetime: 90
+	  inaccuracy:13
+	  collideTerrain:true
+	   width: 4
+	height: 4
+    }
+  }
+  ]
