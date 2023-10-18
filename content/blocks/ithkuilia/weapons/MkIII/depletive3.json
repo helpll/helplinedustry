@@ -1,0 +1,109 @@
+type: ItemTurret
+name: Depletive Mk III
+description: Fires cluster missiles at flying enemies.
+targetGround: false
+scaledHealth: 300
+size: 3
+inaccuracy: 14
+reload: 225
+shots: 1
+recoilAmount: 10
+shootCone: 25
+rotateSpeed: 10
+range: 325
+targetAir: true
+shootSound: rocketlaunch
+ammoTypes: {
+	iron: {
+		type:FlakBulletType
+		damage: 50
+      homingPower: 0.2
+      splashDamage:200
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+		parts: [
+        {
+          type: FlarePart
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.5
+          partProgress: warmup
+        }
+      ]
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 15
+	  speed: 6
+	  lifetime: 120
+	  collideTerrain:false
+fragBullets:5
+fragBullet:{
+		type:MissileBulletType
+		damage: 25
+      homingPower: 0.2
+      splashDamage:50
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: smokeCloud
+		parts: [
+        {
+          type: FlarePart
+          color2: ff8d30
+          color1: ffaf59
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.5
+          partProgress: warmup
+        }
+      ]
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[explosion, smokeCloud]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 15
+	  speed: 4
+	  lifetime: 60
+	  collideTerrain:false
+	}
+	}
+	}
+}
+shoot: {
+ type: shootPattern
+  shots: 5
+  shotDelay: 4
+   }
+requirements: [
+  hypersteel/50
+  stainlesssteel/50
+  steel/150
+  castiron/150
+  castironparts/50
+  castironplates/150
+  siliconcarbide/75
+]
+category: turret
+research: depletive2
