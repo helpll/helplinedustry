@@ -16,6 +16,6 @@ solarSystem: obamnios
 
 //now, we just link this to the sun, give it a ridiculous orbit radius and pretend it's a new solar system.
 accessible: true
-parent: null
-//orbitRadius: 12000
+parent: sun
+orbitRadius: 12000
 drawOrbit: false
