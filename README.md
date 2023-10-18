@@ -9,6 +9,7 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 *Ithkuilia*: everything is extremely overcomplicated and meant to cause as much annoyance as possible while remaining playable.  
 *helplios*: everything is very goofy ahh  
 *ma pona*(not started): the opposite of *Ithkuilia*, everything is really easy and straight forward.  
+*kitchen sink* all of these
 
 (no other planet ideas are here yet come back later)
 
