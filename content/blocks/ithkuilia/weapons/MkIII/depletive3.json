@@ -89,7 +89,6 @@ hitEffect: {
 	  collideTerrain:false
 	}
 	}
-	}
 }
 shoot: {
  type: shootPattern
