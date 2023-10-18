@@ -14,7 +14,7 @@ range: 325
 targetAir: true
 shootSound: rocketlaunch
 ammoTypes: {
-	iron: {
+	steel: {
 		type:FlakBulletType
 		damage: 50
       homingPower: 0.2
