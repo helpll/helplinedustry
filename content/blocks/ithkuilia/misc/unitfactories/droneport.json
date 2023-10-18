@@ -1,0 +1,18 @@
+type: UnitFactory
+name: Droneport
+size: 2
+consumes: {
+  power: 1.5
+}
+droneType: repairdrone
+unitsSpawned: 8
+droneConstructTime: 60
+requirements: [
+  castiron/35
+  wroughtiron/35
+  castironplates/25
+  castironparts/10
+]
+category: units
+placeEffect: smokeCloud
+research: primitiveconstructor
