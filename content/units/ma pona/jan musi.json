@@ -1,0 +1,44 @@
+type:flying
+name: jan musi
+buildSpeed: 1
+health: 200
+armor:0
+speed: 1.5
+drag: 0.05
+mineFloor: true
+mineTier: 2
+mineSpeed: 4
+mineRange: 100
+buildRange: 100
+itemCapacity: 20
+accel: 0.4
+rotateSpeed: 3
+engineSize:0
+targetGround:true
+targetAir:true
+drawCell:false
+circleTarget:true
+outlines:false
+size:1
+hitsize:500
+weapons: [
+  {
+	  name: ilo utala
+    x: -1
+    y: 0
+	size: 1
+    recoil: 10
+    reload: 20
+	shotDelay: 0
+    bullet: {
+      type: basicBulletType
+    damage: 20
+	  width: 8
+	  length: 8
+	  speed: 4
+	  lifetime: 60
+	  inaccuracy:1
+	  collideTerrain:true
+    }
+  }
+  ]
