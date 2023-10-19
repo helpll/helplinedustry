@@ -121,8 +121,8 @@ parts: [
   	color: 66B1FFff
   	stroke: 2
   	strokeTo: 2
-  	radiusTo: 15
-  	radius: 15
+  	radiusTo: 40
+  	radius: 45
 	}
 	{
   	type: shapePart
@@ -132,8 +132,8 @@ parts: [
   	color: 66B1FFff
   	stroke: 2
   	strokeTo: 2
-  	radiusTo: 4.5
-  	radius: 4.5
+  	radiusTo: 30
+  	radius: 35
 	}
 	{
   	type: shapePart
@@ -145,8 +145,8 @@ parts: [
   	color: 66B1FFff
   	stroke: 2
   	strokeTo: 2
-  	radiusTo: 10
-  	radius: 10
+  	radiusTo: 45
+  	radius: 45
 	}
 	{
   	type: shapePart
@@ -158,8 +158,8 @@ parts: [
   	color: 66B1FFff
   	stroke: 2
   	strokeTo: 2
-  	radiusTo: 15
-  	radius: 15
+  	radiusTo: 45
+  	radius: 45
 	}
 	{
   	type: HaloPart
