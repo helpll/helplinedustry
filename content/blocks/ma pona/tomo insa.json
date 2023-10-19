@@ -1,0 +1,17 @@
+type: CoreBlock
+name: tomo insa
+size: 2
+health: 1000
+emitLight: true
+category:effect
+requirements: [
+	ponium/200
+]
+buildTime:5
+isFirstTier: true
+unitType: jan musi
+itemCapacity: 200
+seperateItemCapacity: true
+acceptsItems: true
+destructible:true
+alwaysReplace: true
