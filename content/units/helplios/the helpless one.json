@@ -26,6 +26,8 @@ weapons: [
 	  name: helplesslazer420
     x: -1
     y: 0
+	mirror: false
+       rotate: true
 	size: 1
     recoil: 10
     shake: 0
