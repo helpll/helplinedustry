@@ -1,0 +1,7 @@
+type: OreBlock
+variants: 1
+itemDrop: tokium
+playerUnmineable:true
+needsSurface:true
+oreDefault:false
+oreScale: 20
