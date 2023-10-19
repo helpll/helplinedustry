@@ -22,7 +22,7 @@ add planet sectiors
 ***Ithkuilia:***  
 balance new turrets   
 add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI) (Mk I Done) (Mk II Done) (Mk III Done) (do Mk IV (0/4))  
-implement uranium and crafting voltite and such  
+implement uranium and crafting volitite and such  
 wacky higher tier end game materials   
 give steam and hyper steel and stuff a use  
 more bosses  
