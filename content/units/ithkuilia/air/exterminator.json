@@ -145,8 +145,8 @@ parts: [
   	color: 66B1FFff
   	stroke: 2
   	strokeTo: 2
-  	radiusTo: 45
-  	radius: 45
+  	radiusTo: 30
+  	radius: 35
 	}
 	{
   	type: shapePart
