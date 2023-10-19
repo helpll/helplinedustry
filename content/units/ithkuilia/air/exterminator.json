@@ -113,6 +113,180 @@ parts: [
           radius: 20
 	spinSpeed: 0.7
 	}
+		{
+  	type: shapePart
+  	hollow: true
+  	circle: true
+  	layer: 110
+  	color: 66B1FFff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 15
+  	radius: 15
+	}
+	{
+  	type: shapePart
+  	hollow: true
+  	circle: true
+  	layer: 110
+  	color: 66B1FFff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 4.5
+  	radius: 4.5
+	}
+	{
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 5
+    	rotateSpeed: 1
+  	layer: 110
+  	color: 66B1FFff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 10
+  	radius: 10
+	}
+	{
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 5
+  	
+  	rotateSpeed: -1
+  	layer: 110
+  	color: 66B1FFff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 15
+  	radius: 15
+	}
+	{
+  	type: HaloPart
+  	radius: 6
+  	tri: true
+  	layer: 110
+  	color: 66B1FFff
+  	haloRadius: 22
+  	haloRadiusTo: 22
+  	haloRotation: 90
+  	shapeRotation: 180
+  	stroke: 0
+  	strokeTo: 4.7
+  	shapes: 2
+  	triLengthTo: 6
+  	triLength: 6
+	}
+	{
+  	type: HaloPart
+  	
+  	radius: 6
+  	tri: true
+  	layer: 110
+  	color: 66B1FFff
+  	haloRadius: 22
+  	haloRotation: 90
+  	haloRadiusTo: 22
+  	stroke: 0
+  	strokeTo: 4.7
+  	shapes: 2
+  	triLengthTo: 33
+  	triLength: 33
+	}
+	{
+  	type: HaloPart
+  	radius: 4
+  	tri: true
+  	layer: 110
+  	color: 66B1FFff
+  	haloRadius: 22
+  	haloRadiusTo: 22
+  	haloRotation: 55
+  	shapeRotation: 180
+  	stroke: 0
+  	strokeTo: 3.7
+  	shapes: 2
+  	triLengthTo: 6
+  	triLength: 6
+	}
+	{
+  	type: HaloPart
+  	radius: 3
+  	tri: true
+  	layer: 110
+  	color: 66B1FFff
+  	haloRadius: 22
+  	haloRotation: 55
+  	haloRadiusTo: 22
+  	stroke: 0
+  	strokeTo: 3.7
+  	shapes: 2
+  	triLengthTo: 19
+  	triLength: 19
+	}
+	{
+  	type: HaloPart
+  	radius: 4
+  	tri: true
+  	layer: 110
+  	color: 66B1FFff
+  	haloRadius: 22
+  	haloRadiusTo: 22
+  	haloRotation: -55
+  	shapeRotation: 180
+  	stroke: 0
+  	strokeTo: 3.7
+  	shapes: 2
+  	triLengthTo: 6
+  	triLength: 6
+	}
+	{
+  	type: HaloPart
+  	radius: 4
+  	tri: true
+  	layer: 110
+  	color: 66B1FFff
+  	haloRadius: 22
+  	haloRotation: -55
+  	haloRadiusTo: 22
+  	stroke: 0
+  	strokeTo: 3.7
+  	shapes: 2
+  	triLengthTo: 19
+  	triLength: 19
+	}
+	{
+  	type: HaloPart
+  	radius: 5.4
+  	tri: true
+  	layer: 110
+  	color: 66B1FFff
+  	haloRotateSpeed: -1
+  	haloRadius: 15
+  	haloRadiusTo: 15
+  	stroke: 0
+  	strokeTo: 3
+  	shapes: 3
+  	triLengthTo: 6
+  	triLength: 6
+	}
+	{
+  	type: HaloPart
+  	radius: 5.4
+  	tri: true
+  	layer: 110
+  	color: 66B1FFff
+  	haloRotateSpeed: 1
+  	haloRadius: 15
+  	haloRadiusTo: 15
+  	stroke: 0
+  	strokeTo: 3
+  	shapes: 3
+  	triLengthTo: 6
+  	triLength: 6
+	}
+
 	
 ]
 health: 20000
