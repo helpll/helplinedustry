@@ -36,7 +36,7 @@ weapons: [
 	  width: 8
 	  length: 8
 	  speed: 4
-	  lifetime: 60
+	  lifetime: 45
 	  inaccuracy:1
 	  collideTerrain:true
     }
