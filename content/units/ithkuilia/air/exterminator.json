@@ -163,7 +163,7 @@ parts: [
 	}
 	{
   	type: HaloPart
-  	radius: 10.8
+  	radius: 40
   	tri: true
   	layer: 110
   	color: 66B1FFff
@@ -178,7 +178,7 @@ parts: [
 	}
 	{
   	type: HaloPart
-  	radius: 10.8
+  	radius: 40
   	tri: true
   	layer: 110
   	color: 66B1FFff
@@ -191,8 +191,6 @@ parts: [
   	triLengthTo: 6
   	triLength: 6
 	}
-
-	
 ]
 health: 20000
 speed: 0.2
