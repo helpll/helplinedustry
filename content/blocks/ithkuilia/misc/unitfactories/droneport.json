@@ -1,4 +1,4 @@
-type: UnitFactory
+type: DroneCenter
 name: Droneport
 size: 2
 consumes: {
