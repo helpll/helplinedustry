@@ -19,11 +19,11 @@ sectorSize: 2
 sectorSeed: -4
 startSector: 0
 iconColor: fad739
-parent: obamnios
-radius: 1
-camRadius: 1
-orbitRadius: 170
-orbitOffset: 210
+parent: ithkuilia
+radius: 0.5
+camRadius: 0.5
+orbitRadius: 75
+orbitOffset: 150
 //broken, will have to ask for a bugfix
 atmosphereRadIn: 0
 atmosphereRadOut: 0.25
@@ -44,7 +44,7 @@ mesh: [
     //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
     divisions: 5
     //mesh size - 1 is serpulo
-    radius: 1
+    radius: 0.5
     //first colour to use 
     color1: 1b58a8
     //second
@@ -66,7 +66,7 @@ mesh: [
     //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
     divisions: 5
     //mesh size - 1 is serpulo
-    radius: 0.9
+    radius: 0.45
     //first colour to use 
     color1: fad739
     //second
@@ -92,7 +92,7 @@ cloudMesh: [
     //this radius value is based on the planet "surface", not the "core" of the planet, unlike noise meshes
     radius: 0.2
     //cloud colour
-    color: ffffff
+    color: fad739
     //more explodey values, they're even more sensitive here
     octaves: 3
     persistence: 0.5
@@ -104,7 +104,7 @@ cloudMesh: [
     speed: 0.5
     divisions: 6
     radius: 0.21
-    color: 000000
+    color: 1b58a8
     octaves: 3
     persistence: 0.5
     scl: 0.9
