@@ -1,0 +1,44 @@
+type:tank
+name: soweli
+buildSpeed: 1
+health: 400
+armor:0
+speed: 1.1
+drag: 0.5
+mineFloor: true
+mineTier: 2
+mineSpeed: 4
+mineRange: 100
+buildRange: 100
+itemCapacity: 20
+accel: 0.4
+rotateSpeed: 3
+engineSize:0
+targetGround:true
+targetAir:true
+drawCell:false
+circleTarget:true
+outlines:false
+size:1
+hitsize:500
+weapons: [
+  {
+	  name: ilo utala soweli
+    x: -1
+    y: 0
+	size: 1
+    recoil: 0
+    reload: 45
+	shotDelay: 0
+    bullet: {
+      type: basicBulletType
+    damage: 50
+	  width: 12
+	  length: 12
+	  speed: 2
+	  lifetime: 90
+	  inaccuracy:0
+	  collideTerrain:true
+    }
+  }
+  ]
