@@ -22,7 +22,7 @@ iconColor: fad739
 parent: ithkuilia
 radius: 0.5
 camRadius: 0.5
-orbitRadius: 25
+orbitRadius: 15
 orbitOffset: 150
 //broken, will have to ask for a bugfix
 atmosphereRadIn: 0
