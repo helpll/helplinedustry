@@ -57,6 +57,59 @@ shoot: {
    }
   }
 {
+	  name: exterminator swarm
+    x: 0
+    y: 0
+    recoil: 0
+	  rotate:true
+    reload: 1000
+    shake: 4 
+//    shootSound: antimatterping
+	inaccuracy: 360
+    bullet: {
+      	type:MissileBulletType
+		damage: 150
+      homingPower: 0.05
+      splashDamage:150
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: hitLaser
+		parts: [
+        {
+          type: FlarePart
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.5
+          partProgress: warmup
+        }
+      ]
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 50
+	  speed: 5
+	  lifetime: 100
+	  collideTerrain:false
+    }
+shoot: {
+ type: ShootHelix
+  shots: 25
+  shotDelay: 10
+	scl: 6
+   }
+  }
+{
   name: Exterminator laser
     x: 0
     y: 0
@@ -118,7 +171,7 @@ parts: [
   	hollow: true
   	circle: true
   	layer: 110
-  	color: 66B1FFff
+  	color: f54242ff
   	stroke: 2
   	strokeTo: 2
   	radiusTo: 40
@@ -129,7 +182,7 @@ parts: [
   	hollow: true
   	circle: true
   	layer: 110
-  	color: 66B1FFff
+  	color: f54242ff
   	stroke: 2
   	strokeTo: 2
   	radiusTo: 30
@@ -142,7 +195,7 @@ parts: [
   	sides: 5
     	rotateSpeed: 1
   	layer: 110
-  	color: 66B1FFff
+  	color: f54242ff
   	stroke: 2
   	strokeTo: 2
   	radiusTo: 30
@@ -155,7 +208,7 @@ parts: [
   	sides: 5
   	rotateSpeed: -1
   	layer: 110
-  	color: 66B1FFff
+  	color: f54242ff
   	stroke: 2
   	strokeTo: 2
   	radiusTo: 45
@@ -166,7 +219,7 @@ parts: [
   	radius: 10.8
   	tri: true
   	layer: 110
-  	color: 66B1FFff
+  	color: f54242ff
   	haloRotateSpeed: -1
   	haloRadius: 45
   	haloRadiusTo: 40
@@ -181,7 +234,7 @@ parts: [
   	radius: 10.8
   	tri: true
   	layer: 110
-  	color: 66B1FFff
+  	color: f54242ff
   	haloRotateSpeed: 1
   	haloRadius: 45
   	haloRadiusTo: 40
