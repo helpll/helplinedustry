@@ -163,13 +163,13 @@ parts: [
 	}
 	{
   	type: HaloPart
-  	radius: 40
+  	radius: 10.8
   	tri: true
   	layer: 110
   	color: 66B1FFff
   	haloRotateSpeed: -1
-  	haloRadius: 15
-  	haloRadiusTo: 15
+  	haloRadius: 45
+  	haloRadiusTo: 40
   	stroke: 0
   	strokeTo: 3
   	shapes: 3
@@ -178,13 +178,13 @@ parts: [
 	}
 	{
   	type: HaloPart
-  	radius: 40
+  	radius: 10.8
   	tri: true
   	layer: 110
   	color: 66B1FFff
   	haloRotateSpeed: 1
-  	haloRadius: 15
-  	haloRadiusTo: 15
+  	haloRadius: 45
+  	haloRadiusTo: 40
   	stroke: 0
   	strokeTo: 3
   	shapes: 3
