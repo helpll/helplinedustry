@@ -44,7 +44,7 @@ mesh: [
     //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
     divisions: 5
     //mesh size - 1 is serpulo
-    radius: 0.5
+    radius: 0.4
     //first colour to use 
     color1: 1b58a8
     //second
@@ -66,7 +66,7 @@ mesh: [
     //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
     divisions: 5
     //mesh size - 1 is serpulo
-    radius: 0.45
+    radius: 0.35
     //first colour to use 
     color1: fad739
     //second
