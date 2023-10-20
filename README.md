@@ -16,6 +16,7 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 # todo
 
 ***General***  
+make star and planets work correctly  
 add planet sectiors  
 *how tf do i use js scripting???*
 
