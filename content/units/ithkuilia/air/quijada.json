@@ -1,0 +1,313 @@
+type: flying
+name: Quijada, the Hypergod of annihilation
+description: The strongest weapon in the ithkuilian arsenal. Tears through defences like they're nothing.
+//change this effect (multieffect?)
+deathExplosionEffect:impactReactorExplosion
+weapons: [
+  //change weapon
+  {
+	  name: antimatter missiles
+    x: 0
+    y: 0
+    recoil: 0
+	  rotate:true
+    reload: 75
+    speed:7
+    shake: 4 
+    shootSound: antimatterping
+    bullet: {
+      	type:MissileBulletType
+		damage: 550
+      homingPower: 0.3
+      splashDamage:1500
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: hitLaser
+		parts: [
+        {
+          type: FlarePart
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.5
+          partProgress: warmup
+        }
+      ]
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 100
+	  speed: 5
+	  lifetime: 100
+	  collideTerrain:false
+    }
+shoot: {
+ type: ShootHelix
+  shots: 2
+  shotDelay: 10
+	scl: 6
+   }
+  }
+{
+	  name: exterminator swarm
+    x: 0
+    y: 0
+    recoil: 0
+	  rotate:true
+    reload: 1000
+    shake: 4 
+//    shootSound: antimatterping
+	inaccuracy: 360
+    bullet: {
+      	type:MissileBulletType
+		damage: 150
+      homingPower: 0.05
+      splashDamage:150
+      scaledSplashDamage:true
+	  trailInterval: 1
+	  trailEffect: hitLaser
+		parts: [
+        {
+          type: FlarePart
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.5
+          partProgress: warmup
+        }
+      ]
+	  shootEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight]
+	 }
+	despawnEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+hitEffect: {
+		 type:MultiEffect
+		 effects:[instBomb, scatheLight, smokeCloud]
+	 }
+    splashDamageRadius: 50
+	  speed: 5
+	  lifetime: 100
+	  collideTerrain:false
+    }
+shoot: {
+ type: ShootHelix
+  shots: 25
+  shotDelay: 10
+	scl: 6
+   }
+  }
+{
+  name: Exterminator laser
+    x: 0
+    y: 0
+    recoil: 0
+	  rotate:true
+    reload: 50
+    shake: 4 
+    shootSound: flshoot
+    bullet: {
+		type:LaserBulletType
+		laserEffect: instBomb
+		damage: 125
+		shootEffect: lancerLaserShoot
+		collideTerrain:false
+		lifetime:10
+}  
+}
+]
+parts: [
+  //add more rings
+		{
+			type:RegionPart
+			suffix: -ring1
+			followRotation: false
+			spinSpeed: 1
+			moveRot:720
+			progress: smoothReload
+			
+		}
+	{
+			type:RegionPart
+			suffix: -ring2
+			followRotation: false
+			spinSpeed: -1
+			 moveRot:-720
+			progress: smoothReload
+			
+		}
+  	{
+			type:RegionPart
+			suffix: -ring3
+			followRotation: false
+			spinSpeed: 1
+			 moveRot:720
+			progress: smoothReload
+			
+		}
+  //change color of this flarepart
+	{
+	type: FlarePart
+          color2: ff8d30
+          color1: ffaf59
+          y: 0
+          followRotation: false
+          stroke: 3
+          radius: 20
+	spinSpeed: 0.7
+	}
+		{
+  	type: shapePart
+  	hollow: true
+  	circle: true
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 40
+  	radius: 45
+	}
+	{
+  	type: shapePart
+  	hollow: true
+  	circle: true
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 30
+  	radius: 35
+	}
+	{
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 5
+    	rotateSpeed: 1
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 30
+  	radius: 35
+	}
+	{
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 5
+  	rotateSpeed: -1
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 45
+  	radius: 45
+	}
+	{
+  	type: HaloPart
+  	radius: 10.8
+  	tri: true
+  	layer: 110
+  	color: f54242ff
+  	haloRotateSpeed: -1
+  	haloRadius: 45
+  	haloRadiusTo: 40
+  	stroke: 0
+  	strokeTo: 3
+  	shapes: 3
+  	triLengthTo: 6
+  	triLength: 6
+	}
+	{
+  	type: HaloPart
+  	radius: 10.8
+  	tri: true
+  	layer: 110
+  	color: f54242ff
+  	haloRotateSpeed: 1
+  	haloRadius: 45
+  	haloRadiusTo: 40
+  	stroke: 0
+  	strokeTo: 3
+  	shapes: 3
+  	triLengthTo: 6
+  	triLength: 6
+	}
+  	{
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 6
+    	rotateSpeed: 2
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 45
+  	radius: 50
+	}
+  	{
+  	type: shapePart
+  	hollow: true
+  	circle: true
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 45
+  	radius: 50
+	}
+  {
+  	type: shapePart
+  	hollow: true
+  	circle: false
+  	sides: 6
+    	rotateSpeed: -2
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 50
+  	radius: 60
+	}
+  	{
+  	type: shapePart
+  	hollow: true
+  	circle: true
+  	layer: 110
+  	color: f54242ff
+  	stroke: 2
+  	strokeTo: 2
+  	radiusTo: 50
+  	radius: 60
+	}
+  //add more of these down here
+]
+health: 500000
+speed: 0.1
+flying: true
+drag: 0.05
+accel: 0.1
+rotateSpeed: 0
+engineSize:0
+omniMovement: true
+targetAir: true
+targetGround:true
+drawCell:false
+onTitleScreen:true
+circleTarget:false
