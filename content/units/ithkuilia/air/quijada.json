@@ -1,8 +1,135 @@
 type: flying
 name: Quijada, the Hypergod of annihilation
 description: The strongest weapon in the ithkuilian arsenal. Tears through defences like they're nothing.
-//change this effect (multieffect?)
-deathExplosionEffect:impactReactorExplosion
+deathExplosionEffect:{
+	type:multieffect
+	effects:[
+		            {
+              type: WaveEffect
+              lifetime: 15
+              sizeFrom: 0
+              sizeTo: 110
+              strokeFrom: 7.5
+              strokeTo: 0
+              colorFrom: A9D8FFFF
+              colorTo: 66B1FFFF
+            }
+            {
+              type: WaveEffect
+              lifetime: 25
+              sizeFrom: 0
+              sizeTo: 90
+              strokeFrom: 10.5
+              strokeTo: 0
+              colorFrom: A9D8FFFF
+              colorTo: 66B1FFFF
+            }
+            {
+              type: ParticleEffect
+              offset: 30
+              particles: 10
+              lifetime: 20
+              baseLength: 85
+              length: 120
+              interp: circleOut
+              sizeInterp: pow5In
+              cone: -360
+              line: true
+              strokeFrom: 1.5
+              strokeTo: 1.5
+              lenFrom: 8
+              lenTo: 8
+              lightColor: A9D8FFFF
+              colorFrom: E1F2FFFF
+              colorTo: A9D8FFFF
+            }
+            {
+              type: ParticleEffect
+              offset: 30
+              particles: 10
+              lifetime: 25
+              baseLength: 85
+              length: 100
+              interp: circleOut
+              sizeInterp: pow5In
+              cone: -360
+              line: true
+              strokeFrom: 1.5
+              strokeTo: 1.5
+              lenFrom: 8
+              lenTo: 8
+              lightColor: A9D8FFFF
+              colorFrom: E1F2FFFF
+              colorTo: A9D8FFFF
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 50
+              length: 100
+              baseLength: 30
+              lifetime: 80
+              layer: 106
+              interp: exp5
+              sizeFrom: 24
+              sizeTo: 13
+              lightColor: A9D8FFFF
+              colorFrom: 66B1FFFF
+              colorTo: 66B1FF10
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 30
+              length: 100
+              baseLength: 60
+              lifetime: 280
+              layer: 106
+              interp: swingOut
+              sizeFrom: 24
+              sizeTo: 13
+              lightColor: A9D8FFFF
+              colorFrom: 66B1FFFF
+              colorTo: 66B1FF10
+            }
+            {
+              type: ParticleEffect
+              particles: 20
+              length: 120
+              lifetime: 50
+              interp: pow10Out
+              layer: 108
+              cone: 360
+              lightColor: A9D8FFFF
+              colorFrom: 66B1FFFF
+              colorTo: 66B1FF10
+              sizeFrom: 1
+              sizeTo: 5
+            }
+            {
+              type: ParticleEffect
+              line: true
+              particles: 27
+              lifetime: 60
+              offset: 60
+              interp: circleOut
+              length: 200
+              baseLength: 50
+              cone: -360
+              strokeFrom: 7
+              strokeTo: 0
+              lenFrom: 10
+              lenTo: 10
+              lightColor: A9D8FFFF
+              colorFrom: 66B1FFFF
+              colorTo: 66B1FF10
+            }
+          ]
+        }
+
+	]
+	
+}
 weapons: [
   //change weapon
   {
@@ -81,6 +208,8 @@ shoot: {
         {
           type: FlarePart
           y: 0
+	  color2: ff3030
+          color1: ff7d59
           followRotation: false
           stroke: 3
           radius: 20
