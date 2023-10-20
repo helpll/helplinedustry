@@ -185,7 +185,7 @@ parts: [
           color1: ff7d59
           y: 0
           followRotation: false
-          stroke: 3
+          stroke: 4
           radius: 34
 	spinSpeed: 0.8
 	}
@@ -281,17 +281,7 @@ parts: [
   	radiusTo: 60
   	radius: 65
 	}
-  	{
-  	type: shapePart
-  	hollow: true
-  	circle: true
-  	layer: 110
-  	color: f54242ff
-  	stroke: 2
-  	strokeTo: 2
-  	radiusTo: 60
-  	radius: 65
-	}
+  	
   {
   	type: shapePart
   	hollow: true
