@@ -305,17 +305,6 @@ parts: [
   	radiusTo: 65
   	radius: 70
 	}
-  	{
-  	type: shapePart
-  	hollow: true
-  	circle: true
-  	layer: 110
-  	color: f54242ff
-  	stroke: 2
-  	strokeTo: 2
-  	radiusTo: 65
-  	radius: 70
-	}
   {
   	type: shapePart
   	hollow: true
@@ -326,19 +315,8 @@ parts: [
   	color: f54242ff
   	stroke: 2
   	strokeTo: 2
-  	radiusTo: 70
-  	radius: 75
-	}
-  	{
-  	type: shapePart
-  	hollow: true
-  	circle: true
-  	layer: 110
-  	color: f54242ff
-  	stroke: 2
-  	strokeTo: 2
-  	radiusTo: 70
-  	radius: 75
+  	radiusTo: 75
+  	radius: 80
 	}
 {
   	type: shapePart
