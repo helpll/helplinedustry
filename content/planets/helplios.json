@@ -19,7 +19,7 @@ sectorSize: 2
 sectorSeed: -4
 startSector: 0
 iconColor: ffffff
-parent: sun
+parent: obamnios
 radius: 1
 camRadius: 1
 orbitRadius: 170
