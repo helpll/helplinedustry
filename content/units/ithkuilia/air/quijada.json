@@ -60,7 +60,7 @@ shoot: {
   }
 //dont change this for now i think its good
 {
-	  name: quijada swarm
+	  name: quijada-swarm
     x: 0
     y: 0
     recoil: 0
@@ -155,24 +155,6 @@ parts: [
   	{
 			type:RegionPart
 			suffix: -ring3
-			followRotation: false
-			spinSpeed: 1
-			 moveRot:720
-			progress: smoothReload
-			
-		}
-	{
-			type:RegionPart
-			suffix: -ring4
-			followRotation: false
-			spinSpeed: -1
-			 moveRot:-720
-			progress: smoothReload
-			
-		}
-	{
-			type:RegionPart
-			suffix: -ring5
 			followRotation: false
 			spinSpeed: 1
 			 moveRot:720
