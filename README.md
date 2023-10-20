@@ -8,7 +8,7 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 
 *Ithkuilia*: everything is extremely overcomplicated and meant to cause as much annoyance as possible while remaining playable.  
 *helplios*: everything is very goofy ahh  
-*ma pona*: the opposite of *Ithkuilia*, everything is really easy and straight forward.  
+*ma pona*: the opposite of *Ithkuilia*, everything is really simple and straight forward.  
 *kitchen sink*(not started): every planet combined
 
 (no other planet ideas are here yet come back later)
@@ -20,12 +20,12 @@ add planet sectiors
 *how tf do i use js scripting???*
 
 ***Ithkuilia:***  
+finish quijada  
 balance new turrets   
 add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI) (Mk I Done) (Mk II Done) (Mk III Done) (do Mk IV (0/4))  
 implement uranium and crafting volitite and such  
 wacky higher tier end game materials   
 give steam and hyper steel and stuff a use  
-more bosses  
 sector idea: you get bombed by offscreen artillery constantly  
 add some more air units  
 add intermediate machine shop  
