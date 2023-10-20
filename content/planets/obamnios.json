@@ -1,0 +1,34 @@
+//yoink
+mesh: [
+{
+    type: SunMesh 
+    divisions: 5
+    octaves: 1
+    persistence: 0.5
+    scl: 2
+    pow: 1
+    mag: 1
+    colorScale: 1
+    colors: [
+      ff5959,
+      ff1f1f,
+      d60f0f
+    ]
+  }
+]
+bloom: true
+solarSystem: obamnios
+localizedName: Obamnios
+orbitSpacing: 8
+radius: 6
+visible: true
+hasAtmosphere: false
+icon: commandRally
+iconColor: ffe06f
+//whatever this star's file name is
+
+//now, we just link this to the sun, give it a ridiculous orbit radius and pretend it's a new solar system.
+accessible: false
+parent: sun
+orbitRadius: 12000
+drawOrbit: false
