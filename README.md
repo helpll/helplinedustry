@@ -33,18 +33,14 @@ add the rest of the metals (mostly done)
 sprites (units and shit)  
 more stuff (add items first)
 
-***ma pona***  
-ponium, tokium  
-soweli, pipi, akesi, and waso enemies and kijetesantakalu boss  
+***ma pona***   
+pipi, waso, and kala enemies and kijetesantakalu boss  
 ilo (ilo pi weka ma) (drill)  
-tomo (tomo insa) (core)  
-jan (jan pi tomo insa) (core unit)  
 utala (ilo utala)(turret)  
 sinpin (wall)  
 li (ilo pi tawa ijo) (conveyor)  
 
 ***helplios***  
-fix units and turrets,  
 shitsludge,  
 more turrets and enemies,  
 gigifying pudditizer,  
