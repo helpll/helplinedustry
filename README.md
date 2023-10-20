@@ -21,7 +21,6 @@ add planet sectiors
 
 ***Ithkuilia:***  
 finish quijada  
-depletive Mk III shouldnt be able to hit ground units  
 balance new turrets   
 add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI) (Mk I Done) (Mk II Done) (Mk III Done) (do Mk IV (0/4))  
 gigachadium for Mk V turrets  
