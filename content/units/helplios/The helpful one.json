@@ -1,0 +1,51 @@
+type:flying
+name:The Helpful One
+buildSpeed: 5
+health: 3500
+armor:0
+speed: 1.1
+drag: 0.1
+mineFloor: true
+mineTier: 3
+mineSpeed: 10
+mineRange: 250
+buildRange: 250
+itemCapacity: 100
+accel: 0.4
+rotateSpeed: 5
+engineSize:0
+targetGround:true
+targetAir:true
+drawCell:false
+circleTarget:true
+outlines:false
+size:2
+hitsize:2500
+weapons: [
+  {
+	  name: helpful-summoner //shit name? also summons mitochondira on bullet despawn
+    x: -1
+    y: 0
+	mirror: false
+       rotate: true
+	size: 1
+    recoil: 10
+    shake: 0
+	shotDelay: 0
+    bullet: {
+      type: BasicBulletType
+      damage: 0
+   // colors: [fcfcfc, 030303, d4d4d4]
+   // damageInterval: 0
+    //shake: 10
+	  width: 10
+	  length: 10
+    fadeTime: 2
+	  speed: 3
+	  lifetime: 25
+	  inaccuracy:10
+	  collideTerrain:true
+    despawnUnit: mitochondira
+    }
+  }
+  ]
