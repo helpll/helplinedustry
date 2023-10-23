@@ -46,7 +46,8 @@ weapons: [
 	  lifetime: 25
 	  inaccuracy:10
 	  collideTerrain:true
-    despawnUnit: mitochondria //change this to another unit?
+    despawnUnit: mitochondria
+	   //^^^change this to another unit?
     }
   }
   ]
