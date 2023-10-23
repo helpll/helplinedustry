@@ -1,0 +1,47 @@
+type:tank
+name: Spirit
+health: 350
+armor:10
+speed: 1.2
+drag: 0.3
+accel: 0.5
+rotateSpeed: 6
+engineSize:0
+targetGround:true
+drawCell:false
+targetAir:true
+circleTarget:false
+outlines:true
+rotateMoveFirst:true
+size:1
+hitsize:20
+weapons: [
+       {
+	  name: spirit-cannon
+         rotate: true
+         rotateSpeed: 15
+         mirror: false
+         reload: 60
+         recoil: 0
+         inaccuracy:5
+         parts:[ 
+         {
+			type:RegionPart
+			suffix: -barrel
+			followRotation: true
+			 moveY:-3
+			progress: smoothReload
+			
+		}
+]
+         bullet: {
+	type: BasicBulletType
+		  speed: 5
+	damage: 50
+//    shootEffect: 
+	collideTerrain:false
+	lifetime:25
+//despawnEffect: 
+}
+  }
+  ]
