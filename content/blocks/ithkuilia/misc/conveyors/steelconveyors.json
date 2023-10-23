@@ -7,6 +7,7 @@ requirements: [
 ]
 category: distribution
 junctionReplacement: Intersection
+bridgeReplacement: overpass
 speed: 0.14
 displayedSpeed: 22
 research: castironconveyor
