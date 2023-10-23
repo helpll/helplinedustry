@@ -234,8 +234,8 @@ hitEffect: {
     }
 shoot: {
  type: ShootHelix
-  shots: 50
-  shotDelay: 5
+  shots: 100
+  shotDelay: 2.5
 	scl: 6
    }
   }
