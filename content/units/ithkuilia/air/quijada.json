@@ -217,7 +217,7 @@ shoot: {
       ]
 	  shootEffect: {
 		 type:MultiEffect
-		 effects:[instBomb, scatheLight]
+		 effects:[instBomb, launchPod]
 	 }
 	despawnEffect: {
 		 type:MultiEffect
