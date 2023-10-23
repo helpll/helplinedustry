@@ -1,0 +1,17 @@
+type: BufferedItemBridge 
+size: 1
+name: Overpass
+range:5
+fadeIn:false
+moveArrows:false
+arrowSpacing:6
+speed: 10
+health: 280
+requirements: [
+  castiron/2
+  castironparts/1
+] 
+bufferCapacity: 24
+category: distribution
+research: Intersection
+researchCostMultiplier:0.1
