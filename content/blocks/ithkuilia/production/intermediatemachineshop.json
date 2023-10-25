@@ -1,0 +1,307 @@
+type: multicraft.MultiCrafter
+//got that machine shop
+//i think this works
+name: Intermediate machine shop
+itemCapacity: 36
+health:  800
+menu: Simple
+size: 4
+hasPower: true
+hasLiquids: false
+recipes:
+[
+  {
+  input: {
+    items: [
+      helplinedustry-silver/1
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-silverwires/3
+  ]
+}
+craftTime: 100
+}
+//got that slightly less shitty stone
+  //this is so slow
+  {
+  input: {
+    items: [
+      helplinedustry-stone/2
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-stonebrick/1
+  ]
+}
+craftTime: 50
+}
+  {
+  input: {
+    items: [
+      helplinedustry-stone/2
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-silicasand/1
+  ]
+}
+craftTime: 25
+}
+// castironparts
+{
+  input: {
+    items: [
+      helplinedustry-castironplates/3
+    ]
+power: 2
+  }
+output: {
+  items:[
+  helplinedustry-castironparts/3
+  ]
+}
+craftTime: 75
+}
+// cast iron plates
+// mmmm we love cast iron plates around here
+{
+  input: {
+    items: [
+      helplinedustry-castiron/2
+    ]
+  power: 2
+  }
+output: {
+  items:[
+  helplinedustry-castironplates/4
+  ]
+}
+craftTime: 50
+}
+{
+  input: {
+    items: [
+      helplinedustry-steel/2
+    ]
+  power: 2.2
+  }
+output: {
+  items:[
+  helplinedustry-steelplates/4
+  ]
+}
+craftTime: 100
+}
+{
+  input: {
+    items: [
+      helplinedustry-steelplates/2
+    ]
+  power: 2.4
+  }
+output: {
+  items:[
+  helplinedustry-steelparts/4
+  ]
+}
+craftTime: 150
+}
+{
+  input: {
+    items: [
+      helplinedustry-aluminum/2
+    ]
+  power: 2.2
+  }
+output: {
+  items:[
+  helplinedustry-aluminumplates/4
+  ]
+}
+craftTime: 175
+}
+{
+  input: {
+    items: [
+      helplinedustry-stainlesssteel/2
+    ]
+  power: 2.4
+  }
+output: {
+  items:[
+  helplinedustry-stainlesssteelplate/4
+  ]
+}
+craftTime: 200
+}
+{
+  input: {
+    items: [
+      helplinedustry-hypersteel/2
+    ]
+  power: 2.4
+  }
+output: {
+  items:[
+  helplinedustry-hyperplating/4
+  ]
+}
+craftTime: 200
+}
+]
+drawer: {
+  type: multicraft.DrawRecipe
+  defaultDrawer: 0 // an index used for generating the icon of this crafter. 
+  drawers: [
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawParticles
+        color: d4d4d4
+      }
+    ]
+    }
+    // for recipe 0
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawParticles
+        color: 969696
+      }
+    ]
+    }
+ // for recipe 1231231232
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawParticles
+        color: 969696
+      }
+    ]
+    }
+    // for recipe 1
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: 404040
+      }
+    ]
+    }
+    // for recipe 2
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: 404040
+      }
+    ]
+    }
+ // for recipe 3
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: bfbfbf
+      }
+    ]
+    }
+ // for recipe 4
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: bfbfbf
+      }
+    ]
+    }
+ // for recipe 5
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: bfbfbf
+      }
+    ]
+    }
+{ 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: bfbfbf
+      }
+    ]
+    }
+{ 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: bfbfbf
+      }
+    ]
+    }
+  ]
+}
+//cheapo smelter
+craftEffect: smokeCloud
+requirements: [
+  stonebrick/150
+  steelparts/25
+  steelplates/25
+  siliconcarbide/50
+  silver/25
+  silverwires/75
+  steel/50
+  stainlesssteel/25
+  hypersteel/10
+]
+category: crafting
+research: basicmachineshop
+researchCostMultiplier:0.3
