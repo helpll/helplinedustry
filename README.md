@@ -30,7 +30,6 @@ wacky higher tier end game materials
 give steam and hyper steel and stuff a use  
 sector idea: you get bombed by offscreen artillery constantly  
 add some more air units  
-add intermediate machine shop  
 add advanced facilities and also other crafters
 sprites (units and shit)  
 more stuff (add items first)
