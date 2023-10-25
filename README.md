@@ -26,11 +26,12 @@ balance new turrets
 add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI) (Mk I Done) (Mk II Done) (Mk III Done)  
 add turret tiers Cont (do Mk IV (0/4) (gigachadium turrets)) (do Mk V (ithkuilium turrets))  
 implement uranium and crafting volitite and such  
+implement launchpad (the item launcher)  
 wacky higher tier end game materials   
 give steam and hyper steel and stuff a use  
 sector idea: you get bombed by offscreen artillery constantly  
 add some more air units  
-add advanced facilities and also other crafters
+add advanced facilities and also other crafters  
 sprites (units and shit)  
 more stuff (add items first)
 
