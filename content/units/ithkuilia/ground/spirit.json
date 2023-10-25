@@ -5,10 +5,10 @@ armor:10
 speed: 1.2
 drag: 0.3
 accel: 0.5
-rotateSpeed: 6
+rotateSpeed: 1
 engineSize:0
 targetGround:true
-drawCell:false
+drawCell:true
 targetAir:true
 circleTarget:false
 outlines:true
@@ -23,6 +23,8 @@ weapons: [
          mirror: false
          reload: 60
          recoil: 0
+	       x: 0
+	       y: 0
          inaccuracy:5
          parts:[ 
          {
