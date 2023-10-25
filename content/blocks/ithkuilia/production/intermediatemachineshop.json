@@ -1,7 +1,7 @@
 type: multicraft.MultiCrafter
 //got that machine shop
 //i think this works
-name: Intermediate machine shop
+name: Intermediate Machine Shop
 itemCapacity: 36
 health:  800
 menu: Simple
