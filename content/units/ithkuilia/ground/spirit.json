@@ -1,4 +1,4 @@
-type:tank
+type:TankUnitType
 name: Spirit
 health: 350
 armor:10
