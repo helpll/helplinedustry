@@ -44,7 +44,8 @@ weapons: [
 		shootEffect: instShoot
     		pointEffect: smoke 
 		 endEffect: blastExplosion
-    		length: 250
+    		length: 75
+		 pointEffectSpace:1
 		collideTerrain:true
 		lifetime:10
 	}
