@@ -42,7 +42,8 @@ weapons: [
 		lineEffect: smoke 
 		damage: 150
 		shootEffect: instShoot
-    		pointEffect: sparkExplosion
+    		pointEffect: smoke 
+		 endEffect: blastExplosion
     		length: 250
 		collideTerrain:true
 		lifetime:10
