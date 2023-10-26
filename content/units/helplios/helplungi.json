@@ -1,4 +1,4 @@
-type:tank
+type:TankUnitType
 name:Helplungi
 buildSpeed: 0.5
 health: 150
