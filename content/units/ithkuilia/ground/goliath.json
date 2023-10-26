@@ -1,4 +1,4 @@
-type:tank
+type:TankUnitType
 name:Goliath
 health: 150
 armor:0
