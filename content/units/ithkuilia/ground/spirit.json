@@ -41,7 +41,7 @@ weapons: [
 		type:RailBulletType
 		lineEffect: shootSmokeDisperse  
 		damage: 150
-		shootEffect: instShoot
+		shootEffect: shootBig 
     		pointEffect: shootSmokeDisperse 
 		 endEffect: blastExplosion
     		length: 125
