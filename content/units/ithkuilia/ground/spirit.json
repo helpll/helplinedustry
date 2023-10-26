@@ -1,4 +1,4 @@
-type:TankUnitType
+type:tank
 name: Spirit
 health: 350
 armor:10
@@ -15,6 +15,7 @@ outlines:true
 rotateMoveFirst:true
 size:1
 hitsize:20
+omniMovement:false
 weapons: [
        {
 	  name: spirit-cannon
