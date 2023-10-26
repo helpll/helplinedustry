@@ -39,10 +39,10 @@ weapons: [
 ]
          bullet: {
 		type:RailBulletType
-		lineEffect: shootSmokeDisperse  
+		lineEffect: smokePuff 
 		damage: 150
 		shootEffect: shootBig 
-    		pointEffect: shootSmokeDisperse 
+    		pointEffect: smokePuff 
 		 endEffect: blastExplosion
     		length: 125
 		 pointEffectSpace:2
