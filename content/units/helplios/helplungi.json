@@ -1,4 +1,4 @@
-type:TankUnitType
+type:tank
 name:Helplungi
 buildSpeed: 0.5
 health: 150
@@ -19,7 +19,7 @@ targetAir:true
 drawCell:false
 circleTarget:true
 drawCell: false
-
+omniMovement:false
 outlines:false
 size:2
 hitsize:500
