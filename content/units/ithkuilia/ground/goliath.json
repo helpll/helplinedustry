@@ -1,4 +1,5 @@
-type:TankUnitType
+type:tank
+//its just tank for now idk what's wrong with TankUnitType
 name:Goliath
 health: 150
 armor:0
