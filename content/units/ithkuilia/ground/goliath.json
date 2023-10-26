@@ -16,6 +16,7 @@ outlines:true
 rotateMoveFirst:true
 size:1
 hitsize:20
+omniMovement:false
 weapons: [
        {
 	  name: voltitebomb
