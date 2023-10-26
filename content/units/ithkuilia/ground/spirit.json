@@ -20,9 +20,9 @@ weapons: [
        {
 	  name: spirit-cannon
          rotate: true
-         rotateSpeed: 15
+         rotateSpeed: 5
          mirror: false
-         reload: 60
+         reload: 120
          recoil: 0
 	       x: 0
 	       y: 0
@@ -38,13 +38,14 @@ weapons: [
 		}
 ]
          bullet: {
-	type: BasicBulletType
-		  speed: 5
-	damage: 50
-//    shootEffect: 
-	collideTerrain:false
-	lifetime:25
-//despawnEffect: 
-}
+		type:RailBulletType
+		lineEffect: smoke 
+		damage: 150
+		shootEffect: instShoot
+    		pointEffect: sparkExplosion
+    		length: 250
+		collideTerrain:true
+		lifetime:10
+	}
   }
   ]
