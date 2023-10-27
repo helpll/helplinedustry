@@ -57,7 +57,7 @@ weapons: [
 		} 
 		 endEffect: blastExplosion
     		length: 125
-		 pointEffectSpace:2
+		 pointEffectSpace:1
 		collideTerrain:true
 		lifetime:10
 	}
