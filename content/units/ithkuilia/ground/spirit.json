@@ -39,10 +39,22 @@ weapons: [
 ]
          bullet: {
 		type:RailBulletType
-		lineEffect: smokePuff 
+		lineEffect: {
+			type:ParticleEffect
+			colorFrom:aaaaaa
+			colorTo:474747
+			particles:1
+			//slow particle
+		} 
 		damage: 150
 		shootEffect: shootBig 
-    		pointEffect: smokePuff 
+    		pointEffect: {
+			type:ParticleEffect
+			colorFrom:aaaaaa
+			colorTo:474747
+			particles:1
+			//slow particle
+		} 
 		 endEffect: blastExplosion
     		length: 125
 		 pointEffectSpace:2
