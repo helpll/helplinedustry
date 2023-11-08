@@ -28,6 +28,7 @@ weapons: [
     y: 0
 	mirror: false
        rotate: true
+	  inaccuracy: 360
 	  reload: 20
 	size: 1
     recoil: 10
@@ -49,5 +50,11 @@ weapons: [
     despawnUnit: mitochondria
 	   //^^^change this to another unit?
     }
+	shoot: {
+ type: ShootHelix
+  shots: 25
+  shotDelay: 1
+	scl: 6
+   }
   }
   ]
