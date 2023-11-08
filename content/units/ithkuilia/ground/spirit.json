@@ -41,8 +41,8 @@ weapons: [
 			type:RegionPart
 			suffix: -l
 			followRotation: true
-			 moveY: -3
-			moveRot:-45
+			 moveY: -1
+			moveRot:45
 	       under:true
 			progress: recoil
 			
@@ -51,8 +51,8 @@ weapons: [
 			type:RegionPart
 			suffix: -r
 			followRotation: true
-			 moveY: -3
-			moveRot:45
+			 moveY: -1
+			moveRot:-45
 	       under:true
 			progress: recoil
 			
