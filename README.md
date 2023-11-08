@@ -17,11 +17,13 @@ helpl (and DeltaV partially) will make music to replace every ingame track hopef
 # todo
 
 ***General***  
-make star and planets work correctly  
+testing  
 add planet sectiors  
-*how tf do i use js scripting???*
+
 
 ***Ithkuilia:***  
+im thinking of making each turret and unit require its specific parts (from what i'll call "the part maker")  
+^^ also this'll maybe resolve the issue that the other guy had ^^  
 finish quijada  
 balance new turrets   
 add turret tiers (starts at Mk I) (ex. Javelin Mk II or Accost Mk VI) (Mk I Done) (Mk II Done) (Mk III Done)  
