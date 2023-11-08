@@ -3,7 +3,6 @@
 ***i give up tryna import multicrafter just download it here https://github.com/liplum/MultiCrafterLib/releases/tag/v1.7***  
 this mod is very much unfinished, but it is indeed *playable*...  
 mod made to be as cursed and annoying to play as possable, every planet will have some sort of gimmick that'll be confusing for people.  
-helpl (and DeltaV partially) will make music to replace every ingame track hopefully, currently we have menu, editor, game1, and game8 as the finished tracks (we be workin on launch theme).
 *stuff below will be fixed to be better later*
 # planets
 
@@ -19,6 +18,9 @@ helpl (and DeltaV partially) will make music to replace every ingame track hopef
 ***General***  
 testing  
 add planet sectiors  
+
+helpl (and DeltaV partially) will make music to replace every ingame track hopefully.  
+currently we have menu, editor, game1, and game8 as the finished tracks (we be workin on launch theme).  
 
 
 ***Ithkuilia:***  
