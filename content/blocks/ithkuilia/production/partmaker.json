@@ -1,0 +1,171 @@
+type: multicraft.MultiCrafter
+//pain
+//i think this works
+name: Part Maker
+itemCapacity: 36
+health:  750
+menu: Simple
+size: 4
+hasPower: true
+hasLiquids: false
+recipes:
+[
+  {
+  input: {
+    items: [
+      helplinedustry-silver/1
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-silverwires/3
+  ]
+}
+craftTime: 150
+}
+//got that slightly less shitty stone
+  //this is so slow
+  {
+  input: {
+    items: [
+      helplinedustry-stone/2
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-stonebrick/1
+  ]
+}
+craftTime: 150
+}
+  {
+  input: {
+    items: [
+      helplinedustry-stone/2
+    ]
+    power: 2
+  }
+output: {
+  items:[
+  helplinedustry-silicasand/1
+  ]
+}
+craftTime: 100
+}
+// castironparts
+{
+  input: {
+    items: [
+      helplinedustry-castironplates/3
+    ]
+power: 2
+  }
+output: {
+  items:[
+  helplinedustry-castironparts/3
+  ]
+}
+craftTime: 175
+}
+// cast iron plates
+// mmmm we love cast iron plates around here
+{
+  input: {
+    items: [
+      helplinedustry-castiron/2
+    ]
+  power: 2
+  }
+output: {
+  items:[
+  helplinedustry-castironplates/4
+  ]
+}
+craftTime: 150
+}
+]
+drawer: {
+  type: multicraft.DrawRecipe
+  defaultDrawer: 0 // an index used for generating the icon of this crafter. 
+  drawers: [
+  { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawParticles
+        color: d4d4d4
+      }
+    ]
+    }
+    // for recipe 0
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawParticles
+        color: 969696
+      }
+    ]
+    }
+ // for recipe 0123
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+        type: DrawParticles
+        color: 969696
+      }
+    ]
+    }
+    // for recipe 1
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: 404040
+      }
+    ]
+    }
+    // for recipe 2
+    { 
+    type: DrawMulti
+    drawers: [
+      {
+          type: DrawDefault
+      }
+      {
+          type: DrawParticles
+        color: 404040
+      }
+    ]
+    }
+  ]
+}
+//cheapo smelter
+craftEffect: smokeCloud
+requirements: [
+  stone/150
+  castiron/50
+  wroughtiron/50
+  castironparts/10
+  castironplates/25
+  silver/25
+]
+category: crafting
+research: primitivemachineshop
+researchCostMultiplier:0.02
