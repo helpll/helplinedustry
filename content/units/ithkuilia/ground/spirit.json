@@ -32,8 +32,29 @@ weapons: [
 			type:RegionPart
 			suffix: -barrel
 			followRotation: true
-			 moveY:-3
-			progress: smoothReload
+			 moveY: -3
+	       under:true
+			progress: recoil
+			
+		}
+	{
+			type:RegionPart
+			suffix: -l
+			followRotation: true
+			 moveY: -3
+			moveRot:-45
+	       under:true
+			progress: recoil
+			
+		}
+	{
+			type:RegionPart
+			suffix: -r
+			followRotation: true
+			 moveY: -3
+			moveRot:45
+	       under:true
+			progress: recoil
 			
 		}
 ]
