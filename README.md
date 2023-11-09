@@ -6,7 +6,7 @@ mod made to be as cursed and annoying to play as possable, every planet will hav
 *stuff below will be fixed to be better later*
 # planets
 
-*Ithkuilia*: everything is extremely overcomplicated and meant to cause as much annoyance as possible while remaining playable.  
+*Ithkuilia*: everything is extremely overcomplicated and meant to cause as much annoyance as possible while remaining playable. everything is also kinda intuitive so that you can figure stuff out first try (as in "i bet the primitive machine shop machines primitive parts").  
 *helplios*: everything is very goofy ahh  
 *ma pona*: the opposite of *Ithkuilia*, everything is really simple and straight forward.  
 *kitchen sink*(not started): every planet combined
