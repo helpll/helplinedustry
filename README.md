@@ -1,6 +1,6 @@
 # helplinedustry
 *helpl will not save you*  
-***i give up tryna import multicrafter just download it here https://github.com/liplum/MultiCrafterLib/releases/tag/v1.7***  
+***i give up tryna import [multicrafter](https://github.com/liplum/MultiCrafterLib/releases/tag/v1.7) just download it manually***  
 this mod is very much unfinished, but it is indeed *playable*...  
 mod made to be as cursed and annoying to play as possable, every planet will have some sort of gimmick that'll be confusing for people.  
 *stuff below will be fixed to be better later*
