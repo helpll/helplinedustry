@@ -20,7 +20,7 @@ testing
 add planet sectiors  
 
 helpl (and DeltaV partially) will make music to replace every ingame track hopefully.  
-currently we have menu, editor, game1, and game8 as the finished tracks (we be workin on launch theme).  
+currently we have menu, editor, game1, game8, and launch as the finished tracks.  
 
 
 ***Ithkuilia:***  
