@@ -24,7 +24,7 @@ currently we have menu, editor, game1, game8, and launch as the finished tracks.
 
 
 ***Ithkuilia:***  
-im thinking of making each turret and unit require its specific parts (from what i'll call "the part maker")  
+im thinking of making each turret and unit (type) require its specific parts (from what i'll call "the part maker")  
 ^^ also this'll maybe resolve the issue that the other guy had ^^  
 finish quijada  
 balance new turrets   
