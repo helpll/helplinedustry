@@ -1,4 +1,4 @@
-  localizedName: Stronghold
+6  localizedName: Stronghold
   type: CoreBlock
   health: 7000
   size: 3
@@ -10,8 +10,8 @@
   requiresCoreZone: true
   armor: 50
   alwaysUnlocked: true
-landDuration: 1600
-landZoomFrom: 0.0001
+landDuration: 320
+landZoomFrom: 0.00001
   unitType: conlang
 drawer: { 
     type: DrawMulti
